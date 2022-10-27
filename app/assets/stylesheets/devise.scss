@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$Pretendard-Regular: 'Pretendard-Regular';
+$Pretendard-Medium: 'Pretendard-Medium';
+$Pretendard-Bold: 'Pretendard-Bold';
+$fontOfTitle: 'GmarketSansBold';
+
+Section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+
+    border: solid;
+    border-width: 1.5px;
+    border-color: gray;
+    border-radius: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+h2 {
+    position: absolute;
+    font-family: $Pretendard-Bold;
+    margin-top: -100px;
+    font-size: 35px;
+}
+
+.containerOfContent {
+}
+
+
+.form-inputs {
+    .formOfUser {
+        font-family: $Pretendard-Medium;
+        input {
+            width: 600px;
+            height: 55px;
+            border-radius: 10px;
+            border: solid;
+            border-width: 0.3px;
+            border-color: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            font-size: 16px;
+        }
+
+        .input::placeholder {
+            font-family: $Pretendard-Medium;
+        }
+    }
+}
+
+.form-actions {
+    input {
+        font-family: $Pretendard-Bold;
+        width: 620px;
+        height: 63px;
+        border-radius: 10px;
+        border: none;
+        border-width: 0.3px;
+        border-color: gray;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        font-size: 16px;
+        background-color: #3182F7;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.formOfSub {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 10px;
+    a {
+        color : #3182F7;
+        text-decoration : none;
+        font-family: $Pretendard-Bold;
+        margin-left: 3px;
+    }
+
+    span {
+        color : gray;
+        font-family: $Pretendard-Medium;
+    }
+
+    .split {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+.bannerOfLogin {
+    font-family: $fontOfTitle;
+    height: 100px;
+    background-color: #3182F7;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+
+    .textOfEffect {
+        font-size: 33px;
+        margin-bottom: 3px;
+        margin-right: -3px;
+    }
+
+    .contentOfButton {
+        border: none;
+    }
+
+    span {
+        font-family: $fontOfTitle;
+        font-size: 33px;
+        color: #fff;
+        letter-spacing: -2px;
+        z-index: -1;
+    }
+
+    img {
+        position: absolute;
+        width: 82px;
+        margin-top: -25px;
+        margin-left: 5px;
+    }
+}

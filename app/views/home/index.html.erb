@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/home.scss">
+    </head>
+
+    <body>
+        <header>
+            <div class="containerOfContents">
+                <div class="profileOfUser">
+                    <% if user_signed_in? %>
+                        <div class="contentOfProfile">
+                            <!--<div class="name"><%= current_user.email %></div>-->
+                            <%= button_to "로그아웃", destroy_user_session_path, method: :delete, form: { data: { turbo: :false } } %>
+                        </div>  
+                    <% end %>
+                </div>
+                <div class="buttonOfToss">
+                    <div class="contentsOfButton">
+                        <span class="textOfEffect">#</span>
+                        <span>findyourfuturecompany </span>
+                        <img src="/assets/imagesOfTitle2.png"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="description"> 
+                <span>회사를 입력하면 모집 공고가 있는지 알려드릴거예요<br/>내가 원하는 회사가 없을 수도 있으니 조금만 기다려주세요!</span>
+            </div>
+                <!--
+                <% @set.each do |t| %>
+                    <h3><%= t[0]%> <%= t[1] %> <%= t[2] %> </h3>
+                <% end %>
+                -->
+                </form>
+            </div>
+        </article>
+    </body>
+    
+    <script src="/assets/crawling.js"></script>
+</html>

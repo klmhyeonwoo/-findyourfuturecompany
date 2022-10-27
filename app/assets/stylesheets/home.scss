@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$Pretendard-Regular: 'Pretendard-Regular';
+$Pretendard-Medium: 'Pretendard-Medium';
+$Pretendard-Bold: 'Pretendard-Bold';
+$fontOfTitle: 'GmarketSansBold';
+
+
+header {
+    width: auto;
+
+    .containerOfContents {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contentsOfButton {
+            display: flex;
+            align-items: center;
+
+            span {
+                font-family: $fontOfTitle;
+                font-size: 45px;
+                color: #fff;
+                letter-spacing: -2px;
+            }
+        
+            img {
+                position: absolute;
+                width: 220px;
+                margin-top: -20px;
+                margin-left: 710px;
+            }
+
+            .textOfEffect {
+                font-size: 50px;
+                margin-bottom: 3px;
+            }
+        }
+
+        .buttonOfToss {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            background-color: #3182F7;
+            height: 200px;
+            border-radius: 20px;
+        }
+    }
+}
+
+article {
+    width: auto;
+    margin-top: 50px;
+    .description {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        span {
+            font-family: $Pretendard-Bold;
+            letter-spacing: -0.5px;
+            font-size: 22px;
+        }
+    }
+}
+
+button {
+    width: 300px value !important;
+}
+
+.profileOfUser {
+    position: absolute;
+    margin-top: -270px;
+    .contentOfProfile {
+        display: flex;
+    }
+    button {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: #3182F7;
+        border-radius: 50px;
+        font-size: 13px;
+        font-family: $Pretendard-Bold;
+        cursor: pointer;
+    }
+}

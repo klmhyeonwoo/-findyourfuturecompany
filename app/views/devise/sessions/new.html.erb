@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/devise.scss">
+  </head>
+  <body>
+
+    <Section>
+      <div class="containerOfContent">
+        <div class="bannerOfLogin">
+          <div class="contentsOfButton">
+            <span class="textOfEffect">#</span>
+            <span>findyourfuturecompany </span>
+            <img src="/assets/imagesOfLogin.png"/>
+          </div>
+        </div>
+        <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="form-inputs">
+            <div class="formOfUser">
+                <span>이메일</span>
+                <%= f.input :email,
+                    label: false,
+                    placeholder: "사용중인 이메일을 입력해주세요",
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "email" } %>
+                <span>로그인 비밀번호</span>
+                <%= f.input :password,
+                    label: false,
+                    placeholder: "사용하실 비밀번호를 입력해주세요",
+                    required: true,
+                    input_html: { autocomplete: "current-password" } %>
+            </div>
+            <!-- <%= f.input :remember_me, label: false, as: :boolean if devise_mapping.rememberable? %> -->
+          </div>
+
+          <div class="form-actions">
+            <%= f.button :submit, "로그인하고 서비스 이용하기" %>
+          </div>
+          <% end %>
+        <div class="formOfSub">
+          <div class="sub1">
+            <span>아직 아이디가 없으신가요?</span>
+            <a href="/users/sign_up">회원가입 하기</a>
+          </div>
+          <span class="split">·</span>
+          <div class="sub2">
+            <span>비밀번호를 잊으셨나요?</span>
+            <a href="/users/password/new">비밀번호 찾기</a>
+          </div>
+        </div>
+      </div>
+    </Section>
+  </body>
+</html>

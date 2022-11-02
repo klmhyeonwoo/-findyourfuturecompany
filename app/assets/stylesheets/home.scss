@@ -83,16 +83,76 @@ header {
 article {
     width: auto;
     margin-top: 50px;
+
     .description {
         display: flex;
         justify-content: center;
-        text-align: center;
 
         span {
             font-family: $Pretendard-Bold;
             letter-spacing: -0.5px;
             font-size: 22px;
         }
+    }
+
+    form {
+        color: #707070;
+        font-family: $Pretendard-Bold;
+        text-align: center;
+
+        p {
+            font-size: 17px;
+        }
+
+        button {
+            width: 150px;
+            height: 150px;
+            border-radius: 200px;
+            background-color: white;
+            border: none;
+            background-color: #3182F7;
+            color: white;
+            font-family: $Pretendard-Bold;
+            font-size: 18px;
+            margin-bottom: 50px;
+
+            filter: grayscale(100%);
+            transition: 0.5s all;
+
+            .imgOfButton {
+                width: 70px;
+            }
+        }
+
+    }
+
+    .boxOfFirst, .boxOfTwice, .boxOfThird, .boxOfFourth, .boxOfFifth {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12.5px;
+        margin-bottom: 42.5px;
+    }
+
+    .containerOfInput {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    input {
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        width: 800px;
+        border-color: #707070;
+        border-width: 2px;
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    input:focus {
+        outline: none;
     }
 }
 
@@ -103,21 +163,35 @@ button {
 .profileOfUser {
     position: absolute;
     margin-top: -270px;
+
     .contentOfProfile {
         display: flex;
     }
+
     button {
         border: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100px;
+        width: 30px;
         height: 30px;
+        font-size: 3px;
         color: white;
         background-color: #3182F7;
         border-radius: 50px;
-        font-size: 13px;
+        white-space: nowrap;
         font-family: $Pretendard-Bold;
         cursor: pointer;
+        transition: 0.4s all;
     }
+
+    button:hover {
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+.dataOfCompany {
+    display: none;
 }

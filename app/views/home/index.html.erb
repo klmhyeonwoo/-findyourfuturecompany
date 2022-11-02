@@ -11,8 +11,8 @@
                     <% if user_signed_in? %>
                         <div class="contentOfProfile">
                             <!--<div class="name"><%= current_user.email %></div>-->
-                            <%= button_to "로그아웃", destroy_user_session_path, method: :delete, form: { data: { turbo: :false } } %>
-                        </div>  
+                            <%= button_to "OUT", destroy_user_session_path, class:"buttonOfSignout", method: :delete, form: { data: { turbo: :false } } %>
+                        </div> 
                     <% end %>
                 </div>
                 <div class="buttonOfToss">
@@ -25,18 +25,254 @@
             </div>
         </header>
         <article>
+
             <div class="description"> 
-                <span>회사를 입력하면 모집 공고가 있는지 알려드릴거예요<br/>내가 원하는 회사가 없을 수도 있으니 조금만 기다려주세요!</span>
+                <span>퓨처컴퍼니팀에서 원하는 회사 정보를 빠르게 얻어보세요!</span>
             </div>
-                <!--
-                <% @set.each do |t| %>
-                    <h3><%= t[0]%> <%= t[1] %> <%= t[2] %> </h3>
-                <% end %>
-                -->
+
+            <div class="containerOfInput">
+                <form>
+                    <div class="boxOfFirst">
+                        <p>1지망 회사</p>
+                        <input type="text" id="inputOfFirst" value=""/>
+                        <p class="resultOfFirst"> - </p>
+                    </div>
+                    <div class="boxOfTwice">
+                        <p>2지망 회사</p>
+                        <input type="text" id="inputOfTwice" value=""/>
+                        <p class="resultOfTwice"> - </p>
+                    </div>
+                    <div class="boxOfThird">
+                        <p>3지망 회사</p>
+                        <input type="text" id="inputOfThird" value=""/>
+                        <p class="resultOfThird"> - </p>
+                    </div>
+                    <div class="boxOfFourth">
+                        <p>4지망 회사</p>
+                        <input type="text" id="inputOfFourth" value=""/>
+                        <p class="resultOfFourth"> - </p>
+                    </div>
+                    <div class="boxOfFifth">
+                        <p>5지망 회사</p>
+                        <input type="text" id="inputOfFifth" value=""/>
+                        <p class="resultOfFifth"> - </p>
+                    </div>
+                    <button type="submit" id="buttonOfSubmit" disabled>
+                        <img class="imgOfButton" src="/assets/rocket.png"/>
+                    </button>
                 </form>
             </div>
+            </div>
         </article>
+        <div class="dataOfCompany">
+        <% @set.each do |t| %>
+                <span class="nameOfCompany"><%=t[0]%></span>
+                <span> <%=t[1]%></span>
+                <span> <%=t[2]%></span>
+        <% end %>
+        </div>
     </body>
     
-    <script src="/assets/crawling.js"></script>
+    <script>
+
+        const inputOfFirst = document.querySelector("#inputOfFirst");
+        const inputOfTwice = document.querySelector("#inputOfTwice");
+        const inputOfThird = document.querySelector("#inputOfThird");
+        const inputOfFouth = document.querySelector("#inputOfFourth");
+        const inputOfFifth = document.querySelector("#inputOfFifth");
+        const button = document.querySelector("#buttonOfSubmit");
+        const nameOfCompany = Array.from(document.getElementsByClassName("nameOfCompany"));
+
+        const resultOfFirst = document.querySelector(".resultOfFirst");
+        const resultOfTwice = document.querySelector(".resultOfTwice");
+        const resultOfThird = document.querySelector(".resultOfThird");
+        const resultOfFourth = document.querySelector(".resultOfFourth");
+        const resultOfFifth = document.querySelector(".resultOfFifth");
+
+
+        function checkOfItem1(e) {
+            let data;
+            let inputOfUser = e;
+
+            nameOfCompany.map((item) => {
+                if (item.innerText.includes('[')) {
+                    if (item.innerText.includes(']')) {
+                        data = item.innerText.slice(1,-1)
+                    } else if (item.innerText !== "") {
+                        data = item.innerText.slice(1);
+                    }
+                }
+
+                if (inputOfFirst.value === "") {
+                    resultOfFirst.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (inputOfUser.length >= 2) {
+                    if (data.includes(inputOfUser)) {
+                        resultOfFirst.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfFirst.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+            });
+        }
+
+        function checkOfItem2(e) {
+            let data;
+            let inputOfUser = e;
+
+            nameOfCompany.map((item) => {
+                if (item.innerText.includes('[')) {
+                    if (item.innerText.includes(']')) {
+                        data = item.innerText.slice(1,-1)
+                    } else if (item.innerText !== "") {
+                        data = item.innerText.slice(1);
+                    }
+                }
+
+                if (inputOfTwice.value === "") {
+                    resultOfTwice.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (inputOfUser.length >= 2) {
+                    if (data.includes(inputOfUser)) {
+                        resultOfTwice.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfTwice.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+            });
+        }
+
+        function checkOfItem3(e) {
+            let data;
+            let inputOfUser = e;
+
+            nameOfCompany.map((item) => {
+                if (item.innerText.includes('[')) {
+                    if (item.innerText.includes(']')) {
+                        data = item.innerText.slice(1,-1)
+                    } else if (item.innerText !== "") {
+                        data = item.innerText.slice(1);
+                    }
+                }
+
+                if (inputOfThird.value === "") {
+                    resultOfThird.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (inputOfUser.length >= 2) {
+                    if (data.includes(inputOfUser)) {
+                        resultOfThird.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfThird.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+            });
+        }        
+
+        function checkOfItem4(e) {
+            let data;
+            let inputOfUser = e;
+
+            nameOfCompany.map((item) => {
+                if (item.innerText.includes('[')) {
+                    if (item.innerText.includes(']')) {
+                        data = item.innerText.slice(1,-1)
+                    } else if (item.innerText !== "") {
+                        data = item.innerText.slice(1);
+                    }
+                }
+
+                if (inputOfFourth.value === "") {
+                    resultOfFourth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (inputOfUser.length >= 2) {
+                    if (data.includes(inputOfUser)) {
+                        resultOfFourth.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfFourth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+            });
+        }
+
+        function checkOfItem5(e) {
+            let data;
+            let inputOfUser = e;
+
+            nameOfCompany.map((item) => {
+                if (item.innerText.includes('[')) {
+                    if (item.innerText.includes(']')) {
+                        data = item.innerText.slice(1,-1)
+                    } else if (item.innerText !== "") {
+                        data = item.innerText.slice(1);
+                    }
+                }
+
+                if (inputOfFifth.value === "") {
+                    resultOfFifth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (inputOfUser.length >= 2) {
+                    if (data.includes(inputOfUser)) {
+                        resultOfFifth.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfFifth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+            });
+        }
+
+        function checkOfButton() {
+            if (inputOfFirst.value !== "") {
+                if (inputOfTwice.value !== "") {
+                    if (inputOfThird.value !== "") {
+                        if (inputOfFouth.value !== "") {
+                            if (inputOfFifth.value !== ""){
+                                button.style.disabled = "false";
+                                button.style.filter = "grayscale(0%)";
+                            } else {
+                                button.style.disabled = "true";
+                                button.style.filter = "grayscale(100%)";
+                            }
+                        } else {
+                            button.style.disabled = "true";
+                            button.style.filter = "grayscale(100%)";
+                        }
+                    } else {
+                        button.style.disabled = "true";
+                        button.style.filter = "grayscale(100%)";
+                    }
+                } else {
+                    button.style.disabled = "true";
+                    button.style.filter = "grayscale(100%)";
+                }
+            } else {
+                    button.style.disabled = "true";
+                    button.style.filter = "grayscale(100%)";
+            }
+        }
+
+        inputOfFirst.addEventListener("input", function(event) {
+            checkOfButton();
+            checkOfItem1(event.target.value);
+        })
+
+        inputOfTwice.addEventListener("input", function(event) {
+            checkOfButton();
+            checkOfItem2(event.target.value);
+        })
+
+        inputOfThird.addEventListener("input", function(event) {
+            checkOfButton();
+            checkOfItem3(event.target.value);
+        })
+
+        inputOfFourth.addEventListener("input", function(event) {
+            checkOfButton(event.target.value);
+            checkOfItem4(event.target.value);
+        })
+
+        inputOfFifth.addEventListener("input", function(event) {
+            checkOfButton(event.target.value);
+            checkOfItem5(event.target.value);
+        })
+        
+        function init() {
+        }
+
+        init();
+    </script>
 </html>

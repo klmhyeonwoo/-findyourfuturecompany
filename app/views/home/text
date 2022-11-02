@@ -1,0 +1,53 @@
+                <!--
+                <% @set.each do |t| %>
+                    <h3><%= t[0]%> <%= t[1] %> <%= t[2] %> </h3>
+                <% end %>
+                -->
+
+                        const resultOfFirst = document.querySelector(".resultOfFirst");
+        const resultOfTwice = document.querySelector(".resultOfTwice");
+        const resultOfThird = document.querySelector(".resultOfThird");
+        const resultOfFourth = document.querySelector(".resultOfFourth");
+        const resultOfFifth = document.querySelector(".resultOfFifth");
+
+
+
+                if (inputOfTwice.value === "") {
+                    resultOfTwice.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (event.length >= 2) {
+                    if (data.includes(event)) {
+                        resultOfTwice.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfTwice.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+
+                if (inputOfThird.value === "") {
+                    resultOfThird.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (event.length >= 2) {
+                    if (data.includes(event)) {
+                        resultOfThird.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfThird.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+
+                if (inputOfFourth.value === "") {
+                    resultOfFourth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (event.length >= 2) {
+                    if (data.includes(event)) {
+                        resultOfFourth.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfFourth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }
+
+                if (inputOfFifth.value === "") {
+                    resultOfFifth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
+                } else if (event.length >= 2) {
+                    if (data.includes(event)) {
+                        resultOfFifth.innerText = `${data}회사가 맞나요?`;
+                    }
+                } else {
+                    resultOfFifth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
+                }               

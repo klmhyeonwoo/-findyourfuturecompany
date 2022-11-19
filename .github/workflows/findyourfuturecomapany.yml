@@ -20,6 +20,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.TOKEN }}
+        persist-credentials: false
+        fetch-depth: 0
+      
+      # 한국 시간으로 변경
+    - name: Set Timezone to +9 (GMT+9)
+      uses: szenius/set-timezone@v1.0
+      with:
+        timezoneLinux: "Asia/Seoul"
+          
     - name: Set up Python 3.x
       uses: actions/setup-python@v1
       with:
@@ -56,7 +67,7 @@ jobs:
       with:
         message: '회사 정보를 자동으로 업데이트 했어요 👏🏻 : ${{ env.DATE }}'
         author_name: 'GitHub-Actions-Bot'
-        add: 'companyinfo.json'
+        add: 'news.json'
         push: false
     - name: Push
       uses: ad-m/github-push-action@master

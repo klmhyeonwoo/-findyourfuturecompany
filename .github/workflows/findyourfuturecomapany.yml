@@ -38,8 +38,8 @@ jobs:
         pip install pytz
     - name: Run Scraper with python
       run: |
-        cd companyinfo
-        python "company.py"
+        cd companyInfo
+        python company.py
     - name: Commits
       run: |
         git config --local user.email "gentlemonster77@likelion.org"

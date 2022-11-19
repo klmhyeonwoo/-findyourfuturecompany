@@ -7,7 +7,7 @@ import requests
 import json
 import os
 
-driver = webdriver.Chrome('./chromedriver')
+driver = webdriver.Chrome('chromedriver')
 driver.implicitly_wait(3)
 driver.get('https://www.jobkorea.co.kr/starter/calendar')
 

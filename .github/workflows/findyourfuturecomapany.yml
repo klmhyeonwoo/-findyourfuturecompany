@@ -31,7 +31,7 @@ jobs:
         git add news.json
         git commit -m "회사 정보를 자동 업데이트 했어요 👏🏻" # 커밋 메세지
     - name: Push
-      uses: ad-m/github-push-action@develop
+      uses: ad-m/github-push-action@master
       with:
         branch: 'develop'
         github_token: ${{ secrets.TOKEN }}

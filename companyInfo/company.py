@@ -48,7 +48,7 @@ def processing(data):
                     "plan" : plan,
                 }
 
-        driver.find_elements(By.CSS_SELECTOR,'button.closeCalLy').click()
+        driver.find_element(By.CSS_SELECTOR,'button.closeCalLy').click()
 
     except Exception as e:
 

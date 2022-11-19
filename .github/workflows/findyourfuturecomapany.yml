@@ -49,12 +49,15 @@ jobs:
       run: |
         cd companyInfo
         python company.py
-    - name: Commits
-      run: |
-        git config --local user.email "gentlemonster77@likelion.org"
-        git config --local user.name "klmhyeonwoo" # 커밋에 포함될 이름
-        git add news.json
-        git commit -m "회사 정보를 자동 업데이트 했어요 👏🏻" # 커밋 메세지
+    - name: Set date in environment variable
+      run: echo "DATE=$(date +'%Y-%m-%d %H:%M GMT+9')" >> $GITHUB_ENV
+    - name: Add & Commit # Add Commit
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: '회사 정보를 자동으로 업데이트 했어요 👏🏻 : ${{ env.DATE }}'
+        author_name: 'GitHub-Actions-Bot'
+        add: 'companyinfo.json'
+        push: false
     - name: Push
       uses: ad-m/github-push-action@master
       with:

@@ -1,0 +1,39 @@
+name: Company Bot (컴퍼니 정보 봇)
+
+on:
+   schedule:
+     - cron: '55 22 * * *' # UST 가 default. UST 22:55는 한국시간 07:55
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04 # 우분투 18.04 에서
+    strategy:
+      matrix:
+        python-version: [3.7] # 파이썬 3.7 버전으로
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Install python package # 파이썬 관련 패키지를 설치하고
+      run: |        
+        pip install selenium
+        pip install requests        
+        pip install twython
+        pip install pillow
+    
+    - name: Install ubuntu package # 우분투 관련 패키지도 설치한 후
+      run: |        
+        sudo apt-get install fonts-unfonts-core
+        sudo apt-get install fonts-unfonts-extra
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add        
+        sudo apt-get install google-chrome-stable    
+        wget https://chromedriver.storage.googleapis.com/2.40/chromedriver_linux64.zip
+        unzip ./chromedriver_linux64.zip   
+      
+    - name: Run! # company.py 파일을 실행하시오! 
+      run: | 
+        python ./company.py

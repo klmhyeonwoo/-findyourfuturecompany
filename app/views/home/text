@@ -12,15 +12,7 @@
 
 
 
-                if (inputOfTwice.value === "") {
-                    resultOfTwice.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (event.length >= 2) {
-                    if (data.includes(event)) {
-                        resultOfTwice.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfTwice.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
+
 
                 if (inputOfThird.value === "") {
                     resultOfThird.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";

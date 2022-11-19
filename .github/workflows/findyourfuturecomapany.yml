@@ -34,4 +34,4 @@ jobs:
       uses: ad-m/github-push-action@develop
       with:
         branch: 'develop'
-        github_token: $ 
+        github_token: ${{ secrets.TOKEN }}

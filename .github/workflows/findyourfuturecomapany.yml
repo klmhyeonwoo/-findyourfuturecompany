@@ -67,7 +67,7 @@ jobs:
       with:
         message: '회사 정보를 자동으로 업데이트 했어요 👏🏻 : ${{ env.DATE }}'
         author_name: 'GitHub-Actions-Bot'
-        add: 'news.json'
+        add: '*.json'
         push: false
     - name: Push
       uses: ad-m/github-push-action@master

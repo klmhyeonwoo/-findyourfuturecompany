@@ -9,10 +9,11 @@ import json
 import os
 
 chrome_options = webdriver.ChromeOptions()
-#chrome_options.add_argument('--headless')               # headless
+chrome_options.add_argument('--headless')               # headless
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--window-size=1920x1080')
 
 driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
 driver.implicitly_wait(3)
@@ -24,6 +25,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 def processing(data):
     try:
         data.click()
+        sleep(1)
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
         companyState = soup.select('div.co > div.coTit > a.coLink > span > strong:nth-child(1)')

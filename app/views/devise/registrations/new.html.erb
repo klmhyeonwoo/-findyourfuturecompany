@@ -1,25 +1,51 @@
-<h2>Sign up</h2>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/devise.scss">
+  </head>
+  <body>
 
-<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= f.error_notification %>
+      <section>
+        <div class="containerOfContent">
+          <div class="bannerOfLogin">
+            <div class="contentsOfButton">
+              <span class="textOfEffect">#</span>
+              <span>findyourfuturecompany </span>
+              <img src="/assets/imagesOfLogin.png"/>
+            </div>
+          </div>
+          <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), data: { turbo: false }) do |f| %>
+            <div class="form-inputs">
+              <div class="formOfUser">
+              <span>이메일</span>
+              <%= f.input :email,
+                          label: false,
+                          required: true,
+                          autofocus: true ,
+                          input_html: { autocomplete: "email" }%>
+              <span>사용 비밀번호 <span class="hint"> · 최소 6자리 이상으로 구성해주세요!</span> </span>
+              <%= f.input :password,
+                          label: false,
+                          required: true,
+                          input_html: { autocomplete: "new-password" } %>
+              <span>비밀번호 확인</span>
+              <%= f.input :password_confirmation,
+                          label: false,
+                          required: true,
+                          input_html: { autocomplete: "new-password" } %>
+              </div>
+            </div>
+            <div class="form-actions">
+              <%= f.button :submit, "가입하고 서비스 이용하기" %>
+            </div>
+          <% end %>
 
-  <div class="form-inputs">
-    <%= f.input :email,
-                required: true,
-                autofocus: true,
-                input_html: { autocomplete: "email" }%>
-    <%= f.input :password,
-                required: true,
-                hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
-                input_html: { autocomplete: "new-password" } %>
-    <%= f.input :password_confirmation,
-                required: true,
-                input_html: { autocomplete: "new-password" } %>
-  </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Sign up" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+          <div class="formOfSub">
+          <div class="sub1">
+            <span>이미 아이디가 있으신가요?</span>
+            <a href="/users/sign_in">로그인 하기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

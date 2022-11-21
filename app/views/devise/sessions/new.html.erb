@@ -4,7 +4,7 @@
   </head>
   <body>
 
-    <Section>
+    <section>
       <div class="containerOfContent">
         <div class="bannerOfLogin">
           <div class="contentsOfButton">
@@ -13,7 +13,7 @@
             <img src="/assets/imagesOfLogin.png"/>
           </div>
         </div>
-        <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: false }) do |f| %>
           <div class="form-inputs">
             <div class="formOfUser">
                 <span>이메일</span>
@@ -49,6 +49,6 @@
           </div>
         </div>
       </div>
-    </Section>
+    </section>
   </body>
 </html>

@@ -34,7 +34,7 @@ $Pretendard-Medium: 'Pretendard-Medium';
 $Pretendard-Bold: 'Pretendard-Bold';
 $fontOfTitle: 'GmarketSansBold';
 
-Section {
+section {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,11 +44,11 @@ Section {
     justify-content: center;
 
     border: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     border-color: gray;
     border-radius: 30px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 6%;
     padding-bottom: 6%;
 }
@@ -65,7 +65,38 @@ h2 {
 
 
 .form-inputs {
+
+    .error {
+        font-size: 14px;
+    }
+
+    .hint {
+        font-family: $Pretendard-Medium;
+        color: #958E8E;
+    }
+
     .formOfUser {
+
+        .input.email {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: $Pretendard-Regular;
+                margin-bottom: 6px;
+                color: #ED4A4A;
+            }
+        }
+
+        .input.password {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: $Pretendard-Regular;
+                margin-bottom: 6px;
+                color: #ED4A4A;
+            }
+        }
+
         font-family: $Pretendard-Medium;
         input {
             width: 600px;
@@ -77,11 +108,12 @@ h2 {
             margin-top: 10px;
             margin-bottom: 10px;
             padding-left: 15px;
-            font-size: 16px;
+            font-size: 15px;
         }
 
-        .input::placeholder {
+        input::placeholder {
             font-family: $Pretendard-Medium;
+            font-size: 15px;
         }
     }
 }

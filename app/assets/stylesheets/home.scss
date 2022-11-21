@@ -132,6 +132,18 @@ article {
         flex-direction: column;
         row-gap: 12.5px;
         margin-bottom: 42.5px;
+
+        p {
+            color: black;
+        }
+
+        span {
+            font-size: 14px;
+        }
+
+        .colorText {
+            color: #3182F7;
+        }
     }
 
     .containerOfInput {
@@ -147,7 +159,7 @@ article {
         width: 800px;
         border-color: #707070;
         border-width: 2px;
-        font-size: 17px;
+        font-size: 14px;
         padding-bottom: 10px;
     }
 
@@ -194,4 +206,32 @@ button {
 
 .dataOfCompany {
     display: none;
+}
+
+.containerOfNotice {
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    font-family: $Pretendard-Bold;
+    color: #958E8E;
+
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resultOfFirst {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+    
+    li {
+        list-style: none;
+        margin-bottom: 6px;
+        font-family: $Pretendard-Medium;
+        font-size: 14px;
+    }
 }

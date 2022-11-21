@@ -33,43 +33,23 @@
             <div class="containerOfInput">
                 <form>
                     <div class="boxOfFirst">
-                        <p>1지망 회사</p>
-                        <input type="text" id="inputOfFirst" value=""/>
-                        <p class="resultOfFirst"> - </p>
+                        <!-- <span>💼</span> -->
+                        <p>첫 번째 지망 회사</p>
+                        <input type="text" id="inputOfFirst" value="" placeholder="취뽀합시다 취뽀 🔥"/>
+                        <ul class="resultOfFirst">
+                        </ul>
+
                     </div>
                     <div class="boxOfTwice">
                         <p>2지망 회사</p>
                         <input type="text" id="inputOfTwice" value=""/>
                         <p class="resultOfTwice"> - </p>
                     </div>
-                    <div class="boxOfThird">
-                        <p>3지망 회사</p>
-                        <input type="text" id="inputOfThird" value=""/>
-                        <p class="resultOfThird"> - </p>
-                    </div>
-                    <div class="boxOfFourth">
-                        <p>4지망 회사</p>
-                        <input type="text" id="inputOfFourth" value=""/>
-                        <p class="resultOfFourth"> - </p>
-                    </div>
-                    <div class="boxOfFifth">
-                        <p>5지망 회사</p>
-                        <input type="text" id="inputOfFifth" value=""/>
-                        <p class="resultOfFifth"> - </p>
-                    </div>
-                    <button type="submit" id="buttonOfSubmit" disabled>
-                        <img class="imgOfButton" src="/assets/rocket.png"/>
-                    </button>
                 </form>
             </div>
             </div>
         </article>
         <div class="dataOfCompany">
-        <% @set.each do |t| %>
-                <span class="nameOfCompany"><%=t[0]%></span>
-                <span> <%=t[1]%></span>
-                <span> <%=t[2]%></span>
-        <% end %>
         </div>
     </body>
     
@@ -77,197 +57,93 @@
 
         const inputOfFirst = document.querySelector("#inputOfFirst");
         const inputOfTwice = document.querySelector("#inputOfTwice");
-        const inputOfThird = document.querySelector("#inputOfThird");
-        const inputOfFouth = document.querySelector("#inputOfFourth");
-        const inputOfFifth = document.querySelector("#inputOfFifth");
+
         const button = document.querySelector("#buttonOfSubmit");
         const nameOfCompany = Array.from(document.getElementsByClassName("nameOfCompany"));
 
         const resultOfFirst = document.querySelector(".resultOfFirst");
         const resultOfTwice = document.querySelector(".resultOfTwice");
-        const resultOfThird = document.querySelector(".resultOfThird");
-        const resultOfFourth = document.querySelector(".resultOfFourth");
-        const resultOfFifth = document.querySelector(".resultOfFifth");
+        let companyInfo = []
+        let companyData = []               
 
-
-        function checkOfItem1(e) {
-            let data;
-            let inputOfUser = e;
-
-            nameOfCompany.map((item) => {
-                if (item.innerText.includes('[')) {
-                    if (item.innerText.includes(']')) {
-                        data = item.innerText.slice(1,-1)
-                    } else if (item.innerText !== "") {
-                        data = item.innerText.slice(1);
+        // 깃 액션으로 크롤링 해온 데이터를 Fetch 메소드를 통해 호출하는 함수입니다.
+        async function getCompanyInfo() {
+            const data = await fetch('https://raw.githubusercontent.com/klmhyeonwoo/-findyourfuturecompany/develop/companyInfo/news.json')
+            .then((res) => res.json())
+            const scaledData = await data;
+            for (let i in scaledData) {
+                companyInfo.push(
+                    {
+                        "name" : i,
+                        "content" : data[i]
                     }
-                }
-
-                if (inputOfFirst.value === "") {
-                    resultOfFirst.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (inputOfUser.length >= 2) {
-                    if (data.includes(inputOfUser)) {
-                        resultOfFirst.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfFirst.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
-            });
+                )
+            }
+            return companyInfo
         }
 
-        function checkOfItem2(e) {
-            let data;
-            let inputOfUser = e;
-
-            nameOfCompany.map((item) => {
-                if (item.innerText.includes('[')) {
-                    if (item.innerText.includes(']')) {
-                        data = item.innerText.slice(1,-1)
-                    } else if (item.innerText !== "") {
-                        data = item.innerText.slice(1);
-                    }
-                }
-
-                if (inputOfTwice.value === "") {
-                    resultOfTwice.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (inputOfUser.length >= 2) {
-                    if (data.includes(inputOfUser)) {
-                        resultOfTwice.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfTwice.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
-            });
+        // 노드를 추가해주는 함수입니다.
+        function addNode(companyData, inputUser) { 
+            const companyBox = document.createElement('li');
+            const colorText = document.createElement('span')
+            colorText.classList.add("colorText");
+            colorText.innerHTML = inputUser
+            const noneText = document.createElement('span')
+            noneText.innerHTML = companyData.slice(inputUser.length,)
+            companyBox.append(colorText, noneText)
+            resultOfFirst.append(companyBox);
         }
 
-        function checkOfItem3(e) {
-            let data;
-            let inputOfUser = e;
-
-            nameOfCompany.map((item) => {
-                if (item.innerText.includes('[')) {
-                    if (item.innerText.includes(']')) {
-                        data = item.innerText.slice(1,-1)
-                    } else if (item.innerText !== "") {
-                        data = item.innerText.slice(1);
-                    }
-                }
-
-                if (inputOfThird.value === "") {
-                    resultOfThird.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (inputOfUser.length >= 2) {
-                    if (data.includes(inputOfUser)) {
-                        resultOfThird.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfThird.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
-            });
-        }        
-
-        function checkOfItem4(e) {
-            let data;
-            let inputOfUser = e;
-
-            nameOfCompany.map((item) => {
-                if (item.innerText.includes('[')) {
-                    if (item.innerText.includes(']')) {
-                        data = item.innerText.slice(1,-1)
-                    } else if (item.innerText !== "") {
-                        data = item.innerText.slice(1);
-                    }
-                }
-
-                if (inputOfFourth.value === "") {
-                    resultOfFourth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (inputOfUser.length >= 2) {
-                    if (data.includes(inputOfUser)) {
-                        resultOfFourth.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfFourth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
-            });
-        }
-
-        function checkOfItem5(e) {
-            let data;
-            let inputOfUser = e;
-
-            nameOfCompany.map((item) => {
-                if (item.innerText.includes('[')) {
-                    if (item.innerText.includes(']')) {
-                        data = item.innerText.slice(1,-1)
-                    } else if (item.innerText !== "") {
-                        data = item.innerText.slice(1);
-                    }
-                }
-
-                if (inputOfFifth.value === "") {
-                    resultOfFifth.innerText = "회사를 자세히 입력하시면 도움이 될거예요!";
-                } else if (inputOfUser.length >= 2) {
-                    if (data.includes(inputOfUser)) {
-                        resultOfFifth.innerText = `${data}회사가 맞나요?`;
-                    }
-                } else {
-                    resultOfFifth.innerText = `입력하신 기업은 아직 채용 공고는 없어요!`;
-                }
-            });
-        }
-
-        function checkOfButton() {
-            if (inputOfFirst.value !== "") {
-                if (inputOfTwice.value !== "") {
-                    if (inputOfThird.value !== "") {
-                        if (inputOfFouth.value !== "") {
-                            if (inputOfFifth.value !== ""){
-                                button.style.disabled = "false";
-                                button.style.filter = "grayscale(0%)";
-                            } else {
-                                button.style.disabled = "true";
-                                button.style.filter = "grayscale(100%)";
+        // INPUT에서 받아온 배열의 중복 값을 없앤 가공된 배열과, 사용자의 입력을 매칭해줍니다.
+        function scaledCompanyInfo(array, inputOfUser) {
+            if (array.length >= 2) {
+                if (inputOfUser.length >= 1) {
+                    array.map((company) => {
+                        if (company.includes(inputOfUser)) {
+                            company = company.replace('㈜', "");
+                            if (company.indexOf(inputOfUser) === 0) {
+                                addNode(company, inputOfUser)
                             }
-                        } else {
-                            button.style.disabled = "true";
-                            button.style.filter = "grayscale(100%)";
                         }
-                    } else {
-                        button.style.disabled = "true";
-                        button.style.filter = "grayscale(100%)";
-                    }
-                } else {
-                    button.style.disabled = "true";
-                    button.style.filter = "grayscale(100%)";
+                    })
                 }
-            } else {
-                    button.style.disabled = "true";
-                    button.style.filter = "grayscale(100%)";
             }
         }
 
-        inputOfFirst.addEventListener("input", function(event) {
-            checkOfButton();
-            checkOfItem1(event.target.value);
+        // 사용자가 입력을 다 하고 Node를 초기화 해주는 함수입니다.
+        function removeNode(item) {
+            const parent = document.querySelector(".resultOfFirst");
+            parent.innerHTML = ""
+        }
+
+        // 사용자의 입력 값과 매칭되는 배열을 companyData 배열에 새롭게 추가를 해줍니다.
+        function checkOfItem(newValue) {
+                // 사용자가 입력한 값과 매칭되는 회사 정보를 배열 정보에 넣어줍니다.
+                getCompanyInfo()
+                .then(
+                    (data) => data.map((item) => {
+                        companyData.push(item["name"])
+                }))
+            return companyData
+        }
+
+        inputOfFirst.addEventListener("input", function(event) { 
+            let dataOfInput = checkOfItem(event.target.value);
+            dataOfInput = dataOfInput.filter((element, index) => {
+                return dataOfInput.indexOf(element) === index
+            })
+            removeNode()
+            scaledCompanyInfo(dataOfInput, event.target.value);
+            companyInfo = []
         })
 
         inputOfTwice.addEventListener("input", function(event) {
-            checkOfButton();
-            checkOfItem2(event.target.value);
-        })
+            if (event.target.value === "안녕") { 
+                const companyBox = document.createElement('div');
+                companyBox.innerHTML = "test"
+                document.body.append(event.target.value);
+            }
 
-        inputOfThird.addEventListener("input", function(event) {
-            checkOfButton();
-            checkOfItem3(event.target.value);
-        })
-
-        inputOfFourth.addEventListener("input", function(event) {
-            checkOfButton(event.target.value);
-            checkOfItem4(event.target.value);
-        })
-
-        inputOfFifth.addEventListener("input", function(event) {
-            checkOfButton(event.target.value);
-            checkOfItem5(event.target.value);
         })
         
         function init() {

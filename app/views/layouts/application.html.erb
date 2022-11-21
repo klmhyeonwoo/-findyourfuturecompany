@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
-    <%= csrf_meta_tags %>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <%= csp_meta_tag %>
+    
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
   <body>
     <%= yield %>
+
+    <div class="containerOfNotice">
+      <div class="notice"><%= notice %></div>
+      <div class="notice"><%= alert %></div>
+    </div>
   </body>
 </html>

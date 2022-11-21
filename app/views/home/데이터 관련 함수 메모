@@ -1,0 +1,5 @@
+<% @set.each do |t| %>
+    <span class="nameOfCompany"><%=t[0]%></span>
+    <span> <%=t[1]%></span>
+    <span> <%=t[2]%></span>
+<% end %>

@@ -7,14 +7,16 @@
     <body>
         <header>
             <div class="containerOfContents">
+            <!--
                 <div class="profileOfUser">
                     <% if user_signed_in? %>
                         <div class="contentOfProfile">
-                            <!--<div class="name"><%= current_user.email %></div>-->
+                            <div class="name"><%= current_user.email %></div>
                             <%= button_to "OUT", destroy_user_session_path, class:"buttonOfSignout", method: :delete, form: { data: { turbo: :false } } %>
                         </div> 
                     <% end %>
                 </div>
+            -->
                 <div class="buttonOfToss">
                     <div class="contentsOfButton">
                         <span class="textOfEffect">#</span>
@@ -28,25 +30,43 @@
 
             <div class="description"> 
                 <span>퓨처컴퍼니팀에서 원하는 회사 정보를 빠르게 얻어보세요!</span>
+                <!--
+                <iframe id="pageFrame" name="pageFrame" src="http://www.jobkorea.co.kr/Starter/calendar/sub/month" frameborder="0"
+                width="900px" height="1000px" scrolling="auto"></iframe>
+                -->
             </div>
 
-            <div class="containerOfInput">
-                <form>
-                    <div class="boxOfFirst">
-                        <!-- <span>💼</span> -->
-                        <p>첫 번째 지망 회사</p>
-                        <input type="text" id="inputOfFirst" value="" placeholder="취뽀합시다 취뽀 🔥"/>
-                        <ul class="resultOfFirst">
-                        </ul>
-
+                <div class="containerOfInput">
+                    <form class="searchOfCompany">
+                        <div class="boxOfFirst">
+                            <!-- <span>💼</span> -->
+                            <p>희망 회사를 입력하고 쉽게 관리해보세요</p>
+                            <input type="text" id="inputOfFirst" value="" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <ul class="resultOfFirst">
+                            </ul>
+                        </div>
+                        <div class="submitOfToss">희망회사 제출하기</div>
+                    </form>
+                    <form class="detailOfCompany">
+                        <div class="boxOfTwice">
+                            <p>회사명</p>
+                            <input type="text" id="inputOfFirst" value="카카오모빌리티" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 내용</p>
+                            <input type="text" id="inputOfFirst" value="카카오모빌리티 신입/경력 개발 공채" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 경력</p>
+                            <input type="text" id="inputOfFirst" value="신입·경력" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 기간</p>
+                            <input type="text" id="inputOfFirst" value="11/07~11/21" placeholder="ex) 퓨처컴퍼니 팀"/>
+                        </div>
+                        <div type="submit" class="submitOfToss" id="final_submit">희망회사 최종 제출하기</div>
+                    </form>
+                    <div class="svg">
+                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"> 
+                            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/> 
+                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                        </svg>
                     </div>
-                    <div class="boxOfTwice">
-                        <p>2지망 회사</p>
-                        <input type="text" id="inputOfTwice" value=""/>
-                        <p class="resultOfTwice"> - </p>
-                    </div>
-                </form>
-            </div>
+                </div>
             </div>
         </article>
         <div class="dataOfCompany">
@@ -55,16 +75,23 @@
     
     <script>
 
-        const inputOfFirst = document.querySelector("#inputOfFirst");
-        const inputOfTwice = document.querySelector("#inputOfTwice");
+        // 회사 명을 입력하는 사용자의 value 값을 추적하기 위해 DOM을 지정해줍니다.
+        const inputOfFirst = document.querySelector("#inputOfFirst"); 
 
-        const button = document.querySelector("#buttonOfSubmit");
-        const nameOfCompany = Array.from(document.getElementsByClassName("nameOfCompany"));
+        // 회사 상세 정보 <form>의 display 속성을 변동시키기 위해 DOM을 지정해줍니다.       
+        const detailOfCompany = document.querySelector(".detailOfCompany");
+        const searchOfCompany = document.querySelector(".searchOfCompany");
+        const btn = document.querySelector(".submitOfToss");
+        const btn2 = document.querySelector("#final_submit");
 
+        // 회사 상세 정보를 최종 제출할 경우, SVG 화면을 뛰우기 위해 DOM을 지정해줍니다.
+        const svg = document.querySelector(".svg");
+
+        // <ul>태그 안에 <li> 태그를 넣어주기 위해 부모 요소의 DOM를 지정해줍니다
         const resultOfFirst = document.querySelector(".resultOfFirst");
-        const resultOfTwice = document.querySelector(".resultOfTwice");
+        // 회사 정보들을 담을 배열을 만들어줍니다
         let companyInfo = []
-        let companyData = []               
+        let companyData = []           
 
         // 깃 액션으로 크롤링 해온 데이터를 Fetch 메소드를 통해 호출하는 함수입니다.
         async function getCompanyInfo() {
@@ -127,6 +154,7 @@
             return companyData
         }
 
+        // 회사 정보를 입력해주는 DOM에 input 이벤트를 추가시켜줍니다.
         inputOfFirst.addEventListener("input", function(event) { 
             let dataOfInput = checkOfItem(event.target.value);
             dataOfInput = dataOfInput.filter((element, index) => {
@@ -137,13 +165,17 @@
             companyInfo = []
         })
 
-        inputOfTwice.addEventListener("input", function(event) {
-            if (event.target.value === "안녕") { 
-                const companyBox = document.createElement('div');
-                companyBox.innerHTML = "test"
-                document.body.append(event.target.value);
-            }
+        // 기존 회사 입력 창의 display를 none 상태로 만들고, 회사 상세정보 <div>를 불러와요
+        btn.addEventListener("click", function() {
+            console.log("완료!")
+            detailOfCompany.style.display = "flex";
+            searchOfCompany.style.display = "none";
+        })
 
+        // 상세 화면에서 최종 제출을 누르면 SVG 애니메이션을 생성 시키고 마이 페이지로 이동을 시켜요
+        btn2.addEventListener("click", function() {
+            detailOfCompany.style.display = "none";
+            svg.style.display = "flex";
         })
         
         function init() {

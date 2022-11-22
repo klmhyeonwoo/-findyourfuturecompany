@@ -29,11 +29,74 @@
     font-style: normal;
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 40%;
+        transform: translate3d(0, 15%, 0);
+    }
+
+    50% {
+        opacity: 60%;
+        transform: translateZ(10);
+    }
+
+    70% {
+        opacity: 80%;
+        transform: translateZ(30);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateZ(50);
+    }
+}
+
+@keyframes fadeInUp_Btn {
+    0% {
+        opacity: 40%;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    50% {
+        opacity: 60%;
+        transform: translateZ(10);
+    }
+
+    70% {
+        opacity: 80%;
+        transform: translateZ(30);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateZ(50);
+    }
+}
+
 $Pretendard-Regular: 'Pretendard-Regular';
 $Pretendard-Medium: 'Pretendard-Medium';
 $Pretendard-Bold: 'Pretendard-Bold';
 $fontOfTitle: 'GmarketSansBold';
 
+.submitOfToss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #3182F7;
+    letter-spacing: -0.6px;
+    animation: fadeInUp_Btn 0.8s;
+}
+
+.submitOfToss:hover {
+    background-color: #3182F7;
+}
 
 header {
     width: auto;
@@ -86,22 +149,32 @@ article {
 
     .description {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        justify-content: center;
+        align-items: center;
 
         span {
             font-family: $Pretendard-Bold;
-            letter-spacing: -0.5px;
+            letter-spacing: -0.6px;
             font-size: 22px;
+            animation: fadeInUp_Btn 1s;
+            margin-top: 30px;
         }
     }
 
     form {
-        color: #707070;
-        font-family: $Pretendard-Bold;
+        font-family: $Pretendard-Medium;
         text-align: center;
+        letter-spacing: -0.6px;
+        animation: fadeInUp 1.5s;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         p {
-            font-size: 17px;
+            font-size: 14px;
         }
 
         button {
@@ -116,14 +189,12 @@ article {
             font-size: 18px;
             margin-bottom: 50px;
 
-            filter: grayscale(100%);
             transition: 0.5s all;
 
             .imgOfButton {
                 width: 70px;
             }
         }
-
     }
 
     .boxOfFirst, .boxOfTwice, .boxOfThird, .boxOfFourth, .boxOfFifth {
@@ -132,9 +203,18 @@ article {
         flex-direction: column;
         row-gap: 12.5px;
         margin-bottom: 42.5px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border: solid 1px;
+        border-color: #707070;
+        border-radius: 20px;
+        animation: fadeInUp 0.5s;
 
         p {
-            color: black;
+            font-size: 14px;
+            font-family: $Pretendard-Medium;
         }
 
         span {
@@ -146,25 +226,42 @@ article {
         }
     }
 
+    .boxOfFirst {
+        margin-top: -25px;
+    }
+
+    .boxOfTwice {
+        margin-top: -40px;
+    }
+
+    // 회사 상세 정보의 visibility 값을 hidden 으로 설정
+    .detailOfCompany {
+        display: none;
+    }
+
     .containerOfInput {
         display: flex;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 130px;
     }
 
     input {
+        margin-top: -15px;
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
-        width: 800px;
+        width: 470px;
         border-color: #707070;
-        border-width: 2px;
+        border-width: 1.5px;
         font-size: 14px;
         padding-bottom: 10px;
+        transition: 0.5s all ease-in-out;
+        letter-spacing: -0.6px;
     }
 
     input:focus {
         outline: none;
+        border-color: #3182F7;
     }
 }
 
@@ -224,14 +321,25 @@ button {
     display: flex;
     flex-direction: column;
     margin-right: auto;
+    margin-left: 3px;
     width: 100%;
     padding:0px;
-    margin: 0px;
-    
+    margin-top: 0px;
+
     li {
         list-style: none;
-        margin-bottom: 6px;
-        font-family: $Pretendard-Medium;
+        margin-bottom: 9px;
+        font-family: $Pretendard-Regular;
+        color: #707070;
         font-size: 14px;
     }
+}
+
+.svg {
+    display: none;
+    align-items: center;
+    justify-self: center;
+    width: 150px;
+    height: 150px;
+    animation: fadeInUp 1s;
 }

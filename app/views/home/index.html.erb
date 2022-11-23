@@ -37,7 +37,7 @@
             </div>
 
                 <div class="containerOfInput">
-                    <form class="searchOfCompany">
+                    <form class="searchOfCompany" onsubmit="return false;">
                         <div class="boxOfFirst">
                             <!-- <span>💼</span> -->
                             <p>희망 회사를 입력하고 쉽게 관리해보세요</p>
@@ -50,13 +50,15 @@
                     <form class="detailOfCompany">
                         <div class="boxOfTwice">
                             <p>회사명</p>
-                            <input type="text" id="inputOfFirst" value="카카오모빌리티" placeholder="ex) 퓨처컴퍼니 팀"/>
-                            <p>채용 내용</p>
-                            <input type="text" id="inputOfFirst" value="카카오모빌리티 신입/경력 개발 공채" placeholder="ex) 퓨처컴퍼니 팀"/>
-                            <p>채용 경력</p>
-                            <input type="text" id="inputOfFirst" value="신입·경력" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <input type="text" id="nameOfCompany" value="카카오모빌리티" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 상태</p>
+                            <input type="text" id="stateOfCompany" value="진행중" placeholder="ex) 퓨처컴퍼니 팀"/>
                             <p>채용 기간</p>
-                            <input type="text" id="inputOfFirst" value="11/07~11/21" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <input type="text" id="planOfCompany" value="11/07~11/21" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 내용</p>
+                            <input type="text" id="contentOfCompany" value="카카오모빌리티 신입/경력 개발 공채" placeholder="ex) 퓨처컴퍼니 팀"/>
+                            <p>채용 경력</p>
+                            <input type="text" id="careerOfCompany" value="신입·경력" placeholder="ex) 퓨처컴퍼니 팀"/>
                         </div>
                         <div type="submit" class="submitOfToss" id="final_submit">희망회사 최종 제출하기</div>
                     </form>
@@ -83,6 +85,13 @@
         const searchOfCompany = document.querySelector(".searchOfCompany");
         const btn = document.querySelector(".submitOfToss");
         const btn2 = document.querySelector("#final_submit");
+
+        // 회사 상제 정보 각 요소에 대한 DOM 요소를 선택해줍니다.
+        const nameOfCompany = document.querySelector("#nameOfCompany");
+        const stateOfCompany = document.querySelector("#stateOfCompany");
+        const planOfCompany = document.querySelector("#planOfCompany");
+        const contentOfCompany = document.querySelector("#contentOfCompany");
+        const careerOfCompany = document.querySelector("#careerOfCompany");
 
         // 회사 상세 정보를 최종 제출할 경우, SVG 화면을 뛰우기 위해 DOM을 지정해줍니다.
         const svg = document.querySelector(".svg");
@@ -121,6 +130,40 @@
             resultOfFirst.append(companyBox);
         }
 
+        // 회사를 검색하고 해당 회사 (1개의 회사)에 대한 정보를 가져와주는 함수입니다.
+        function provideCompanyInfo(company) {
+            let resultOfCompany = {
+                "companyName" : "",
+                "companyState" : "",
+                "companyContents" : "",
+                "companyCareer" : "",
+                "companyPlan" : "",
+            }
+
+            // map 함수를 통해 해당 회사에 대한 정보를 찾고, 이를 객체 형태로 리턴해주는 함수입니다.
+            getCompanyInfo()
+                .then(
+                    (data) => data.map((item) => {
+                        if (item["name"].includes(company)) {
+                            if (item["name"][0].includes('㈜')) {    
+                                nameOfCompany.value = item["name"].replace('㈜', '')
+                                stateOfCompany.value = item["content"]["state"]
+                                planOfCompany.value = item["content"]["plan"]
+                                contentOfCompany.value = item["content"]["content"]
+                                careerOfCompany.value = item["content"]["position"]
+                                return ;
+                            } else {
+                                nameOfCompany.value = item["name"]
+                                stateOfCompany.value = item["content"]["state"]
+                                planOfCompany.value = item["content"]["plan"]
+                                contentOfCompany.value = item["content"]["content"]
+                                careerOfCompany.value = item["content"]["position"]
+                                return ;
+                            }
+                        }
+                }))
+        }
+
         // INPUT에서 받아온 배열의 중복 값을 없앤 가공된 배열과, 사용자의 입력을 매칭해줍니다.
         function scaledCompanyInfo(array, inputOfUser) {
             if (array.length >= 2) {
@@ -153,32 +196,80 @@
                 }))
             return companyData
         }
-
-        // 회사 정보를 입력해주는 DOM에 input 이벤트를 추가시켜줍니다.
-        inputOfFirst.addEventListener("input", function(event) { 
-            let dataOfInput = checkOfItem(event.target.value);
-            dataOfInput = dataOfInput.filter((element, index) => {
-                return dataOfInput.indexOf(element) === index
-            })
-            removeNode()
-            scaledCompanyInfo(dataOfInput, event.target.value);
-            companyInfo = []
-        })
-
-        // 기존 회사 입력 창의 display를 none 상태로 만들고, 회사 상세정보 <div>를 불러와요
-        btn.addEventListener("click", function() {
-            console.log("완료!")
-            detailOfCompany.style.display = "flex";
-            searchOfCompany.style.display = "none";
-        })
-
-        // 상세 화면에서 최종 제출을 누르면 SVG 애니메이션을 생성 시키고 마이 페이지로 이동을 시켜요
-        btn2.addEventListener("click", function() {
-            detailOfCompany.style.display = "none";
-            svg.style.display = "flex";
-        })
         
         function init() {
+            // 회사 정보를 입력해주는 DOM에 input 이벤트를 추가시켜줍니다.
+            inputOfFirst.addEventListener("input", function(event) { 
+                let dataOfInput = checkOfItem(event.target.value);
+                dataOfInput = dataOfInput.filter((element, index) => {
+                    return dataOfInput.indexOf(element) === index
+                })
+                removeNode()
+                scaledCompanyInfo(dataOfInput, event.target.value);
+                companyInfo = []
+            })
+
+            // 기존 회사 입력 창의 display를 none 상태로 만들고, 회사 상세정보 <div>를 불러와요
+            btn.addEventListener("click", function() {
+                // 사용자의 입력과 회사 정보가 일치하는지에 대한 체크 변수를 선언합니다.
+                let match = false;
+                let sure = false;
+                // <li> 태그에서 연관 회사 정보를 DOM의 innerText 값으로 불러옵니다.
+                let keyword = document.getElementsByTagName('li');
+                keyword = Array.from(keyword);
+
+                keyword.map((item) => {
+                    if (item.innerText === inputOfFirst.value) {
+                        // 만약 <li> 태그에 해당하는 회사 명이 있을 경우에는 match 변수를 true로 만들어주고 keyword 값에 해당 회사명을 지정해줍니다.
+                        match = true
+                        keyword = item.innerText
+                    }
+                });
+
+                // 기업 검색을 진행할 코드예요
+                try {
+                    if (match === true) {
+                        if (confirm(`"${inputOfFirst.value}" 기업으로 검색을 진행할거예요, 진행할까요?`)) {
+                            console.log("OK!" || "SORRY!")
+                            sure = true;
+                            // provideCompanyInfo 함수를 사용하여 DOM에 연결을 시켜줍니다.
+                            provideCompanyInfo(inputOfFirst.value);
+                        }
+                    } else if (keyword[0].innerText.includes(inputOfFirst.value, 0)) {
+                        if (confirm(`"${keyword[0].innerText}" 기업으로 검색을 진행할거에요, 진행할까요?`)) {
+                            console.log("OK!" || "SORRY!");
+                            sure = true;
+                            // provideCompanyInfo 함수를 사용하여 DOM에 연결을 시켜줍니다.
+                            provideCompanyInfo(keyword[0].innerText);
+                        }
+                    } else {
+                        alert(`회사를 잘못 입력하셨거나 아직 채용공고가 없는 회사예요!`);
+                    }
+
+
+                    if (sure === true) {
+                        detailOfCompany.style.display = "flex";
+                        searchOfCompany.style.display = "none";
+                    } else {
+                        alert("괜찮아요, 다시 입력해주세요!");
+                        inputOfFirst.value = "";
+                        removeNode();
+                    }
+
+                    
+                }
+                // 예외처리는 다 여기서 처리를 할거예요
+                catch {
+                    alert(`회사를 잘못 입력하셨거나 아직 채용공고가 없는 회사예요,\n채용공고가 있는 회사들은 아래 키워드로 알려드려요!`);
+                    inputOfFirst.value = "";
+                }
+            })
+
+            // 상세 화면에서 최종 제출을 누르면 SVG 애니메이션을 생성 시키고 마이 페이지로 이동을 시켜요
+            btn2.addEventListener("click", function() {
+                detailOfCompany.style.display = "none";
+                svg.style.display = "flex";
+            })
         }
 
         init();

@@ -41,14 +41,14 @@ def processing(data):
             position = position.get_text().strip()
             plan = plan.get_text().strip()
 
-            if state == "시작" or state == "예상":
-                print(state, name, content, position, plan)
-                parsing_data[name] = {
-                    "state" : state,
-                    "content" : content,
-                    "position" : position,
-                    "plan" : plan,
-                }
+            #if state == "시작" or state == "예상":
+            print(state, name, content, position, plan)
+            parsing_data[name] = {
+                "state" : state,
+                "content" : content,
+                "position" : position,
+                "plan" : plan,
+            }
 
         driver.find_element(By.CSS_SELECTOR,'button.closeCalLy').click()
 

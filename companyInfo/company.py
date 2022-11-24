@@ -15,7 +15,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('--window-size=1920x1080')
 
-driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
+driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
 driver.implicitly_wait(3)
 driver.get('https://www.jobkorea.co.kr/starter/calendar')
 

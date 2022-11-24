@@ -15,7 +15,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('--window-size=1920x1080')
 
-driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
+driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
 driver.implicitly_wait(3)
 driver.get('https://www.jobkorea.co.kr/starter/calendar')
 
@@ -28,26 +28,29 @@ def processing(data):
         sleep(1)
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
+        companyLink = soup.select('div.co > div.coTit > a.coLink')
         companyState = soup.select('div.co > div.coTit > a.coLink > span > strong:nth-child(1)')
         companyName = soup.select('div.co > div.coTit > a.coLink > span')
         companyContent = soup.select('div.info > div.tit > a.link > span')
         companyPosition = soup.select('div.sDesc > strong')
         companyPlan = soup.select('div.side > span.day')
 
-        for name, state, content, position, plan in zip(companyName, companyState, companyContent, companyPosition, companyPlan):
+        for link, name, state, content, position, plan in zip(companyLink, companyName, companyState, companyContent, companyPosition, companyPlan):
             state = state.get_text().strip()
+            link = link.get('href')
             name = name.get_text().strip()[2:]
             content = content.get_text().strip()
             position = position.get_text().strip()
             plan = plan.get_text().strip()
 
             #if state == "시작" or state == "예상":
-            print(state, name, content, position, plan)
+            print(state, name, content, position, plan, link)
             parsing_data[name] = {
                 "state" : state,
                 "content" : content,
                 "position" : position,
                 "plan" : plan,
+                "link" : link,
             }
 
         driver.find_element(By.CSS_SELECTOR,'button.closeCalLy').click()

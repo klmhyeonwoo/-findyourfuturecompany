@@ -4332,6 +4332,13 @@
 		"plan": "11/28~12/09",
 		"link": "/Company/1913523/Info"
 	},
+	"현대케피코": {
+		"state": "시작",
+		"content": "2023 상반기 채용연계형 인턴 모집",
+		"position": "인턴·신입",
+		"plan": "11/28~12/11",
+		"link": "/Company/1821706/Info"
+	},
 	"(재)온누리선교재단": {
 		"state": "시작",
 		"content": "CGNTV 하반기 각 부문 신입/경력직 채용",
@@ -4352,6 +4359,13 @@
 		"position": "신입·경력",
 		"plan": "11/28~12/04",
 		"link": "/Company/1751150/Info"
+	},
+	"에스티팜": {
+		"state": "시작",
+		"content": "각 부문별 수시채용(신약개발/경영관리/사업개발/품질/연구)",
+		"position": "신입·경력",
+		"plan": "11/28~12/04",
+		"link": "/Recruit/Co_Read/C/c-042097"
 	},
 	"에이치에프파트너스㈜": {
 		"state": "시작",
@@ -4409,12 +4423,33 @@
 		"plan": "11/28~12/11",
 		"link": "/Recruit/Co_Read/C/semapark"
 	},
+	"㈜엔씨다이노스": {
+		"state": "시작",
+		"content": "2022 NC 다이노스 신입·경력 채용 - 국제업무, 전력분석",
+		"position": "신입·경력",
+		"plan": "11/28~12/11",
+		"link": "/Recruit/Co_Read/C/ncspro"
+	},
+	"㈜창성": {
+		"state": "시작",
+		"content": "2023년 대졸 신입 및 경력사원 모집",
+		"position": "신입·경력",
+		"plan": "11/28~12/09",
+		"link": "/Recruit/Co_Read/C/c-040110"
+	},
 	"㈜포탈하이웨이": {
 		"state": "시작",
 		"content": "각 부문별 신입/경력 인재 채용",
 		"position": "신입·경력",
 		"plan": "11/28~12/04",
 		"link": "/Recruit/Co_Read/C/pt06122"
+	},
+	"키스자산평가㈜": {
+		"state": "시작",
+		"content": "[KIS자산평가] 대체투자본부 신입/경력 채용 공고",
+		"position": "경력무관",
+		"plan": "11/28~12/11",
+		"link": "/Recruit/Co_Read/C/kisprice"
 	},
 	"하나머티리얼즈㈜": {
 		"state": "시작",

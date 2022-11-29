@@ -518,17 +518,17 @@
 		"link": "/Company/1331187/Info"
 	},
 	"일화": {
-		"state": "마감",
-		"content": "2022년 신입 및 경력 채용(11)",
+		"state": "시작",
+		"content": "2022년 신입 및 경력 채용(12)",
 		"position": "신입·경력",
-		"plan": "11/02~11/08",
+		"plan": "11/29~12/05",
 		"link": "/Company/1848916/Info"
 	},
 	"㈜경방": {
 		"state": "마감",
 		"content": "[코트야드메리어트서울타임스퀘어] 각 부문별 채용",
 		"position": "신입·경력",
-		"plan": "11/21~11/29",
+		"plan": "11/21~12/29",
 		"link": "/Company/1429525/Info"
 	},
 	"㈜동심": {
@@ -899,7 +899,7 @@
 		"state": "시작",
 		"content": "반도체,디스플레이,PCB 검사/공정장비 해외영업 담당자 모집",
 		"position": "신입·경력",
-		"plan": "11/03~12/02",
+		"plan": "11/03~02/01",
 		"link": "/Company/1614696/Info"
 	},
 	"오스템임플란트㈜": {
@@ -953,9 +953,9 @@
 	},
 	"㈜와이지-원": {
 		"state": "시작",
-		"content": "(인천/부평/서운공장) 생산본부 각 분야 기능직 정규직 사원 채용",
+		"content": "[㈜와이지-원 충주공장] 생산기능직 채용",
 		"position": "경력무관",
-		"plan": "11/15~12/15",
+		"plan": "11/29~12/18",
 		"link": "/Company/1813279/Info"
 	},
 	"㈜웨이코스": {
@@ -1288,10 +1288,10 @@
 		"link": "/Company/1523975/Info"
 	},
 	"㈜티씨케이": {
-		"state": "마감",
+		"state": "시작",
 		"content": "부문별 채용",
 		"position": "신입·경력",
-		"plan": "11/04~11/13",
+		"plan": "11/25~12/02",
 		"link": "/Company/1369776/Info"
 	},
 	"퀴네앤드나겔㈜": {
@@ -1739,7 +1739,7 @@
 		"state": "마감",
 		"content": "생산기술(cad), 연구소(catia, R&D), 영업원가관리 사원 구인",
 		"position": "신입",
-		"plan": "11/07~11/30",
+		"plan": "11/07~02/05",
 		"link": "/Recruit/Co_Read/C/dw3572"
 	},
 	"라이온코리아㈜": {
@@ -1781,7 +1781,7 @@
 		"state": "시작",
 		"content": "부문별 신입/경력직원 채용",
 		"position": "신입·경력",
-		"plan": "11/18~12/01",
+		"plan": "11/18~12/14",
 		"link": "/Company/16153476/Info"
 	},
 	"유진로지스틱스": {
@@ -2212,10 +2212,10 @@
 		"link": "/Company/1339207/Info"
 	},
 	"중앙일보㈜": {
-		"state": "마감",
-		"content": "비즈플랫폼팀 캠페인 기획 채용",
-		"position": "신입·경력",
-		"plan": "11/09~11/22",
+		"state": "시작",
+		"content": "비주얼 콘텐트 제작 인턴 채용",
+		"position": "인턴·신입·경력",
+		"plan": "11/29~12/05",
 		"link": "/Company/1824494/Info"
 	},
 	" 한국건설기술연구원": {
@@ -2234,7 +2234,7 @@
 	},
 	"그린케미칼㈜": {
 		"state": "시작",
-		"content": "그린케미칼 신입 및 경력사원 채용",
+		"content": "[코스피상장사/초봉4300]각부문 신입 및 경력사원 채용",
 		"position": "신입·경력",
 		"plan": "11/28~12/04",
 		"link": "/Company/1781624/Info"
@@ -2877,10 +2877,10 @@
 		"link": "/Company/47716658/Info"
 	},
 	"㈜소노인터내셔널": {
-		"state": "마감",
-		"content": "[대명소노그룹] 각 부문별 신입/경력 인재채용",
+		"state": "시작",
+		"content": "[비발디파크] 경력/신입사원 채용",
 		"position": "신입·경력",
-		"plan": "10/31~11/13",
+		"plan": "11/28~12/12",
 		"link": "/Company/1938839/Info"
 	},
 	"SFA반도체㈜": {
@@ -3300,15 +3300,8 @@
 		"state": "시작",
 		"content": "에르메스코리아(유) 신입/경력직 채용",
 		"position": "신입·경력",
-		"plan": "11/16~12/01",
+		"plan": "11/16~02/14",
 		"link": "/Recruit/Co_Read/C/hermeshr"
-	},
-	"㈜단군소프트": {
-		"state": "마감",
-		"content": "단군소프트 2022년 신입 / 경력사원 11월 수시채용공고",
-		"position": "신입·경력",
-		"plan": "11/16~11/28",
-		"link": "/Recruit/Co_Read/C/Tangun"
 	},
 	"㈜더블유게임즈": {
 		"state": "시작",
@@ -3330,13 +3323,6 @@
 		"position": "인턴·신입",
 		"plan": "11/16~12/04",
 		"link": "/Recruit/Co_Read/C/c-041752"
-	},
-	"㈜캐럿글로벌": {
-		"state": "시작",
-		"content": "[당근영어] 학습 컨설턴트, CS매니저 신입 및 경력직 모집 (수시채용)",
-		"position": "신입·경력",
-		"plan": "11/16~12/12",
-		"link": "/Recruit/Co_Read/C/carrotgl"
 	},
 	"코오롱그룹": {
 		"state": "마감",
@@ -3547,13 +3533,6 @@
 		"position": "인턴·신입",
 		"plan": "11/18~11/28",
 		"link": "/Company/1451613/Info"
-	},
-	"인팩이피엠㈜": {
-		"state": "마감",
-		"content": "인팩이피엠(주) 하반기 부문별 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "11/18~11/28",
-		"link": "/Recruit/Co_Read/C/SSTC9604"
 	},
 	"㈜디베이스앤": {
 		"state": "시작",
@@ -3766,10 +3745,10 @@
 		"link": "/Recruit/Co_Read/C/alphasightshk11"
 	},
 	"오케이몰": {
-		"state": "마감",
+		"state": "시작",
 		"content": "2022년 (주)오케이몰 재무회계팀 수시채용",
 		"position": "경력무관",
-		"plan": "11/21~11/27",
+		"plan": "11/29~12/02",
 		"link": "/Company/1910807/Info"
 	},
 	"온라인팜㈜": {
@@ -3934,10 +3913,10 @@
 		"link": "/Recruit/Co_Read/C/hy995100"
 	},
 	"한국발전기술㈜": {
-		"state": "마감",
-		"content": "한국발전기술(주) 영흥 발전소 직원 채용",
+		"state": "시작",
+		"content": "한국발전기술(주) 경기도 분당 발전소 직원 채용",
 		"position": "신입·경력",
-		"plan": "11/22~11/27",
+		"plan": "11/29~12/04",
 		"link": "/Company/1767170/Info"
 	},
 	"한국자산평가㈜": {
@@ -4311,13 +4290,6 @@
 		"plan": "10/27~11/26",
 		"link": "/Company/16154280/Info"
 	},
-	"SG생활안전㈜": {
-		"state": "마감",
-		"content": "건축설비/시공관리 현장대리인 채용 (신입/경력)",
-		"position": "신입·경력",
-		"plan": "10/27~11/28",
-		"link": "/Recruit/Co_Read/C/sgrecruit"
-	},
 	"회명산업㈜": {
 		"state": "마감",
 		"content": "회명산업 수처리사업부문 EPC 신입 모집",
@@ -4339,12 +4311,26 @@
 		"plan": "11/28~12/11",
 		"link": "/Company/1821706/Info"
 	},
+	"㈜두원공조": {
+		"state": "시작",
+		"content": "기획부문 / 원가부문 직원 모집",
+		"position": "신입·경력",
+		"plan": "11/28~12/31",
+		"link": "/Company/1791939/Info"
+	},
 	"(재)온누리선교재단": {
 		"state": "시작",
 		"content": "CGNTV 하반기 각 부문 신입/경력직 채용",
 		"position": "신입·경력",
 		"plan": "11/28~12/28",
 		"link": "/Company/16153968/Info"
+	},
+	"대동전자㈜": {
+		"state": "시작",
+		"content": "본사 경영지원(재무/회계) 신입채용",
+		"position": "신입",
+		"plan": "11/28~12/28",
+		"link": "/Company/1747723/Info"
 	},
 	"루이비통코리아": {
 		"state": "시작",
@@ -4493,19 +4479,75 @@
 		"plan": "10/17~11/01",
 		"link": "/Company/1745124/Info"
 	},
-	"비앤지스틸 ㈜": {
-		"state": "예상",
-		"content": "대졸신입사원 채용",
-		"position": "신입",
-		"plan": "11/29~12/08",
-		"link": "/Company/1399609/Info"
+	"㈜유한양행": {
+		"state": "시작",
+		"content": "(주)유한양행 사원 모집",
+		"position": "경력무관",
+		"plan": "11/29~12/05",
+		"link": "/Company/1919982/Info"
 	},
-	"동아출판㈜": {
-		"state": "예상",
-		"content": "2022년 하반기 동아출판㈜ 인턴· 신입· 경력채용",
-		"position": "인턴·신입",
+	"에브라임 이노베이션": {
+		"state": "시작",
+		"content": "카페게이트 인재 상시채용",
+		"position": "신입·경력",
+		"plan": "11/29~12/31",
+		"link": "/Recruit/Co_Read/C/ephgroup"
+	},
+	"이보클라비바덴트": {
+		"state": "시작",
+		"content": "각 부문 신입 및 경력사원 모집",
+		"position": "신입·경력",
+		"plan": "11/29~12/09",
+		"link": "/Recruit/Co_Read/C/IVKR"
+	},
+	"제일약품": {
+		"state": "시작",
+		"content": "제일약품/제일헬스사이언스 부문별 수시채용",
+		"position": "신입·경력",
 		"plan": "11/29~12/12",
-		"link": "/Company/1801737/Info"
+		"link": "/Company/42254334/Info"
+	},
+	"㈜단군소프트": {
+		"state": "시작",
+		"content": "단군소프트 2022년 신입 / 경력사원 11월 수시채용공고",
+		"position": "신입·경력",
+		"plan": "11/29~12/09",
+		"link": "/Recruit/Co_Read/C/Tangun"
+	},
+	"㈜엔씨아이티에스": {
+		"state": "시작",
+		"content": "[NC 자회사] ㈜NC ITS 게임웹운영 인원 모집",
+		"position": "신입·경력",
+		"plan": "11/29~12/13",
+		"link": "/Recruit/Co_Read/C/ncits00"
+	},
+	"㈜엠비씨씨앤아이": {
+		"state": "시작",
+		"content": "㈜엠비씨씨앤아이 2023년  공개채용",
+		"position": "신입·경력",
+		"plan": "11/29~12/11",
+		"link": "/Recruit/Co_Read/C/mbccni2014"
+	},
+	"㈜코비젼": {
+		"state": "시작",
+		"content": "각부문 경력 채용-개발직(JAVA,.NET,전문연구요원)/영업직/PM/법무/UX디자이너",
+		"position": "신입·경력",
+		"plan": "11/29~12/09",
+		"link": "/Recruit/Co_Read/C/covi"
+	},
+	"㈜해피머니아이엔씨": {
+		"state": "시작",
+		"content": "각 부문별 신입/경력 채용 (기획/디자인/제휴/개발)",
+		"position": "신입·경력",
+		"plan": "11/29~12/05",
+		"link": "/Company/1643099/Info"
+	},
+	"캐논쎄미콘덕터엔지니어링코리아㈜": {
+		"state": "시작",
+		"content": "신입사원모집(반도체노광장비 Field Service Engineer)",
+		"position": "신입",
+		"plan": "11/29~12/12",
+		"link": "/Company/1595036/Info"
 	},
 	"이트너스㈜": {
 		"state": "마감",
@@ -4544,9 +4586,9 @@
 	},
 	"대창기업": {
 		"state": "마감",
-		"content": "안전관리/건축/기계/전기/AS/부동산시행등 - 각 분야 채용",
+		"content": "건축/기계/전기/AS/안전관리/부동산시행 등 - 각 분야 채용",
 		"position": "신입·경력",
-		"plan": "10/25~11/30",
+		"plan": "10/25~12/21",
 		"link": "/Company/16154326/Info"
 	},
 	"사조원": {

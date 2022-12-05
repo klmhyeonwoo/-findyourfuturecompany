@@ -1035,6 +1035,20 @@
 		"plan": "12/05~12/12",
 		"link": "/Recruit/Co_Read/C/hrihr"
 	},
+	"글래드 호텔앤리조트㈜ 메종 글래드 제주": {
+		"state": "시작",
+		"content": "GLAD HOTELS & RESORTS [글래드호텔] 경영기획팀 직원 채용",
+		"position": "신입·경력",
+		"plan": "12/05~03/05",
+		"link": "/Company/1538733/Info"
+	},
+	"메타넷디지털㈜": {
+		"state": "시작",
+		"content": "2023년 Metanet 신입 교육 인턴 채용",
+		"position": "인턴·신입",
+		"plan": "12/05~01/08",
+		"link": "/Company/1463350/Info"
+	},
 	"샘표식품㈜": {
 		"state": "마감",
 		"content": "[샘표식품] 우리맛연구 멘티 11기 모집",
@@ -1125,6 +1139,13 @@
 		"position": "신입·경력",
 		"plan": "12/05~03/05",
 		"link": "/Company/1375565/Info"
+	},
+	"㈜쁘띠엘린": {
+		"state": "마감",
+		"content": "㈜쁘띠엘린 2022 분야별 인재 채용",
+		"position": "신입·경력",
+		"plan": "12/05~12/18",
+		"link": "/Company/1754430/Info"
 	},
 	"㈜삼원특수지": {
 		"state": "마감",
@@ -1895,13 +1916,6 @@
 		"position": "신입",
 		"plan": "11/21~12/11",
 		"link": "/Company/1668388/Info"
-	},
-	"키스자산평가㈜": {
-		"state": "마감",
-		"content": "[KIS자산평가] 대체투자본부 신입/경력 채용 공고",
-		"position": "경력무관",
-		"plan": "11/28~12/05",
-		"link": "/Recruit/Co_Read/C/kisprice"
 	},
 	"하나머티리얼즈㈜": {
 		"state": "마감",

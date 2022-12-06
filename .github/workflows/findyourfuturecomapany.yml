@@ -61,11 +61,11 @@ jobs:
         cd companyInfo
         python company.py
     - name: Set date in environment variable
-      run: echo "DATE=$(date +'%Y-%m-%d %H:%M GMT+9')" >> $GITHUB_ENV
+      run: echo "DATE=$(date +'%Y년 %m월 %일 %H시 %M분')" >> $GITHUB_ENV
     - name: Add & Commit # Add Commit
       uses: EndBug/add-and-commit@v7
       with:
-        message: '회사 정보를 자동으로 업데이트 했어요 👏🏻 : ${{ env.DATE }}'
+        message: '${{ env.DATE }} 기준으로 회사 정보를 업데이트 했어요 👏🏻'
         author_name: 'GitHub-Actions-Bot'
         add: '*.json'
         push: false

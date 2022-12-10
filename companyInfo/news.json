@@ -805,7 +805,7 @@
 		"link": "/Company/16153145/Info"
 	},
 	"㈜헤이딘코퍼레이션": {
-		"state": "시작",
+		"state": "마감",
 		"content": "부문별 [온라인MD/AMD/브랜드마케팅/웹디자인] 채용",
 		"position": "신입·경력",
 		"plan": "12/04~12/23",
@@ -1477,7 +1477,7 @@
 		"link": "/Recruit/Co_Read/C/kdexp12"
 	},
 	"녹원메디칼㈜": {
-		"state": "시작",
+		"state": "마감",
 		"content": "휴모스트 녹원 영업/마케팅/경영기획 직원 모집 - [전주본사/서울지점/광주지점]",
 		"position": "신입·경력",
 		"plan": "12/06~12/23",
@@ -1827,7 +1827,7 @@
 		"link": "/Company/1385064/Info"
 	},
 	"한국장애인고용공단": {
-		"state": "마감",
+		"state": "발표",
 		"content": "2022년 정규직 채용",
 		"position": "신입",
 		"plan": "11/22~12/07",
@@ -2113,6 +2113,13 @@
 		"plan": "12/09~12/18",
 		"link": "/Company/1808526/Info"
 	},
+	"엔에이치엔애드㈜": {
+		"state": "시작",
+		"content": "[NHN AD] 광고 상품 기획/운영 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "12/09~03/09",
+		"link": "/Company/1605674/Info"
+	},
 	"㈜로그온커머스": {
 		"state": "마감",
 		"content": "2022년 로그온커머스 [마케팅기획/온라인MD/고객지원] 신입/경력 채용",
@@ -2121,11 +2128,25 @@
 		"link": "/Recruit/Co_Read/C/logoncom"
 	},
 	"㈜사옹원": {
-		"state": "시작",
+		"state": "마감",
 		"content": "각부서별 직원 채용 - (온라인/생산기술/제품개발연구/공무/생산기획)",
 		"position": "신입·경력",
 		"plan": "12/09~12/23",
 		"link": "/Company/1807752/Info"
+	},
+	"㈜아프리카TV": {
+		"state": "예상",
+		"content": "2022년 하반기 ㈜아프리카TV 신입 채용",
+		"position": "신입",
+		"plan": "12/15~12/28",
+		"link": "/Company/1528345/Info"
+	},
+	"㈜인동에프엔": {
+		"state": "마감",
+		"content": "(주)인동에프엔 기획(기획MD,소싱,우븐/소재/컬러디자인) 채용",
+		"position": "신입·경력",
+		"plan": "12/09~12/23",
+		"link": "/Company/1436082/Info"
 	},
 	"㈜천재교과서": {
 		"state": "마감",
@@ -2133,6 +2154,13 @@
 		"position": "신입·경력",
 		"plan": "11/01~12/31",
 		"link": "/Company/42501818/Info"
+	},
+	"㈜한양정밀": {
+		"state": "마감",
+		"content": "(군산) 한양정밀 산업차량사업부 신규사업 확대에 따른 생산 각 부문 정규직 직원 대규모 채용",
+		"position": "신입·경력",
+		"plan": "11/22~12/31",
+		"link": "/Recruit/Co_Read/C/hy995100"
 	},
 	"피에스케이그룹": {
 		"state": "마감",
@@ -2148,19 +2176,19 @@
 		"plan": "12/09~12/20",
 		"link": "/Company/1551866/Info"
 	},
+	"한국자동차연구원": {
+		"state": "마감",
+		"content": "한국자동차연구원 2022년도 2월 별정직(계약직) 직원 모집",
+		"position": "신입·경력",
+		"plan": "12/09~12/23",
+		"link": "/Company/1834650/Info"
+	},
 	"에이치엠엠": {
 		"state": "마감",
 		"content": "2023년 채용연계형 인턴 채용",
 		"position": "인턴·경력무관",
 		"plan": "11/28~12/09",
 		"link": "/Company/1913523/Info"
-	},
-	"동양이엔피㈜": {
-		"state": "마감",
-		"content": "동양이엔피(주) 인사그룹 신입채용",
-		"position": "신입·경력",
-		"plan": "11/09~12/09",
-		"link": "/Recruit/Co_Read/C/dy236"
 	},
 	"현대스틸산업㈜": {
 		"state": "마감",
@@ -2183,19 +2211,12 @@
 		"plan": "11/21~12/30",
 		"link": "/Company/1481503/Info"
 	},
-	"루이비통코리아": {
+	"서울예술대학교": {
 		"state": "마감",
-		"content": "2022 LOUIS VUITTON 신입 및 경력 채용",
+		"content": "서울예술대학교 대학혁신지원사업 직원 채용 공고",
 		"position": "신입·경력",
-		"plan": "11/28~12/09",
-		"link": "/Recruit/Co_Read/C/lvuitton"
-	},
-	"이보클라비바덴트": {
-		"state": "마감",
-		"content": "각 부문 신입 및 경력사원 모집",
-		"position": "신입·경력",
-		"plan": "11/29~12/09",
-		"link": "/Recruit/Co_Read/C/IVKR"
+		"plan": "11/30~12/09",
+		"link": "/Company/47240002/Info"
 	},
 	"이트너스㈜": {
 		"state": "마감",
@@ -2211,47 +2232,12 @@
 		"plan": "11/29~12/15",
 		"link": "/Recruit/Co_Read/C/Tangun"
 	},
-	"㈜롯데월드": {
-		"state": "마감",
-		"content": "2022년 12월 신입사원 채용",
-		"position": "신입·경력",
-		"plan": "11/30~12/09",
-		"link": "/Recruit/Co_Read/C/c-042343"
-	},
 	"㈜원봉": {
 		"state": "마감",
 		"content": "2022년 하반기 정규 채용 공고",
 		"position": "신입·경력",
 		"plan": "11/18~12/09",
 		"link": "/Company/1806762/Info"
-	},
-	"㈜인동에프엔": {
-		"state": "마감",
-		"content": "(주)인동에프엔 기획(기획MD,소싱,우븐/소재/컬러디자인) 채용",
-		"position": "신입·경력",
-		"plan": "11/25~12/09",
-		"link": "/Company/1436082/Info"
-	},
-	"㈜창성": {
-		"state": "마감",
-		"content": "2023년 대졸 신입 및 경력사원 모집",
-		"position": "신입·경력",
-		"plan": "11/28~12/09",
-		"link": "/Recruit/Co_Read/C/c-040110"
-	},
-	"㈜코비젼": {
-		"state": "마감",
-		"content": "각부문 경력 채용-개발직(JAVA,.NET,전문연구요원)/영업직/PM/법무/UX디자이너",
-		"position": "신입·경력",
-		"plan": "11/29~12/09",
-		"link": "/Recruit/Co_Read/C/covi"
-	},
-	"참좋은여행㈜": {
-		"state": "마감",
-		"content": "[참좋은여행] 웹기획자 신입/경력자 채용",
-		"position": "인턴·신입·경력",
-		"plan": "11/09~02/07",
-		"link": "/Recruit/Co_Read/C/vgtour"
 	},
 	"포스코기술투자㈜": {
 		"state": "마감",
@@ -2645,13 +2631,6 @@
 		"plan": "11/18~11/25",
 		"link": "/Company/1553723/Info"
 	},
-	"㈜아프리카TV": {
-		"state": "예상",
-		"content": "2022년 하반기 ㈜아프리카TV 신입 채용",
-		"position": "신입",
-		"plan": "12/15~12/28",
-		"link": "/Company/1528345/Info"
-	},
 	"코레일유통": {
 		"state": "마감",
 		"content": "2023년 신입 및 경력사원 채용",
@@ -2883,6 +2862,13 @@
 		"plan": "10/28~11/11",
 		"link": "/Company/1843696/Info"
 	},
+	"신성통상㈜": {
+		"state": "예상",
+		"content": "2023년 신입사원 대졸공채",
+		"position": "신입",
+		"plan": "12/23~12/30",
+		"link": "/Company/1334166/Info"
+	},
 	"비에이치아이㈜": {
 		"state": "마감",
 		"content": "비에이치아이(주) 신입 및 경력직 모집",
@@ -3043,13 +3029,6 @@
 		"position": "신입·경력",
 		"plan": "11/10~12/31",
 		"link": "/Company/16153965/Info"
-	},
-	"㈜한양정밀": {
-		"state": "마감",
-		"content": "(군산) 한양정밀 산업차량사업부 신규사업 확대에 따른 생산 각 부문 정규직 직원 대규모 채용",
-		"position": "신입·경력",
-		"plan": "11/22~12/31",
-		"link": "/Recruit/Co_Read/C/hy995100"
 	},
 	"퀴네앤드나겔㈜": {
 		"state": "마감",

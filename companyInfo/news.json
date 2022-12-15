@@ -90,13 +90,6 @@
 		"plan": "12/03~01/01",
 		"link": "/Company/1431376/Info"
 	},
-	"삼정KPMG (유)": {
-		"state": "마감",
-		"content": "[삼정KPMG] 데이터 가공업무 인턴 채용 (Data Engineer)",
-		"position": "인턴·경력무관",
-		"plan": "12/01~12/18",
-		"link": "/Recruit/Co_Read/C/kpmgkorea"
-	},
 	"세스코": {
 		"state": "시작",
 		"content": "2023년도 1분기 영업직/서비스직 모집",
@@ -1450,7 +1443,7 @@
 	},
 	"스템코㈜": {
 		"state": "마감",
-		"content": "12월 생산직군 Operator(제조/검사/품질) 고졸 신입 채용",
+		"content": "스템코(주) 생산직군 Operator(제조/검사/품질) 고졸 신입 채용",
 		"position": "인턴·경력무관",
 		"plan": "12/13~12/25",
 		"link": "/Company/1353271/Info"

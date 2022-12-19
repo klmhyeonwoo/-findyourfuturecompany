@@ -118,20 +118,6 @@
 		"plan": "12/01~12/18",
 		"link": "/Company/1778842/Info"
 	},
-	"에쓰핀테크놀로지": {
-		"state": "마감",
-		"content": "부문별 신입/경력 채용",
-		"position": "인턴·신입·경력",
-		"plan": "12/01~12/18",
-		"link": "/Recruit/Co_Read/C/c-042696"
-	},
-	"용마로지스㈜": {
-		"state": "마감",
-		"content": "22년 12월, 각 부문별 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "12/01~12/18",
-		"link": "/Recruit/Co_Read/C/yongmalogis"
-	},
 	"용평리조트": {
 		"state": "마감",
 		"content": "2022년 신입/경력사원 모집",
@@ -770,10 +756,10 @@
 		"link": "/Company/1693092/Info"
 	},
 	"교원그룹": {
-		"state": "마감",
-		"content": "교원그룹 2022년 신입대졸공채",
-		"position": "신입",
-		"plan": "11/21~12/04",
+		"state": "시작",
+		"content": "교원그룹 12월 신입/경력 정기 수시채용",
+		"position": "신입·경력",
+		"plan": "12/19~01/01",
 		"link": "/Company/1329474/Info"
 	},
 	"㈜보쉬전장": {
@@ -1091,13 +1077,6 @@
 		"plan": "12/05~12/18",
 		"link": "/Company/1487322/Info"
 	},
-	"서울투자운용": {
-		"state": "마감",
-		"content": "서울투자운용(주) 2022년 하반기 직원 채용공고",
-		"position": "신입",
-		"plan": "12/05~12/18",
-		"link": "/Recruit/Co_Read/C/sim00375"
-	},
 	"신흥에스이씨㈜": {
 		"state": "시작",
 		"content": "신흥에스이씨(주) 연구개발 직무 모집",
@@ -1338,9 +1317,9 @@
 	},
 	"일화": {
 		"state": "마감",
-		"content": "2022년 신입 및 경력 채용(12)",
+		"content": "2022년 신입 및 경력 채용(13)",
 		"position": "신입·경력",
-		"plan": "11/29~12/05",
+		"plan": "12/16~12/23",
 		"link": "/Company/1848916/Info"
 	},
 	"㈜경동엔지니어링": {
@@ -1757,10 +1736,10 @@
 		"link": "/Recruit/Co_Read/C/seobu08"
 	},
 	"한국야금㈜": {
-		"state": "마감",
-		"content": "2023년 KORLOY 대졸사원 공개모집 (추가)",
+		"state": "시작",
+		"content": "2023년 KORLOY 대졸사원 추가모집",
 		"position": "신입·경력",
-		"plan": "11/29~12/07",
+		"plan": "12/19~01/01",
 		"link": "/Company/1385064/Info"
 	},
 	"한국장애인고용공단": {
@@ -1823,7 +1802,7 @@
 		"state": "마감",
 		"content": "(주)디에이피 안성공장 2022년 하반기 채용(기숙사 있음)",
 		"position": "신입·경력",
-		"plan": "12/09~12/18",
+		"plan": "12/19~12/28",
 		"link": "/Company/1554402/Info"
 	},
 	"고려신용정보㈜": {
@@ -1841,10 +1820,10 @@
 		"link": "/Company/1454940/Info"
 	},
 	"메리츠화재해상보험": {
-		"state": "마감",
-		"content": "자산운용 경력(결산업무)/초대졸 신입 채용",
+		"state": "시작",
+		"content": "2023 상반기 대졸 신입사원 채용",
 		"position": "신입·경력",
-		"plan": "12/08~12/18",
+		"plan": "12/19~01/01",
 		"link": "/Company/1354671/Info"
 	},
 	"㈔캠틱종합기술원": {
@@ -1909,13 +1888,6 @@
 		"position": "신입·경력",
 		"plan": "12/08~12/21",
 		"link": "/Company/1470719/Info"
-	},
-	"㈜연합인포맥스": {
-		"state": "마감",
-		"content": "연합인포맥스 금융공학연구소 인턴사원 모집",
-		"position": "인턴·경력무관",
-		"plan": "12/08~12/18",
-		"link": "/Recruit/Co_Read/C/infomax1"
 	},
 	"㈜와이솔": {
 		"state": "마감",
@@ -2089,12 +2061,12 @@
 		"state": "마감",
 		"content": "2022년 로그온커머스 [마케팅기획/온라인MD/고객지원] 신입/경력 채용",
 		"position": "신입·경력",
-		"plan": "12/09~12/19",
+		"plan": "12/09~12/21",
 		"link": "/Recruit/Co_Read/C/logoncom"
 	},
 	"㈜사옹원": {
 		"state": "마감",
-		"content": "각부서별 직원 채용 - (온라인/생산기술/제품개발연구/공무/생산기획)",
+		"content": "각부서별 직원 채용 - (온라인/생산기술/제품개발연구/공무/생산기획/품질관리)",
 		"position": "신입·경력",
 		"plan": "12/09~12/23",
 		"link": "/Company/1807752/Info"
@@ -3156,6 +3128,20 @@
 		"plan": "12/16~12/25",
 		"link": "/Company/1434670/Info"
 	},
+	"한국국제교류재단": {
+		"state": "마감",
+		"content": "직원 채용 - 국제교류, 정보화, 보수관리, 전시기획",
+		"position": "신입·경력",
+		"plan": "12/16~12/30",
+		"link": "/Company/1491018/Info"
+	},
+	"현대드림투어": {
+		"state": "마감",
+		"content": "2022년 하반기 신입사원 채용",
+		"position": "신입",
+		"plan": "12/16~12/25",
+		"link": "/Company/1981192/Info"
+	},
 	"호반호텔앤리조트": {
 		"state": "시작",
 		"content": "2023년 상반기 신입사원 공개채용",
@@ -3218,6 +3204,55 @@
 		"position": "신입·경력",
 		"plan": "09/19~12/18",
 		"link": "/Company/16154326/Info"
+	},
+	"동국생명과학㈜": {
+		"state": "마감",
+		"content": "기술지원(공무), 완제의약품생산, 원료의약품 생산 신입(경력)사원 채용",
+		"position": "신입·경력",
+		"plan": "12/19~12/27",
+		"link": "/Recruit/Co_Read/C/dkls01"
+	},
+	"삼아제약㈜": {
+		"state": "마감",
+		"content": "삼아제약(주) 부문별 경력 및 신입 사원 채용",
+		"position": "신입·경력",
+		"plan": "12/19~12/31",
+		"link": "/Company/1610308/Info"
+	},
+	"알파사이츠": {
+		"state": "마감",
+		"content": "알파사이츠 2023년도 상반기 대규모 신입 채용 (Korean/English speaker)",
+		"position": "신입",
+		"plan": "12/19~12/25",
+		"link": "/Recruit/Co_Read/C/alphasightshk11"
+	},
+	"에스엠상선㈜건설부문": {
+		"state": "시작",
+		"content": "SM그룹 건설부문 인력 채용 (건축,토목,기계,개산견적,분양,마케팅,상품,안전)",
+		"position": "신입·경력",
+		"plan": "12/19~01/06",
+		"link": "/Recruit/Co_Read/C/smwoobang"
+	},
+	"㈜컴파트너스": {
+		"state": "마감",
+		"content": "[분당] NAVER 쇼핑 CS 및 업무지원",
+		"position": "신입",
+		"plan": "12/19~12/25",
+		"link": "/Company/16152536/Info"
+	},
+	"㈜플그림": {
+		"state": "시작",
+		"content": "2023년 (주)플그림 신입사원 공개채용 - (Data Architect/e-Commerce 서비스개발/서비스기획)",
+		"position": "신입",
+		"plan": "12/19~01/01",
+		"link": "/Recruit/Co_Read/C/plgrimjobkorea"
+	},
+	"차병원그룹": {
+		"state": "마감",
+		"content": "차의과학대학교ㆍ차병원 부문별 책임자 초빙",
+		"position": "경력무관",
+		"plan": "12/19~12/31",
+		"link": "/Company/1986769/Info"
 	},
 	"태경농산㈜": {
 		"state": "시작",
@@ -3323,6 +3358,13 @@
 		"position": "신입·경력",
 		"plan": "12/23~12/27",
 		"link": "/Company/16154435/Info"
+	},
+	"노보텔앰배서더/강남": {
+		"state": "마감",
+		"content": "[노보텔 강남] 호텔 신입 및 경력 모집(식음료부/조리부/객실부/객실예약과/판촉부)",
+		"position": "신입·경력",
+		"plan": "12/17~12/23",
+		"link": "/Company/1399797/Info"
 	},
 	"코스알엑스": {
 		"state": "마감",

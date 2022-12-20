@@ -86,7 +86,7 @@
 	"세스코": {
 		"state": "시작",
 		"content": "2023년도 1분기 영업직/서비스직 모집",
-		"position": "신입",
+		"position": "신입·경력",
 		"plan": "12/01~01/12",
 		"link": "/Company/1384599/Info"
 	},
@@ -232,7 +232,7 @@
 	},
 	"㈜헥토이노베이션": {
 		"state": "마감",
-		"content": "헥토이노베이션 직군별 인재 모집(서비스기획/사업기획/개발/UX/UI 등)",
+		"content": "헥토이노베이션 직군별 인재 모집(서비스기획/DBA/개발/UX/UI 등)",
 		"position": "신입·경력",
 		"plan": "12/01~12/31",
 		"link": "/Company/45673083/Info"
@@ -399,10 +399,10 @@
 		"link": "/Company/1389003/Info"
 	},
 	"㈜현대케피코": {
-		"state": "예상",
-		"content": "2023년 상반기 ㈜현대케피코 인턴· 신입· 경력 채용",
-		"position": "인턴·신입",
-		"plan": "12/20~12/30",
+		"state": "마감",
+		"content": "현대케피코 신입(채용형인턴)/경력직 채용",
+		"position": "인턴·신입·경력",
+		"plan": "12/02~12/11",
 		"link": "/Company/1821706/Info"
 	},
 	"대성산업㈜": {
@@ -745,7 +745,7 @@
 		"state": "마감",
 		"content": "부문별 [온라인MD/AMD/브랜드마케팅/웹디자인] 채용",
 		"position": "신입·경력",
-		"plan": "12/04~12/23",
+		"plan": "12/04~03/04",
 		"link": "/Company/42210824/Info"
 	},
 	"유코카캐리어스㈜": {
@@ -1126,13 +1126,6 @@
 		"plan": "12/05~12/18",
 		"link": "/Company/1622279/Info"
 	},
-	"이타스코리아㈜": {
-		"state": "마감",
-		"content": "[이타스코리아] Regional Solution Sales Lead Korea, Cybersecurity 정규직 채용",
-		"position": "신입·경력",
-		"plan": "12/05~12/19",
-		"link": "/Recruit/Co_Read/C/etaskorea"
-	},
 	"일동제약": {
 		"state": "마감",
 		"content": "[일동제약] 2022년 하반기 수시채용",
@@ -1190,10 +1183,10 @@
 		"link": "/Company/1603570/Info"
 	},
 	"㈜쁘띠엘린": {
-		"state": "마감",
-		"content": "㈜쁘띠엘린 2022 분야별 인재 채용",
+		"state": "시작",
+		"content": "㈜쁘띠엘린(관계사 포함) 경력 모집",
 		"position": "신입·경력",
-		"plan": "12/05~12/18",
+		"plan": "12/20~01/01",
 		"link": "/Company/1754430/Info"
 	},
 	"㈜삼원특수지": {
@@ -1645,10 +1638,10 @@
 		"link": "/Company/1667797/Info"
 	},
 	"㈜일미농수산": {
-		"state": "시작",
+		"state": "마감",
 		"content": "[(주)일미농수산 / (주)일미] 각 부문별 직원 채용",
 		"position": "신입·경력",
-		"plan": "12/07~01/06",
+		"plan": "12/20~12/31",
 		"link": "/Company/16154053/Info"
 	},
 	"㈜케이에스엠": {
@@ -2059,9 +2052,9 @@
 	},
 	"㈜로그온커머스": {
 		"state": "마감",
-		"content": "2022년 로그온커머스 [마케팅기획/온라인MD/고객지원] 신입/경력 채용",
+		"content": "2022년 로그온커머스 [마케팅/온라인MD/고객지원/영업기획] 신입/경력 채용",
 		"position": "신입·경력",
-		"plan": "12/09~12/21",
+		"plan": "12/09~12/22",
 		"link": "/Recruit/Co_Read/C/logoncom"
 	},
 	"㈜사옹원": {
@@ -2179,8 +2172,8 @@
 	"포스코기술투자㈜": {
 		"state": "마감",
 		"content": "포스코기술투자 인사총무팀 인턴 채용",
-		"position": "인턴·신입",
-		"plan": "11/30~12/09",
+		"position": "인턴·경력무관",
+		"plan": "12/20~12/25",
 		"link": "/Company/1520503/Info"
 	},
 	"AJ": {
@@ -2572,7 +2565,7 @@
 		"state": "마감",
 		"content": "[LS전선 미국 법인] 현지 사원 채용 - 엔지니어",
 		"position": "신입·경력",
-		"plan": "12/13~12/19",
+		"plan": "12/13~01/02",
 		"link": "/Company/1727991/Info"
 	},
 	"비테스코테크놀로지스코리아(유)": {
@@ -2756,6 +2749,13 @@
 		"position": "신입",
 		"plan": "12/14~12/25",
 		"link": "/Company/16154220/Info"
+	},
+	"기계설비건설공제조합": {
+		"state": "시작",
+		"content": "신입직원 채용",
+		"position": "신입",
+		"plan": "12/14~01/06",
+		"link": "/Company/1569127/Info"
 	},
 	"롯데정보통신": {
 		"state": "마감",
@@ -3163,6 +3163,13 @@
 		"plan": "12/16~01/08",
 		"link": "/Company/1748846/Info"
 	},
+	"F&F": {
+		"state": "마감",
+		"content": "[인턴] SERGIO TACCHINI 채용연계형 인턴 채용",
+		"position": "인턴·신입",
+		"plan": "12/16~12/26",
+		"link": "/Company/42234381/Info"
+	},
 	"Kim & Chang (김앤장 법률사무소)": {
 		"state": "마감",
 		"content": "[김.장 법률사무소] 직원 채용",
@@ -3254,6 +3261,27 @@
 		"plan": "12/19~01/06",
 		"link": "/Recruit/Co_Read/C/smwoobang"
 	},
+	"존슨앤드존슨": {
+		"state": "시작",
+		"content": "[존슨앤드존슨 메디칼] 2022 하반기 Clinical Specialist (임상 기술 영업) 채용연계형 인턴 채용",
+		"position": "인턴·경력무관",
+		"plan": "12/19~01/01",
+		"link": "/Company/1605233/Info"
+	},
+	"㈜아성 HMP": {
+		"state": "시작",
+		"content": "2022년 하반기 신입/경력사원 수시채용",
+		"position": "인턴·신입·경력",
+		"plan": "12/19~01/01",
+		"link": "/Recruit/Co_Read/C/c-038827"
+	},
+	"㈜이랜드건설": {
+		"state": "시작",
+		"content": "2023년 이랜드건설 4기 신입사원 채용",
+		"position": "신입",
+		"plan": "12/19~01/15",
+		"link": "/Company/1937381/Info"
+	},
 	"㈜컴파트너스": {
 		"state": "마감",
 		"content": "[분당] NAVER 쇼핑 CS 및 업무지원",
@@ -3296,19 +3324,82 @@
 		"plan": "10/17~10/31",
 		"link": "/Company/16151136/Info"
 	},
-	"금호건설㈜": {
-		"state": "예상",
-		"content": "2023년 상반기 금호건설 신입/경력 모집",
-		"position": "신입",
-		"plan": "12/20~12/28",
-		"link": "/Company/1794828/Info"
+	"코오롱글로벌": {
+		"state": "시작",
+		"content": "2023년 상반기 채용연계형 인턴사원 채용",
+		"position": "인턴·신입",
+		"plan": "12/20~12/29",
+		"link": "/Company/1428564/Info"
 	},
-	"㈜지마켓": {
-		"state": "예상",
-		"content": "신입 개발자 공채",
-		"position": "신입",
-		"plan": "12/20~12/28",
-		"link": "/Company/1578864/Info"
+	"폴리미래㈜": {
+		"state": "시작",
+		"content": "2023년 상반기 대졸 신입/경력사원 채용",
+		"position": "신입·경력",
+		"plan": "12/20~01/01",
+		"link": "/Company/1498446/Info"
+	},
+	"영풍전자㈜": {
+		"state": "마감",
+		"content": "영풍전자(주) FPCB 부문별 생산직/생산지원직 채용",
+		"position": "경력무관",
+		"plan": "12/20~12/27",
+		"link": "/Company/1329020/Info"
+	},
+	"관악신용협동조합": {
+		"state": "마감",
+		"content": "2023년 신규직원 채용",
+		"position": "신입·경력",
+		"plan": "12/20~12/31",
+		"link": "/Company/42531139/Info"
+	},
+	"더블유스코프코리아㈜": {
+		"state": "시작",
+		"content": "2022년 하반기 신입 및 경력사원 모집",
+		"position": "인턴·신입·경력",
+		"plan": "12/20~01/02",
+		"link": "/Recruit/Co_Read/C/WSCOPE"
+	},
+	"롯데관광개발㈜": {
+		"state": "시작",
+		"content": "[제주드림타워복합리조트/그랜드하얏트제주] 신입&경력직 채용",
+		"position": "신입·경력",
+		"plan": "12/20~01/02",
+		"link": "/Recruit/Co_Read/C/jjdtir"
+	},
+	"㈜보미건설": {
+		"state": "시작",
+		"content": "2023년 상반기 보미건설 신입 및 경력사원 수시채용",
+		"position": "신입·경력",
+		"plan": "12/20~01/15",
+		"link": "/Company/1429495/Info"
+	},
+	"㈜커넥트웨이브": {
+		"state": "마감",
+		"content": "[다나와] 각 부문별 경력/신입 모집",
+		"position": "인턴·신입·경력",
+		"plan": "12/20~12/26",
+		"link": "/Company/1915672/Info"
+	},
+	"코오롱그룹": {
+		"state": "마감",
+		"content": "2022년 코오롱그룹 12월 정기공채",
+		"position": "인턴·신입·경력",
+		"plan": "12/20~12/31",
+		"link": "/Company/1712097/Info"
+	},
+	"퍼플아카데미": {
+		"state": "시작",
+		"content": "2022년 각 부문 채용[영어교육연구원 / 수업관리 및 상담티처]",
+		"position": "신입·경력",
+		"plan": "12/20~01/20",
+		"link": "/Company/16154126/Info"
+	},
+	"GS네트웍스": {
+		"state": "마감",
+		"content": "[GS네트웍스] 부문별 신입/경력사원 채용",
+		"position": "신입·경력",
+		"plan": "12/20~12/30",
+		"link": "/Recruit/Co_Read/C/gsn1234"
 	},
 	"㈜스토리위즈": {
 		"state": "마감",

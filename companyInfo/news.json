@@ -108,7 +108,7 @@
 		"state": "마감",
 		"content": "애플스토어 신입/경력직 채용",
 		"position": "신입·경력",
-		"plan": "12/01~12/31",
+		"plan": "12/01~01/31",
 		"link": "/Company/1597943/Info"
 	},
 	"에쓰씨케이": {
@@ -3190,13 +3190,6 @@
 		"position": "인턴·경력무관",
 		"plan": "12/19~01/01",
 		"link": "/Company/1605233/Info"
-	},
-	"㈜고세코리아": {
-		"state": "마감",
-		"content": "[KOSE KOREA] 면세점 판매직원 채용 (서울 시내 면세점 및 제주 면세점)",
-		"position": "신입·경력",
-		"plan": "12/19~12/31",
-		"link": "/Recruit/Co_Read/C/kosedutyfree"
 	},
 	"㈜아성 HMP": {
 		"state": "시작",

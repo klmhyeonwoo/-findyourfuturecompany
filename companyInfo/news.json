@@ -230,6 +230,13 @@
 		"plan": "01/02~01/13",
 		"link": "/Company/1595743/Info"
 	},
+	"㈜ABB코리아": {
+		"state": "시작",
+		"content": "[ABB 코리아] 각 부문 채용",
+		"position": "신입·경력",
+		"plan": "01/02~01/31",
+		"link": "/Company/1902437/Info"
+	},
 	"\tBGF로지스": {
 		"state": "시작",
 		"content": "2023년도 신입 및 경력사원 공개채용",
@@ -257,6 +264,13 @@
 		"position": "신입·경력",
 		"plan": "01/02~01/11",
 		"link": "/Company/1702086/Info"
+	},
+	"더블유씨피㈜": {
+		"state": "마감",
+		"content": "[더블유씨피㈜] 2023년 상반기 신입 및 경력사원 모집",
+		"position": "인턴·신입·경력",
+		"plan": "01/02~01/16",
+		"link": "/Recruit/Co_Read/C/wcp1026"
 	},
 	"보나캠프㈜": {
 		"state": "시작",

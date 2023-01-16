@@ -279,13 +279,6 @@
 		"plan": "01/02~01/11",
 		"link": "/Company/1702086/Info"
 	},
-	"더블유씨피㈜": {
-		"state": "마감",
-		"content": "[더블유씨피㈜] 2023년 상반기 신입 및 경력사원 모집",
-		"position": "인턴·신입·경력",
-		"plan": "01/02~01/15",
-		"link": "/Recruit/Co_Read/C/wcp1026"
-	},
 	"보나캠프㈜": {
 		"state": "마감",
 		"content": "2023년 각부문(VAN(POS, KIOSK), 모바일 앱, UI/백엔드, ERP개발, 쇼핑몰MD, C/S) 신입 및 경력 채용",
@@ -916,13 +909,6 @@
 		"plan": "01/05~04/05",
 		"link": "/Company/1509632/Info"
 	},
-	"동국생명과학㈜": {
-		"state": "마감",
-		"content": "조영제의약품 마케팅, 원료의약품 생산, 생산관리 신입(경력)사원 채용",
-		"position": "신입·경력",
-		"plan": "01/05~01/15",
-		"link": "/Recruit/Co_Read/C/dkls01"
-	},
 	"써모피셔사이언티픽 코리아": {
 		"state": "마감",
 		"content": "써모피셔 사이언티픽 코리아 2023 경력직/신입 채용",
@@ -1385,13 +1371,6 @@
 		"plan": "12/23~12/27",
 		"link": "/Company/16154435/Info"
 	},
-	"에스엠상선㈜건설부문": {
-		"state": "마감",
-		"content": "SM그룹 계열사 삼라농원 직원 모집공고",
-		"position": "신입·경력",
-		"plan": "01/07~01/15",
-		"link": "/Recruit/Co_Read/C/smwoobang"
-	},
 	"용마로지스㈜": {
 		"state": "마감",
 		"content": "23년 1월, 각 부문별 신입 및 경력 채용",
@@ -1571,7 +1550,7 @@
 		"state": "마감",
 		"content": "코스닥 상장사 ㈜딜리 부문별 채용 [해외영업 본사,서울사무소/생산관리/국내영업]",
 		"position": "신입·경력",
-		"plan": "12/28~01/19",
+		"plan": "12/28~01/27",
 		"link": "/Company/1416041/Info"
 	},
 	"㈜수산인더스트리": {
@@ -1651,13 +1630,6 @@
 		"plan": "01/09~01/16",
 		"link": "/Recruit/Co_Read/C/hc2612"
 	},
-	"롯데네슬레코리아㈜": {
-		"state": "마감",
-		"content": "롯데네슬레코리아 신입/경력 공개채용",
-		"position": "신입·경력",
-		"plan": "01/09~01/15",
-		"link": "/Recruit/Co_Read/C/lottenestle"
-	},
 	"메디포스트㈜": {
 		"state": "시작",
 		"content": "세포치료제GMP공장 제조, 품질 부문 신입/경력 수시채용",
@@ -1671,13 +1643,6 @@
 		"position": "신입·경력",
 		"plan": "01/09~02/08",
 		"link": "/Company/1793161/Info"
-	},
-	"알파사이츠 연락사무소": {
-		"state": "마감",
-		"content": "알파사이츠 2023년도 상반기 대규모 신입 채용 (Korean/English speaker)",
-		"position": "신입",
-		"plan": "01/09~01/15",
-		"link": "/Recruit/Co_Read/C/alphasightshk11"
 	},
 	"에이치디현대㈜": {
 		"state": "마감",
@@ -2729,26 +2694,12 @@
 		"plan": "10/17~01/15",
 		"link": "/Company/1934814/Info"
 	},
-	"동양이엔피㈜": {
-		"state": "마감",
-		"content": "동양이엔피(주) 연구개발(R&D) 신입사원 채용 (3in1 Board)",
-		"position": "신입",
-		"plan": "12/16~01/15",
-		"link": "/Recruit/Co_Read/C/dy236"
-	},
 	"㈜이랜텍": {
 		"state": "마감",
 		"content": "(주)이랜텍 각 부문별 신입 및 경력사원 모집",
 		"position": "신입·경력",
 		"plan": "12/16~01/15",
 		"link": "/Company/1602490/Info"
-	},
-	"서연이화": {
-		"state": "마감",
-		"content": "2023년 경력/신입사원 채용",
-		"position": "신입·경력",
-		"plan": "12/26~01/15",
-		"link": "/Recruit/Co_Read/C/c-038854"
 	},
 	"신동아골프㈜": {
 		"state": "마감",
@@ -2763,13 +2714,6 @@
 		"position": "인턴·신입·경력",
 		"plan": "12/28~01/15",
 		"link": "/Company/45738333/Info"
-	},
-	"이타스코리아㈜": {
-		"state": "마감",
-		"content": "[이타스코리아] 정규직 채용(Security Consultant 외 2건)",
-		"position": "신입·경력",
-		"plan": "12/27~01/15",
-		"link": "/Recruit/Co_Read/C/etaskorea"
 	},
 	"㈜보미건설": {
 		"state": "마감",
@@ -2887,7 +2831,7 @@
 		"state": "마감",
 		"content": "한국유미코아 기술연구소 및 부문별 신입/경력 채용",
 		"position": "신입·경력",
-		"plan": "12/23~01/19",
+		"plan": "12/23~03/23",
 		"link": "/Company/1904870/Info"
 	},
 	"성NH농협은행": {

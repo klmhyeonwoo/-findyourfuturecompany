@@ -743,9 +743,9 @@
 	},
 	"환인제약㈜": {
 		"state": "마감",
-		"content": "환인제약(주) 2023년 전문연구요원 채용",
+		"content": "환인제약(주) 1월 신입/경력 수시채용",
 		"position": "신입·경력",
-		"plan": "01/04~01/17",
+		"plan": "01/18~01/31",
 		"link": "/Company/1808058/Info"
 	},
 	"㈜에스원": {
@@ -3184,6 +3184,13 @@
 		"plan": "01/18~02/08",
 		"link": "/Company/1561548/Info"
 	},
+	"㈜사노피-아벤티스코리아": {
+		"state": "마감",
+		"content": "[Sanofi/사노피] Supply Chain Trainee(인턴)",
+		"position": "인턴·신입",
+		"plan": "01/18~01/27",
+		"link": "/Company/1548516/Info"
+	},
 	"㈜세일종합기술공사": {
 		"state": "마감",
 		"content": "㈜세일종합기술공사 2023년 정규직 신입 및 경력 채용",
@@ -3198,6 +3205,13 @@
 		"plan": "01/18~01/28",
 		"link": "/Company/1903552/Info"
 	},
+	"㈜파라다이스세가사미": {
+		"state": "시작",
+		"content": "파라다이스시티 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "01/18~02/05",
+		"link": "/Recruit/Co_Read/C/parasega"
+	},
 	"㈜포인트닉스": {
 		"state": "마감",
 		"content": "2023년 상반기 국내영업 공개채용",
@@ -3211,6 +3225,13 @@
 		"position": "신입·경력",
 		"plan": "01/18~02/05",
 		"link": "/Company/43885421/Info"
+	},
+	"㈜현대캐터링시스템": {
+		"state": "마감",
+		"content": "현대캐터링시스템 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "01/18~01/25",
+		"link": "/Recruit/Co_Read/C/hyundaictr"
 	},
 	"대구경북첨단의료산업진흥재단": {
 		"state": "발표",

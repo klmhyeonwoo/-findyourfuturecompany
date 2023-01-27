@@ -490,10 +490,10 @@
 		"link": "/Company/43148207/Info"
 	},
 	"일화": {
-		"state": "마감",
-		"content": "2023년도 신입 및 경력 채용(01)",
+		"state": "시작",
+		"content": "2023년도 신입 및 경력 채용(02)",
 		"position": "신입·경력",
-		"plan": "01/03~01/10",
+		"plan": "01/27~02/02",
 		"link": "/Company/1848916/Info"
 	},
 	"㈜라인건설": {
@@ -1554,10 +1554,10 @@
 		"link": "/Company/1493315/Info"
 	},
 	"무림페이퍼": {
-		"state": "마감",
+		"state": "시작",
 		"content": "2023년 사무&기술직 신입 채용",
 		"position": "신입",
-		"plan": "01/09~01/16",
+		"plan": "01/27~02/05",
 		"link": "/Company/1630130/Info"
 	},
 	"㈜하나투어": {
@@ -2254,10 +2254,10 @@
 		"link": "/Company/16153707/Info"
 	},
 	"스템코㈜": {
-		"state": "마감",
-		"content": "각 부분 신입 및 경력 채용(재경/CS담당/설비보전/시설지원)",
+		"state": "시작",
+		"content": "스템코(주) 고객품질(고객품질 담당) 대졸 신입 및 경력 모집",
 		"position": "신입·경력",
-		"plan": "01/12~01/24",
+		"plan": "01/27~02/12",
 		"link": "/Company/1353271/Info"
 	},
 	"엔에이치엔서비스 주식회사(NHN Service Corporation)": {
@@ -4094,6 +4094,13 @@
 		"plan": "01/27~02/26",
 		"link": "/Recruit/Co_Read/C/dy236"
 	},
+	"㈜체리부로": {
+		"state": "시작",
+		"content": "환경(수질, 대기) 관리 신입 및 경력",
+		"position": "경력무관",
+		"plan": "01/27~04/27",
+		"link": "/Company/1516446/Info"
+	},
 	"(주)이랜드이노플": {
 		"state": "시작",
 		"content": "이랜드이노플 법무팀 신입사원 채용",
@@ -4108,12 +4115,26 @@
 		"plan": "01/27~02/18",
 		"link": "/Recruit/Co_Read/C/kdexp12"
 	},
+	"경신전선": {
+		"state": "시작",
+		"content": "㈜경신전선 총무직무 경력/신입사원 수시채용",
+		"position": "신입·경력",
+		"plan": "01/27~02/02",
+		"link": "/Recruit/Co_Read/C/kscable1"
+	},
 	"나노종합기술원": {
 		"state": "시작",
 		"content": "2023년 제1차 기간제 직원 채용",
 		"position": "신입·경력",
 		"plan": "01/27~02/10",
 		"link": "/Company/16153512/Info"
+	},
+	"㈔캠틱종합기술원": {
+		"state": "시작",
+		"content": "2023년도 신규직원 채용 공고",
+		"position": "신입·경력",
+		"plan": "01/27~02/09",
+		"link": "/Company/1350309/Info"
 	},
 	"양우종합건설": {
 		"state": "시작",
@@ -4128,6 +4149,13 @@
 		"position": "신입·경력",
 		"plan": "01/27~02/09",
 		"link": "/Company/1820581/Info"
+	},
+	"익수제약㈜": {
+		"state": "시작",
+		"content": "익수제약(주) 경영지원부 경력사원 채용공고",
+		"position": "경력무관",
+		"plan": "01/27~02/12",
+		"link": "/Recruit/Co_Read/C/iksu1112"
 	},
 	"㈜매경닷컴": {
 		"state": "시작",

@@ -1162,10 +1162,10 @@
 		"link": "/Company/1484973/Info"
 	},
 	"㈜경보제약": {
-		"state": "마감",
+		"state": "시작",
 		"content": "경보제약 각 부서 신입/경력 수시 채용",
 		"position": "신입·경력",
-		"plan": "01/06~01/15",
+		"plan": "01/27~02/05",
 		"link": "/Company/1942890/Info"
 	},
 	"㈜시몬스": {
@@ -1763,13 +1763,6 @@
 		"plan": "01/10~01/20",
 		"link": "/Company/16154015/Info"
 	},
-	"더블유스코프코리아㈜": {
-		"state": "마감",
-		"content": "2023년 상반기 신입 및 경력사원 모집",
-		"position": "인턴·신입·경력",
-		"plan": "01/10~01/27",
-		"link": "/Recruit/Co_Read/C/WSCOPE"
-	},
 	"동화약품㈜": {
 		"state": "마감",
 		"content": "2023년 신입 및 경력사원 모집",
@@ -2352,10 +2345,10 @@
 		"link": "/Recruit/Co_Read/C/wooyang71"
 	},
 	"㈜이노와이어리스": {
-		"state": "마감",
-		"content": "[LIG그룹 계열사] 큐셀네트웍스 통신장비 품질 엔지니어(QE) 신입 경력 모집",
+		"state": "시작",
+		"content": "[LIG그룹 계열사] 이노와이어리스 서버 SE (시스템 엔지니어) 신입 경력 모집",
 		"position": "경력무관",
-		"plan": "01/12~01/26",
+		"plan": "01/27~02/13",
 		"link": "/Company/1919796/Info"
 	},
 	"㈜코텍": {
@@ -3184,13 +3177,6 @@
 		"plan": "01/18~02/05",
 		"link": "/Company/43885421/Info"
 	},
-	"㈜현대캐터링시스템": {
-		"state": "마감",
-		"content": "현대캐터링시스템 신입/경력 채용",
-		"position": "신입·경력",
-		"plan": "01/18~01/27",
-		"link": "/Recruit/Co_Read/C/hyundaictr"
-	},
 	"케이티넥스알": {
 		"state": "마감",
 		"content": "2023년 신입사원 채용 - AIVLE SCHOOL 잡페어 2기 인원 전용",
@@ -3463,13 +3449,6 @@
 		"position": "신입·경력",
 		"plan": "01/20~04/20",
 		"link": "/Company/16154326/Info"
-	},
-	"써모피셔사이언티픽 코리아": {
-		"state": "마감",
-		"content": "써모피셔 사이언티픽 코리아 2023 경력직/신입 채용",
-		"position": "신입·경력",
-		"plan": "01/20~01/27",
-		"link": "/Recruit/Co_Read/C/thermofisher1"
 	},
 	"어드밴텍케이알㈜": {
 		"state": "마감",

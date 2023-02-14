@@ -616,10 +616,10 @@
 		"link": "/Company/1376390/Info"
 	},
 	"슈어소프트테크㈜": {
-		"state": "마감",
-		"content": "2023년 상반기 경력직 모집",
+		"state": "시작",
+		"content": "2023년 상반기 신입/경력 모집",
 		"position": "신입·경력",
-		"plan": "01/09~02/08",
+		"plan": "02/14~04/15",
 		"link": "/Company/1793161/Info"
 	},
 	"신안정보통신": {
@@ -750,9 +750,9 @@
 	},
 	"현대첨단소재주식회사": {
 		"state": "마감",
-		"content": "Application개발팀 사출업무 사원 모집",
+		"content": "Application개발팀 연구원 모집",
 		"position": "신입·경력",
-		"plan": "02/02~02/12",
+		"plan": "02/14~02/26",
 		"link": "/Company/1982102/Info"
 	},
 	"KG할리스에프앤비": {
@@ -2528,9 +2528,9 @@
 	},
 	"LT소재㈜": {
 		"state": "마감",
-		"content": "LT소재 신입 및 경력사원 채용공고",
-		"position": "신입·경력",
-		"plan": "01/31~02/09",
+		"content": "LT소재 안성공장 기능직(생산직) 사원 채용",
+		"position": "경력무관",
+		"plan": "02/14~02/23",
 		"link": "/Company/1893764/Info"
 	},
 	"성제주은행": {
@@ -3037,6 +3037,13 @@
 		"plan": "02/13~02/21",
 		"link": "/Recruit/Co_Read/C/c-036771"
 	},
+	"스노우": {
+		"state": "마감",
+		"content": "3월 전분야 체험형 인턴 모집",
+		"position": "인턴·신입",
+		"plan": "02/13~02/21",
+		"link": "/Company/16152280/Info"
+	},
 	"아인스미디어": {
 		"state": "시작",
 		"content": "[아인스미디어] 2023년 인사총무 신입 채용모집",
@@ -3228,7 +3235,7 @@
 	},
 	"㈜보령": {
 		"state": "마감",
-		"content": "전문의약품 영업 Onco부문 신입/경력 모집 (항암제)",
+		"content": "전문의약품 영업 Onco부문 신입 모집 (항암제)",
 		"position": "경력무관",
 		"plan": "02/14~02/28",
 		"link": "/Company/1876727/Info"
@@ -3261,6 +3268,20 @@
 		"plan": "02/14~02/23",
 		"link": "/Recruit/Co_Read/C/sit0409"
 	},
+	"신한자산신탁㈜": {
+		"state": "마감",
+		"content": "신한자산신탁 2023년 사무직원 계약직 채용",
+		"position": "신입·경력",
+		"plan": "02/14~02/22",
+		"link": "/Company/16151165/Info"
+	},
+	"아반스트레이트코리아㈜": {
+		"state": "시작",
+		"content": "IT Group 담당자 신입 및 경력직 채용모집",
+		"position": "신입·경력",
+		"plan": "02/14~05/15",
+		"link": "/Company/1360443/Info"
+	},
 	"오씨아이파워㈜": {
 		"state": "시작",
 		"content": "User Interface SW개발(HMI, QT, 통신프로토콜) 신입/경력 채용",
@@ -3281,6 +3302,20 @@
 		"position": "신입·경력",
 		"plan": "02/14~02/20",
 		"link": "/Recruit/Co_Read/C/sias2004"
+	},
+	"㈜누리미디어": {
+		"state": "마감",
+		"content": "[DBpia] 2023년 상반기 신입 수시채용 (해외 영업, 전략 기획, 웹 서비스 기획, 데이터 분석)",
+		"position": "신입",
+		"plan": "02/14~02/26",
+		"link": "/Recruit/Co_Read/C/hrnuri"
+	},
+	"㈜링네트": {
+		"state": "시작",
+		"content": "네트워크엔지니어 신입사원 수시채용 (신입 연봉 3700만)",
+		"position": "신입",
+		"plan": "02/14~05/15",
+		"link": "/Company/1945392/Info"
 	},
 	"㈜백학음료": {
 		"state": "마감",
@@ -3316,6 +3351,13 @@
 		"position": "신입",
 		"plan": "02/14~02/20",
 		"link": "/Company/16153488/Info"
+	},
+	"한양건설": {
+		"state": "마감",
+		"content": "신입 및 경력사원 모집",
+		"position": "신입·경력",
+		"plan": "02/14~02/20",
+		"link": "/Recruit/Co_Read/C/c-036486"
 	},
 	"현대중공업터보기계㈜": {
 		"state": "마감",

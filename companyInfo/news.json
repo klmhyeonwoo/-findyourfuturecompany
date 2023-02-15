@@ -1588,13 +1588,6 @@
 		"plan": "02/06~02/12",
 		"link": "/Company/1640831/Info"
 	},
-	"㈜에스엔엔씨": {
-		"state": "마감",
-		"content": "[포스코그룹 SNNC] 2023년 신입/경력 공개채용 모집",
-		"position": "인턴·신입·경력",
-		"plan": "02/06~02/15",
-		"link": "/Recruit/Co_Read/C/poscosnnc"
-	},
 	"SFA반도체㈜": {
 		"state": "마감",
 		"content": "2023년도 부문별 신입/경력 채용",
@@ -3494,7 +3487,7 @@
 	},
 	"GS네오텍㈜": {
 		"state": "시작",
-		"content": "2023년 GS네오텍 신입.경력사원/PJT전문직 채용",
+		"content": "2023년 GS네오텍 정규직 신입.경력사원/PJT전문직 채용",
 		"position": "신입·경력",
 		"plan": "02/15~03/05",
 		"link": "/Company/1729980/Info"

@@ -4024,6 +4024,13 @@
 		"plan": "02/17~03/02",
 		"link": "/Recruit/Co_Read/C/WSCOPE"
 	},
+	"동국제약㈜": {
+		"state": "마감",
+		"content": "각 부문 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "02/17~02/23",
+		"link": "/Company/1403273/Info"
+	},
 	"동성케미컬": {
 		"state": "마감",
 		"content": "2023년 신입사원(인턴) 모집",
@@ -4037,6 +4044,13 @@
 		"position": "신입·경력",
 		"plan": "02/17~02/26",
 		"link": "/Recruit/Co_Read/C/nongminnp"
+	},
+	"엔에이치엔한국사이버결제㈜": {
+		"state": "시작",
+		"content": "NHN KCP(주) PG결제서비스 개발지원 업무(신입ㆍ경력)",
+		"position": "신입·경력",
+		"plan": "02/17~03/19",
+		"link": "/Company/16153497/Info"
 	},
 	"원스토어": {
 		"state": "시작",
@@ -4149,6 +4163,13 @@
 		"position": "인턴·신입",
 		"plan": "01/30~02/19",
 		"link": "/Company/1832112/Info"
+	},
+	"주식회사 파수": {
+		"state": "시작",
+		"content": "2023년 1차 신입 공개 채용(컨설턴트/기술지원, 사업)",
+		"position": "인턴·신입",
+		"plan": "02/20~03/05",
+		"link": "/Company/1715234/Info"
 	},
 	"구찌코리아 유한책임회사": {
 		"state": "마감",

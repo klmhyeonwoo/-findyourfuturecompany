@@ -993,13 +993,6 @@
 		"plan": "02/03~02/13",
 		"link": "/Company/16153707/Info"
 	},
-	"삼정KPMG (유)": {
-		"state": "마감",
-		"content": "[삼정KPMG] IT Auditor 신입/경력직 채용",
-		"position": "신입·경력",
-		"plan": "02/03~02/24",
-		"link": "/Recruit/Co_Read/C/kpmgkorea"
-	},
 	"아시아나에어포트㈜": {
 		"state": "마감",
 		"content": "2023년도 지상조업직 신입사원 채용 모집공고",
@@ -2736,13 +2729,6 @@
 		"plan": "01/21~02/12",
 		"link": "/Company/1634850/Info"
 	},
-	"루이비통코리아": {
-		"state": "마감",
-		"content": "2023 LOUIS VUITTON 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "02/12~02/24",
-		"link": "/Recruit/Co_Read/C/lvuitton"
-	},
 	"㈜케이씨씨": {
 		"state": "마감",
 		"content": "KCC 울산공장 부문별 테크니션 채용",
@@ -2835,10 +2821,10 @@
 		"link": "/Company/1730925/Info"
 	},
 	"㈜셀트리온": {
-		"state": "마감",
-		"content": "㈜셀트리온 IR/재무/인사 분야 수시채용",
-		"position": "신입·경력",
-		"plan": "01/27~02/12",
+		"state": "시작",
+		"content": "㈜셀트리온 연구개발 분야 신입/경력 수시채용",
+		"position": "경력무관",
+		"plan": "02/24~03/12",
 		"link": "/Company/1845153/Info"
 	},
 	"㈜와이지-원": {
@@ -3548,13 +3534,6 @@
 		"plan": "02/15~03/02",
 		"link": "/Recruit/Co_Read/C/c-036987"
 	},
-	"해외건설협회": {
-		"state": "마감",
-		"content": "2023년 상반기 해외건설협회 정규직 직원채용 공고",
-		"position": "신입·경력",
-		"plan": "02/15~02/24",
-		"link": "/Recruit/Co_Read/C/icak"
-	},
 	"현대무벡스㈜": {
 		"state": "마감",
 		"content": "2023년 R&D 전문연구요원 모집",
@@ -3785,13 +3764,6 @@
 		"position": "신입·경력",
 		"plan": "02/16~02/22",
 		"link": "/Company/1393248/Info"
-	},
-	"㈜현대캐터링시스템": {
-		"state": "마감",
-		"content": "현대캐터링시스템 신입/경력 채용",
-		"position": "신입·경력",
-		"plan": "02/16~02/24",
-		"link": "/Recruit/Co_Read/C/hyundaictr"
 	},
 	"㈜GC케어": {
 		"state": "시작",
@@ -4786,6 +4758,13 @@
 		"position": "신입·경력",
 		"plan": "02/24~03/31",
 		"link": "/Recruit/Co_Read/C/ss0435"
+	},
+	"㈜우양": {
+		"state": "시작",
+		"content": "각 부문별 정규직 사원 모집 - (산업안전보건/공무/생산OP/물류/회계/환경관리부)",
+		"position": "신입·경력",
+		"plan": "02/24~03/10",
+		"link": "/Recruit/Co_Read/C/wooyang71"
 	},
 	"한국로봇융합연구원": {
 		"state": "시작",

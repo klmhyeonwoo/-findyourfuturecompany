@@ -664,12 +664,26 @@
 		"plan": "03/03~03/09",
 		"link": "/Company/1831538/Info"
 	},
+	"피에스앤마케팅(주)": {
+		"state": "마감",
+		"content": "[SK그룹] 피에스앤마케팅 회계 Junior (신입/-3년차) 채용",
+		"position": "신입",
+		"plan": "03/03~03/19",
+		"link": "/Company/1451344/Info"
+	},
 	"㈜신원": {
 		"state": "마감",
 		"content": "(주)신원 수출업무팀 신입 채용",
 		"position": "인턴·신입",
 		"plan": "03/03~03/19",
 		"link": "/Company/1575959/Info"
+	},
+	"동국시스템즈㈜": {
+		"state": "마감",
+		"content": "[동국시스템즈] Data Driven Platform Engineer 모집",
+		"position": "경력무관",
+		"plan": "03/03~03/19",
+		"link": "/Company/1516079/Info"
 	},
 	"롯데네슬레코리아㈜": {
 		"state": "마감",
@@ -1532,13 +1546,6 @@
 		"plan": "02/21~03/08",
 		"link": "/Company/1565778/Info"
 	},
-	"동국시스템즈㈜": {
-		"state": "마감",
-		"content": "[동국시스템즈] SAP PP모듈 운영 및 ABAP 개발 (경력무관)",
-		"position": "경력무관",
-		"plan": "02/23~03/08",
-		"link": "/Company/1516079/Info"
-	},
 	"세종문화회관": {
 		"state": "발표",
 		"content": "2023년 사무국 일반직 공개채용",
@@ -1958,6 +1965,13 @@
 		"position": "신입·경력",
 		"plan": "02/27~03/12",
 		"link": "/Company/1641322/Info"
+	},
+	"㈔캠틱종합기술원": {
+		"state": "마감",
+		"content": "2023년도 신규직원 채용 공고",
+		"position": "경력무관",
+		"plan": "02/27~03/12",
+		"link": "/Company/1350309/Info"
 	},
 	"삼전순약공업㈜": {
 		"state": "마감",

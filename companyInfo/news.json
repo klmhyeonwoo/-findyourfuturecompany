@@ -706,12 +706,33 @@
 		"plan": "03/03~03/15",
 		"link": "/Recruit/Co_Read/C/Tangun"
 	},
+	"㈜비어케이(칭따오맥주)": {
+		"state": "마감",
+		"content": "㈜비어케이 주류 영업 및 마케터 채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/17",
+		"link": "/Recruit/Co_Read/C/beerkorea"
+	},
 	"㈜서흥": {
 		"state": "마감",
 		"content": "관리업무 담당 사원 모집",
 		"position": "신입",
 		"plan": "02/14~03/14",
 		"link": "/Company/1697960/Info"
+	},
+	"㈜셀트리온제약": {
+		"state": "마감",
+		"content": "(주)셀트리온제약 신입/경력 수시채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/12",
+		"link": "/Company/16154202/Info"
+	},
+	"㈜유유제약": {
+		"state": "마감",
+		"content": "㈜유유제약  학술팀 신입/경력 모집",
+		"position": "인턴·경력무관",
+		"plan": "03/03~03/12",
+		"link": "/Recruit/Co_Read/C/yuyuinc"
 	},
 	"㈜재능교육": {
 		"state": "마감",
@@ -734,6 +755,13 @@
 		"plan": "03/03~03/24",
 		"link": "/Company/1458230/Info"
 	},
+	"㈜GS엔텍": {
+		"state": "시작",
+		"content": "(주)GS엔텍 사업관리팀 경력 채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/26",
+		"link": "/Company/1356060/Info"
+	},
 	"콘티넨탈 오토모티브 일렉트로닉스 유한회사": {
 		"state": "마감",
 		"content": "콘티넨탈 부문별 인재 채용 (신입/경력)",
@@ -747,6 +775,13 @@
 		"position": "신입·경력",
 		"plan": "03/03~03/09",
 		"link": "/Company/16153463/Info"
+	},
+	"크리스챤디올꾸뛰르코리아": {
+		"state": "마감",
+		"content": "부티크 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/17",
+		"link": "/Company/43435314/Info"
 	},
 	"하나마이크론㈜": {
 		"state": "시작",
@@ -1970,7 +2005,7 @@
 		"state": "마감",
 		"content": "2023년도 신규직원 채용 공고",
 		"position": "경력무관",
-		"plan": "02/27~03/12",
+		"plan": "02/27~03/16",
 		"link": "/Company/1350309/Info"
 	},
 	"삼전순약공업㈜": {
@@ -2049,13 +2084,6 @@
 		"position": "신입",
 		"plan": "02/10~03/12",
 		"link": "/Company/44409574/Info"
-	},
-	"크리스챤디올꾸뛰르코리아": {
-		"state": "마감",
-		"content": "크리스챤디올꾸뛰르코리아㈜ 2023 공개채용 신입/경력",
-		"position": "신입·경력",
-		"plan": "01/30~02/28",
-		"link": "/Company/43435314/Info"
 	},
 	"한스바이오메드": {
 		"state": "마감",

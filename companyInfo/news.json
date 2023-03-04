@@ -248,7 +248,7 @@
 		"state": "마감",
 		"content": "[현대글로벌기술서비스] 2023년 상반기 신입 및 경력사원 모집",
 		"position": "신입·경력",
-		"plan": "02/17~03/07",
+		"plan": "02/17~05/18",
 		"link": "/Company/48847501/Info"
 	},
 	"LS전선㈜": {
@@ -678,6 +678,13 @@
 		"plan": "03/03~03/19",
 		"link": "/Company/1575959/Info"
 	},
+	"㈜풍인무역": {
+		"state": "마감",
+		"content": "(주)풍인무역 전산팀 각 부문 신입/경력 채용 (ERP/WEB/SM)",
+		"position": "신입·경력",
+		"plan": "02/09~03/11",
+		"link": "/Company/1894608/Info"
+	},
 	"동국시스템즈㈜": {
 		"state": "마감",
 		"content": "[동국시스템즈] Data Driven Platform Engineer 모집",
@@ -691,6 +698,13 @@
 		"position": "신입·경력",
 		"plan": "03/03~03/10",
 		"link": "/Recruit/Co_Read/C/lottenestle"
+	},
+	"비를라카본코리아㈜": {
+		"state": "마감",
+		"content": "HR Generalist 신입 및 경력 채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/09",
+		"link": "/Company/1506823/Info"
 	},
 	"에스엠상선㈜건설부문": {
 		"state": "마감",
@@ -811,6 +825,13 @@
 		"plan": "03/03~03/13",
 		"link": "/Company/1808058/Info"
 	},
+	"BMW 바바리안모터스": {
+		"state": "마감",
+		"content": "BMW 바바리안모터스 본사 직무별 채용",
+		"position": "신입·경력",
+		"plan": "03/03~03/31",
+		"link": "/Company/1596221/Info"
+	},
 	"GS네트웍스": {
 		"state": "마감",
 		"content": "[GS네트웍스] GS25 점포영업담당 채용",
@@ -853,13 +874,6 @@
 		"plan": "02/15~03/10",
 		"link": "/Recruit/Co_Read/C/nokwon0275"
 	},
-	"두원이에프씨㈜": {
-		"state": "마감",
-		"content": "[두원그룹] 공무/설계 신입 채용공고",
-		"position": "신입",
-		"plan": "02/21~03/03",
-		"link": "/Recruit/Co_Read/C/doowo6600"
-	},
 	"람정제주개발": {
 		"state": "마감",
 		"content": "[복합리조트] 제주신화월드 통합지원(노무/총무/법무/구매/재무/보안/감사/콘도서비스) 부문 모집",
@@ -873,20 +887,6 @@
 		"position": "신입·경력",
 		"plan": "02/01~05/02",
 		"link": "/Company/44080743/Info"
-	},
-	"브이엘엔코": {
-		"state": "마감",
-		"content": "(주)VL&CO 각 부문별 신입/경력 수시 채용",
-		"position": "인턴·신입·경력",
-		"plan": "02/22~03/03",
-		"link": "/Recruit/Co_Read/C/vlandco"
-	},
-	"삼아알미늄㈜": {
-		"state": "마감",
-		"content": "2023년 상반기 신입사원 모집",
-		"position": "신입",
-		"plan": "02/22~03/03",
-		"link": "/Recruit/Co_Read/C/samainsa"
 	},
 	"삼화왕관㈜": {
 		"state": "마감",
@@ -922,13 +922,6 @@
 		"position": "인턴·경력무관",
 		"plan": "02/21~03/03",
 		"link": "/Company/1671551/Info"
-	},
-	"㈜법보신문사": {
-		"state": "마감",
-		"content": "편집국 취재기자 경력/신입 채용",
-		"position": "신입·경력",
-		"plan": "02/17~03/03",
-		"link": "/Recruit/Co_Read/C/beopbo57"
 	},
 	"한국수출입은행": {
 		"state": "발표",
@@ -1487,7 +1480,7 @@
 		"state": "마감",
 		"content": "[대림바스] 부문별 신입 및 경력사원 채용",
 		"position": "신입·경력",
-		"plan": "02/22~03/07",
+		"plan": "02/22~03/09",
 		"link": "/Company/16153881/Info"
 	},
 	"아미코젠㈜": {
@@ -1636,13 +1629,6 @@
 		"position": "인턴·신입·경력",
 		"plan": "02/27~03/09",
 		"link": "/Company/1671321/Info"
-	},
-	"㈜풍인무역": {
-		"state": "마감",
-		"content": "(주)풍인무역 전산팀 각 부문 신입/경력 채용 (ERP/WEB/SM)",
-		"position": "신입·경력",
-		"plan": "02/09~03/11",
-		"link": "/Company/1894608/Info"
 	},
 	"대외경제정책연구원": {
 		"state": "마감",

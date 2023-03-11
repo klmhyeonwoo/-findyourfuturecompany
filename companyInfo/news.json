@@ -342,13 +342,6 @@
 		"plan": "03/02~04/04",
 		"link": "/Company/1617458/Info"
 	},
-	"동국생명과학㈜": {
-		"state": "마감",
-		"content": "인사총무(계약직), 회계(세무)&자금, 조영제의약품 마케팅, 영상진단장비 영업, 안전환경, 원료의약품 생산팀, 연구원 신입(경력)사원 채용",
-		"position": "신입·경력",
-		"plan": "03/02~03/10",
-		"link": "/Recruit/Co_Read/C/dkls01"
-	},
 	"디와이피엔에프㈜": {
 		"state": "마감",
 		"content": "디와이피엔에프㈜ 신입/경력사원 공개채용",
@@ -727,13 +720,6 @@
 		"plan": "03/03~03/19",
 		"link": "/Company/1516079/Info"
 	},
-	"롯데네슬레코리아㈜": {
-		"state": "마감",
-		"content": "[롯데네슬레코리아 신입, 경력 수시채용]",
-		"position": "신입·경력",
-		"plan": "03/03~03/10",
-		"link": "/Recruit/Co_Read/C/lottenestle"
-	},
 	"비를라카본코리아㈜": {
 		"state": "마감",
 		"content": "HR Generalist 신입 및 경력 채용",
@@ -999,13 +985,6 @@
 		"position": "인턴·신입",
 		"plan": "02/16~03/03",
 		"link": "/Company/1662226/Info"
-	},
-	"SG생활안전㈜": {
-		"state": "마감",
-		"content": "각 부문별 경력/신입 채용",
-		"position": "신입·경력",
-		"plan": "02/28~03/10",
-		"link": "/Recruit/Co_Read/C/sgrecruit"
 	},
 	"빙그레": {
 		"state": "발표",
@@ -2505,6 +2484,13 @@
 		"plan": "03/10~03/24",
 		"link": "/Recruit/Co_Read/C/parang282"
 	},
+	"㈜삼표": {
+		"state": "마감",
+		"content": "[삼표그룹] 각 사업부문 신입 및 경력직 공개채용(에스피네이처&에스피환경)",
+		"position": "신입·경력",
+		"plan": "03/10~03/19",
+		"link": "/Company/1719820/Info"
+	},
 	"(주)이랜드이노플": {
 		"state": "마감",
 		"content": "이랜드이노플 올리브스튜디오 경력직 채용",
@@ -2603,6 +2589,13 @@
 		"plan": "03/10~03/20",
 		"link": "/Company/16151354/Info"
 	},
+	"형지에스콰이아": {
+		"state": "시작",
+		"content": "형지에스콰이아 영업팀 신입사원 채용",
+		"position": "신입",
+		"plan": "03/10~06/08",
+		"link": "/Recruit/Co_Read/C/sorbe70"
+	},
 	"국민연금공단": {
 		"state": "발표",
 		"content": "2023년도 체험형 청년인턴 공개채용",
@@ -2623,13 +2616,6 @@
 		"position": "신입·경력",
 		"plan": "02/23~05/24",
 		"link": "/Company/1864490/Info"
-	},
-	"㈜우양": {
-		"state": "마감",
-		"content": "각 부문별 정규직 사원 모집 - (해외영업/산업안전보건/공무/생산OP/물류/포장/환경관리부)",
-		"position": "신입·경력",
-		"plan": "02/24~03/10",
-		"link": "/Recruit/Co_Read/C/wooyang71"
 	},
 	"㈜유니원커뮤니케이션즈": {
 		"state": "마감",

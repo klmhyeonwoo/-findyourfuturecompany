@@ -106,9 +106,9 @@
 	},
 	"로버트보쉬코리아": {
 		"state": "마감",
-		"content": "[로버트보쉬코리아] 재무회계 기간제 채용 (신입/경력)",
+		"content": "[로버트보쉬코리아] Korea market Product Specialist (정규직) /Physical logistic engineer물류업무 (기간제) 채용",
 		"position": "신입·경력",
-		"plan": "03/07~03/20",
+		"plan": "03/16~03/29",
 		"link": "/Company/47492458/Info"
 	},
 	"롯데캐피탈㈜": {
@@ -2911,6 +2911,13 @@
 		"plan": "03/13~03/19",
 		"link": "/Company/16152280/Info"
 	},
+	"에이치디씨랩스㈜": {
+		"state": "시작",
+		"content": "2023년 상반기 신입사원 공개채용",
+		"position": "신입",
+		"plan": "03/13~04/09",
+		"link": "/Company/1374606/Info"
+	},
 	"에이치디현대㈜": {
 		"state": "시작",
 		"content": "'23년 상반기 건설기계 3사 신입사원 채용",
@@ -3422,6 +3429,13 @@
 		"plan": "02/15~02/28",
 		"link": "/Company/1436080/Info"
 	},
+	"대상㈜": {
+		"state": "마감",
+		"content": "3월 신입/경력사원 모집",
+		"position": "신입·경력",
+		"plan": "03/16~03/26",
+		"link": "/Company/1609106/Info"
+	},
 	"남양넥스모㈜": {
 		"state": "마감",
 		"content": "남양넥스모 2023년 인재채용",
@@ -3450,6 +3464,13 @@
 		"plan": "03/16~04/15",
 		"link": "/Recruit/Co_Read/C/SYTSKP"
 	},
+	"오케이몰": {
+		"state": "마감",
+		"content": "2023년 (주)오케이몰 촬영파트 신입/ 경력 수시채용",
+		"position": "신입·경력",
+		"plan": "03/16~03/29",
+		"link": "/Company/1910807/Info"
+	},
 	"종근당": {
 		"state": "마감",
 		"content": "종근당 수시채용",
@@ -3463,6 +3484,13 @@
 		"position": "신입·경력",
 		"plan": "03/16~03/29",
 		"link": "/Recruit/Co_Read/C/wooyang71"
+	},
+	"㈜해피머니아이엔씨": {
+		"state": "마감",
+		"content": "각 부문별 신입/경력 채용 (개발/서버/서비스 기획/마케팅 전략)",
+		"position": "신입·경력",
+		"plan": "03/16~03/21",
+		"link": "/Company/1643099/Info"
 	},
 	"코오롱그룹": {
 		"state": "마감",
@@ -3764,6 +3792,13 @@
 		"position": "신입",
 		"plan": "03/23~04/05",
 		"link": "/Company/1658723/Info"
+	},
+	"한국에너지기술평가원": {
+		"state": "마감",
+		"content": "2023년도 제1차 신규직원 채용",
+		"position": "인턴·신입·경력",
+		"plan": "03/23~03/31",
+		"link": "/Company/1989360/Info"
 	},
 	"영인에스티㈜": {
 		"state": "마감",

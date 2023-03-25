@@ -2344,18 +2344,11 @@
 		"plan": "12/14~03/14",
 		"link": "/Company/1602490/Info"
 	},
-	"㈜케이티씨에스": {
-		"state": "마감",
-		"content": "[2023년] kt cs 대졸신입 및 경력직 채용",
-		"position": "신입",
-		"plan": "03/10~03/24",
-		"link": "/Recruit/Co_Read/C/parang282"
-	},
 	"㈜삼표": {
-		"state": "시작",
-		"content": "[삼표그룹] ㈜에스피네이처 관리/환경자원부문 신입 및 경력직 공개채용",
+		"state": "마감",
+		"content": "[삼표그룹] IT 및 물류부문 신규직원 채용",
 		"position": "신입·경력",
-		"plan": "03/24~04/02",
+		"plan": "03/24~03/31",
 		"link": "/Company/1719820/Info"
 	},
 	"(주)이랜드이노플": {
@@ -2576,10 +2569,10 @@
 		"link": "/Company/1374962/Info"
 	},
 	"아이에스동서㈜": {
-		"state": "마감",
-		"content": "자금 신입사원 채용",
-		"position": "신입",
-		"plan": "02/17~03/12",
+		"state": "시작",
+		"content": "회계 신입/경력사원 채용",
+		"position": "신입·경력",
+		"plan": "03/24~04/16",
 		"link": "/Company/1493707/Info"
 	},
 	"삼일회계법인": {
@@ -2719,7 +2712,7 @@
 		"state": "마감",
 		"content": "2023년 상반기 GS건설 신입/채용연계형 인턴 모집",
 		"position": "인턴·신입",
-		"plan": "03/13~06/11",
+		"plan": "03/13~03/26",
 		"link": "/Company/1354816/Info"
 	},
 	"E1": {
@@ -2967,13 +2960,6 @@
 		"plan": "03/14~03/27",
 		"link": "/Company/1803126/Info"
 	},
-	"루이비통코리아㈜": {
-		"state": "마감",
-		"content": "2023 LOUIS VUITTON 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "03/14~03/24",
-		"link": "/Recruit/Co_Read/C/lvuitton"
-	},
 	"영진약품㈜": {
 		"state": "시작",
 		"content": "2023년 상반기 신입 및 경력 수시채용",
@@ -3176,6 +3162,13 @@
 		"position": "신입·경력",
 		"plan": "03/15~03/27",
 		"link": "/Company/16154147/Info"
+	},
+	"루이비통코리아㈜": {
+		"state": "시작",
+		"content": "2023 Retail Management Trainee 공개 채용",
+		"position": "신입·경력",
+		"plan": "03/15~04/30",
+		"link": "/Recruit/Co_Read/C/lvuitton"
 	},
 	"㈔한국원전수출산업협회": {
 		"state": "마감",
@@ -3479,10 +3472,10 @@
 		"link": "/Company/1752677/Info"
 	},
 	"동양이엔피㈜": {
-		"state": "마감",
-		"content": "동양이엔피(주) 영업팀 신입/경력사원 채용",
-		"position": "신입·경력",
-		"plan": "02/22~03/24",
+		"state": "시작",
+		"content": "동양이엔피(주) 품질팀 신입사원 채용",
+		"position": "신입",
+		"plan": "03/17~04/16",
 		"link": "/Recruit/Co_Read/C/dy236"
 	},
 	"㈜리치몬트코리아": {
@@ -4247,6 +4240,13 @@
 		"position": "신입·경력",
 		"plan": "02/23~03/23",
 		"link": "/Company/16154272/Info"
+	},
+	"㈜기영에프앤비": {
+		"state": "마감",
+		"content": "기영에프앤비 구매/물류/R&D/기획/오픈/운영 외 신규 채용 모집",
+		"position": "신입·경력",
+		"plan": "02/21~04/15",
+		"link": "/Recruit/Co_Read/C/twozzimdak"
 	},
 	"㈜에스텍파마": {
 		"state": "마감",

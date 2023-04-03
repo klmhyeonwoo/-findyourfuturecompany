@@ -426,6 +426,13 @@
 		"plan": "04/03~04/16",
 		"link": "/Recruit/Co_Read/C/wcp1026"
 	},
+	"범주해운㈜": {
+		"state": "마감",
+		"content": "범주해운㈜ 전산직 신입사원 모집",
+		"position": "신입·경력",
+		"plan": "04/03~04/06",
+		"link": "/Recruit/Co_Read/C/panconline"
+	},
 	"세종학당재단": {
 		"state": "발표",
 		"content": "2023년 상반기 정규직, 계약직 채용",
@@ -538,12 +545,12 @@
 		"plan": "04/03~04/16",
 		"link": "/Company/1492243/Info"
 	},
-	"건국대학교 GLOCAL(글로컬)캠퍼스": {
-		"state": "발표",
-		"content": "건국대학교 글로컬캠퍼스 일반직원(일반행정/건축) 신규채용 모집 공고",
-		"position": "신입",
-		"plan": "03/20~04/03",
-		"link": "/Recruit/Co_Read/C/kej02272"
+	"한화손해보험㈜": {
+		"state": "마감",
+		"content": "2023 상반기 서무직 채용",
+		"position": "경력무관",
+		"plan": "04/03~04/17",
+		"link": "/Company/1599251/Info"
 	},
 	"롯데물산㈜": {
 		"state": "마감",
@@ -1055,6 +1062,13 @@
 		"position": "인턴·신입",
 		"plan": "04/20~04/27",
 		"link": "/Company/1342658/Info"
+	},
+	"㈜에스엔엔씨": {
+		"state": "마감",
+		"content": "[포스코그룹 SNNC] 2023년 신입/경력 공개채용 모집",
+		"position": "인턴·신입·경력",
+		"plan": "03/31~04/07",
+		"link": "/Recruit/Co_Read/C/poscosnnc"
 	},
 	"한전케이디엔": {
 		"state": "발표",

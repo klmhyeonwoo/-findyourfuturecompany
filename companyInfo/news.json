@@ -447,13 +447,6 @@
 		"plan": "04/03~04/30",
 		"link": "/Company/42448247/Info"
 	},
-	"범주해운㈜": {
-		"state": "마감",
-		"content": "범주해운㈜ 전산직, 무역사무직 신입사원 모집",
-		"position": "신입·경력",
-		"plan": "04/03~04/07",
-		"link": "/Recruit/Co_Read/C/panconline"
-	},
 	"세종학당재단": {
 		"state": "발표",
 		"content": "2023년 상반기 정규직, 계약직 채용",
@@ -1396,7 +1389,7 @@
 		"state": "마감",
 		"content": "[리디] 2023 상반기 RIDI 웹툰 스튜디오 공개채용",
 		"position": "신입·경력",
-		"plan": "03/06~04/08",
+		"plan": "03/06~04/06",
 		"link": "/Company/1431376/Info"
 	},
 	"리스트벤처": {
@@ -1637,26 +1630,12 @@
 		"plan": "03/29~04/07",
 		"link": "/Company/1872771/Info"
 	},
-	"동국생명과학㈜": {
-		"state": "마감",
-		"content": "안전환경, 의약품 품질관리, 기술(공무), 원료의약품 생산(제조) 신입(경력)사원 채용",
-		"position": "신입·경력",
-		"plan": "03/29~04/07",
-		"link": "/Recruit/Co_Read/C/dkls01"
-	},
 	"두산밥캣(주)": {
 		"state": "마감",
 		"content": "23년 두산밥캣 채용연계형 신입 인턴 채용",
 		"position": "인턴·신입",
 		"plan": "03/27~04/07",
 		"link": "/Company/16153786/Info"
-	},
-	"디아이동일㈜": {
-		"state": "마감",
-		"content": "각 부문 경력 및 신입 사원 모집",
-		"position": "신입·경력",
-		"plan": "03/29~04/07",
-		"link": "/Recruit/Co_Read/C/dongilcom"
 	},
 	"람정제주개발": {
 		"state": "마감",

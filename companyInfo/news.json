@@ -343,11 +343,11 @@
 		"link": "/Company/1666701/Info"
 	},
 	"한국콜마㈜": {
-		"state": "마감",
-		"content": "23년 3월 채용연계형 인턴 채용",
+		"state": "시작",
+		"content": "23년 4월 한국콜마 화장품시설 신입사원 수시채용",
 		"position": "인턴·신입",
-		"plan": "03/20~04/02",
-		"link": "/Company/45107896/Info"
+		"plan": "04/17~05/01",
+		"link": "/Company/1888945/Info"
 	},
 	"한화첨단소재(주)": {
 		"state": "마감",
@@ -3037,6 +3037,13 @@
 		"plan": "04/14~04/20",
 		"link": "/Company/1699241/Info"
 	},
+	"푸드죤": {
+		"state": "시작",
+		"content": "[피자마루] 해외사업팀 모집",
+		"position": "신입·경력",
+		"plan": "04/14~05/15",
+		"link": "/Company/42170582/Info"
+	},
 	"한국형사법무정책연구원": {
 		"state": "마감",
 		"content": "2023년도 제10차 채용 (인턴연구원)",
@@ -3219,6 +3226,20 @@
 		"plan": "04/17~04/28",
 		"link": "/Company/1384862/Info"
 	},
+	"GS건설㈜": {
+		"state": "시작",
+		"content": "공인노무사 / HRD(박사급) 채용",
+		"position": "신입·경력",
+		"plan": "04/17~04/30",
+		"link": "/Company/1354816/Info"
+	},
+	"㈜GS리테일": {
+		"state": "시작",
+		"content": "[GS리테일]인사총무본부 총무팀 업무지원 담당 채용",
+		"position": "경력무관",
+		"plan": "04/17~07/16",
+		"link": "/Company/1453517/Info"
+	},
 	"비테스코테크놀로지스코리아(유)": {
 		"state": "마감",
 		"content": "비테스코 테크놀로지스 코리아 4월 신입 및 경력직 채용",
@@ -3232,6 +3253,13 @@
 		"position": "경력무관",
 		"plan": "04/17~04/30",
 		"link": "/Company/1726475/Info"
+	},
+	"㈜신흥정밀": {
+		"state": "시작",
+		"content": "(주)신흥정밀 SAM4S 국내 (POS, KIOSK, PRINTER) 영업 인재채용 (신입 / 경력)",
+		"position": "신입·경력",
+		"plan": "04/17~05/17",
+		"link": "/Company/1912851/Info"
 	},
 	"경동물류㈜": {
 		"state": "시작",
@@ -3275,6 +3303,20 @@
 		"plan": "04/17~05/14",
 		"link": "/Company/48608993/Info"
 	},
+	"자라리테일코리아": {
+		"state": "시작",
+		"content": "[ZARA Retail Korea] ZARA 신입 전국 매장 채용",
+		"position": "신입",
+		"plan": "04/17~07/16",
+		"link": "/Company/1769888/Info"
+	},
+	"㈜금하에스앤아이": {
+		"state": "시작",
+		"content": "각 부문 채용[영업/영업관리/기획,관리/신개발사업부/건축소장/관리부]",
+		"position": "신입·경력",
+		"plan": "04/17~04/30",
+		"link": "/Recruit/Co_Read/C/kh5903"
+	},
 	"㈜기영에프앤비": {
 		"state": "시작",
 		"content": "기영에프앤비 구매/물류/R&D/기획/오픈/운영 외 신규 채용 모집",
@@ -3295,6 +3337,13 @@
 		"position": "신입·경력",
 		"plan": "04/17~04/28",
 		"link": "/Recruit/Co_Read/C/beerkorea"
+	},
+	"㈜비지에프네트웍스": {
+		"state": "시작",
+		"content": "BGF 네트웍스 신입 / 경력사원 수시 채용",
+		"position": "경력무관",
+		"plan": "04/17~04/30",
+		"link": "/Company/1870088/Info"
 	},
 	"㈜삼천리ENG[SL&C사업부]": {
 		"state": "시작",
@@ -3337,6 +3386,13 @@
 		"position": "신입·경력",
 		"plan": "04/17~05/17",
 		"link": "/Recruit/Co_Read/C/dhp0078"
+	},
+	"㈜이랜드인재원": {
+		"state": "시작",
+		"content": "2023 이랜드 ESI 채용연계형 Global Internship 채용",
+		"position": "인턴·신입",
+		"plan": "04/17~05/15",
+		"link": "/Company/42809104/Info"
 	},
 	"㈜지씨코리아": {
 		"state": "마감",

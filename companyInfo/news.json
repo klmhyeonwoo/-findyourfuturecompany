@@ -3240,6 +3240,13 @@
 		"plan": "04/17~04/30",
 		"link": "/Recruit/Co_Read/C/kdexp12"
 	},
+	"드림디엔엠㈜": {
+		"state": "마감",
+		"content": "드림디엔엠 각 기술직군별 수시채용",
+		"position": "신입·경력",
+		"plan": "04/17~04/26",
+		"link": "/Recruit/Co_Read/C/dreamdnm"
+	},
 	"메가스터디교육㈜": {
 		"state": "시작",
 		"content": "[메가스터디교육] 서비스 플랫폼 개발자 채용",
@@ -3751,6 +3758,13 @@
 		"plan": "01/27~04/27",
 		"link": "/Company/1602490/Info"
 	},
+	"한국관광공사": {
+		"state": "마감",
+		"content": "2023년 일반직 신입사원 채용 공고",
+		"position": "신입",
+		"plan": "04/19~04/27",
+		"link": "/Company/1880678/Info"
+	},
 	"㈔한국산업기술진흥협회": {
 		"state": "발표",
 		"content": "한국산업기술진흥협회 정규직 직원 공개채용 공고",
@@ -3968,13 +3982,6 @@
 		"plan": "03/06~03/27",
 		"link": "/Company/1385349/Info"
 	},
-	"드림디엔엠㈜": {
-		"state": "마감",
-		"content": "드림디엔엠 각 기술직군별 수시채용",
-		"position": "신입·경력",
-		"plan": "04/17~04/26",
-		"link": "/Recruit/Co_Read/C/dreamdnm"
-	},
 	"㈜지노믹트리": {
 		"state": "마감",
 		"content": "2023년 상반기 각 부문별 신입/경력 채용",
@@ -4030,13 +4037,6 @@
 		"position": "신입",
 		"plan": "04/27~05/08",
 		"link": "/Company/1516657/Info"
-	},
-	"한국관광공사": {
-		"state": "마감",
-		"content": "2023년 일반직 신입사원 채용 공고",
-		"position": "신입",
-		"plan": "04/19~04/27",
-		"link": "/Company/1880678/Info"
 	},
 	"㈜체리부로": {
 		"state": "마감",

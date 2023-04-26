@@ -113,9 +113,9 @@
 	},
 	"교원그룹": {
 		"state": "시작",
-		"content": "4월 신입/경력 그룹 수시채용",
-		"position": "신입·경력",
-		"plan": "04/17~04/30",
+		"content": "[교원라이프] 라이프서비스운영팀 인사신입(대졸) 채용",
+		"position": "신입",
+		"plan": "04/26~05/07",
 		"link": "/Company/1329474/Info"
 	},
 	"㈜신원": {
@@ -4367,12 +4367,40 @@
 		"plan": "04/26~05/10",
 		"link": "/Company/1404702/Info"
 	},
+	"현대트랜시스": {
+		"state": "시작",
+		"content": "시트부문 계약직 모집",
+		"position": "신입·경력",
+		"plan": "04/26~05/03",
+		"link": "/Company/1658723/Info"
+	},
 	"주식회사 유라코퍼레이션": {
 		"state": "시작",
 		"content": "[유라코퍼레이션] R&D부문 신입/경력 채용 (판교, 의왕연구소)",
 		"position": "경력무관",
 		"plan": "04/26~05/09",
 		"link": "/Company/1705071/Info"
+	},
+	"창신아이엔씨": {
+		"state": "시작",
+		"content": "2023년 5월 채용형 인턴 수시채용(Digital PCC)",
+		"position": "인턴·신입",
+		"plan": "04/26~05/10",
+		"link": "/Company/1513223/Info"
+	},
+	"HSD엔진㈜": {
+		"state": "시작",
+		"content": "분야별 신입 및 경력 채용",
+		"position": "신입·경력",
+		"plan": "04/26~05/07",
+		"link": "/Company/1638117/Info"
+	},
+	"(재)서울관광재단": {
+		"state": "시작",
+		"content": "2023년도 서울관광재단 기간제근로자 채용공고",
+		"position": "신입·경력",
+		"plan": "04/26~05/08",
+		"link": "/Company/16152977/Info"
 	},
 	"머크㈜": {
 		"state": "시작",
@@ -4464,6 +4492,13 @@
 		"position": "신입·경력",
 		"plan": "04/26~05/01",
 		"link": "/Recruit/Co_Read/C/hyundaictr"
+	},
+	"피에이치에이에차 유한회사": {
+		"state": "시작",
+		"content": "[EdschaPHA] Project Manager 신입 및 경력직 채용",
+		"position": "경력무관",
+		"plan": "04/26~07/25",
+		"link": "/Recruit/Co_Read/C/edschapha"
 	},
 	"한국인터텍테스팅서비스": {
 		"state": "시작",

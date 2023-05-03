@@ -6,6 +6,13 @@
 		"plan": "05/01~05/19",
 		"link": "/Company/1436838/Info"
 	},
+	"이랜드월드": {
+		"state": "마감",
+		"content": "[패션] 2023 전역(예정) 장교채용",
+		"position": "인턴·신입",
+		"plan": "05/01~05/22",
+		"link": "/Company/1423256/Info"
+	},
 	"㈜NAVER": {
 		"state": "마감",
 		"content": "Global Internship, Summer 2023",
@@ -692,6 +699,13 @@
 		"plan": "05/03~05/10",
 		"link": "/Company/46638474/Info"
 	},
+	"에이제이에너지㈜": {
+		"state": "마감",
+		"content": "[AJ에너지] 인사총무 경력 채용",
+		"position": "신입·경력",
+		"plan": "05/03~05/31",
+		"link": "/Company/16153956/Info"
+	},
 	"㈜ 시아스": {
 		"state": "마감",
 		"content": "각 분야별 [신입 및 경력] 사원 모집 - (생산/공무/SCM-물류/생산관리/관리팀/품질관리/영업)",
@@ -705,6 +719,13 @@
 		"position": "경력무관",
 		"plan": "05/03~08/01",
 		"link": "/Recruit/Co_Read/C/naeil01"
+	},
+	"㈜앱코": {
+		"state": "시작",
+		"content": "[코스닥 상장](주)앱코 각 부문 모집 [서버관리/고객지원/웹디자인/수리지원]",
+		"position": "신입·경력",
+		"plan": "05/03~08/01",
+		"link": "/Company/42221259/Info"
 	},
 	"㈜에치에프알": {
 		"state": "시작",
@@ -726,6 +747,13 @@
 		"position": "신입·경력",
 		"plan": "05/03~05/14",
 		"link": "/Company/16152153/Info"
+	},
+	"테크로스": {
+		"state": "마감",
+		"content": "2023년 5차 공개채용",
+		"position": "신입·경력",
+		"plan": "05/03~05/14",
+		"link": "/Recruit/Co_Read/C/c-040141"
 	},
 	"NH농협손해보험": {
 		"state": "마감",

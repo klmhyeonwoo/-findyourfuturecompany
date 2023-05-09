@@ -2092,6 +2092,13 @@
 		"plan": "05/09~05/15",
 		"link": "/Company/1671321/Info"
 	},
+	"OCI ㈜": {
+		"state": "마감",
+		"content": "2022 OCI 상반기 신입사원 수시채용",
+		"position": "신입",
+		"plan": "05/09~05/18",
+		"link": "/Company/1601905/Info"
+	},
 	"STX엔진㈜": {
 		"state": "마감",
 		"content": "23년 상반기 신입채용",
@@ -2105,6 +2112,13 @@
 		"position": "신입",
 		"plan": "05/09~05/18",
 		"link": "/Company/1895389/Info"
+	},
+	"중앙일보㈜": {
+		"state": "마감",
+		"content": "쿠킹팀 디자인 인턴 채용",
+		"position": "인턴·신입·경력",
+		"plan": "02/16~05/17",
+		"link": "/Company/1824494/Info"
 	},
 	"루이비통코리아㈜": {
 		"state": "마감",
@@ -2798,13 +2812,6 @@
 		"position": "신입",
 		"plan": "04/27~05/17",
 		"link": "/Company/1691137/Info"
-	},
-	"중앙일보㈜": {
-		"state": "마감",
-		"content": "쿠킹팀 디자인 인턴 채용",
-		"position": "인턴·신입·경력",
-		"plan": "02/16~05/17",
-		"link": "/Company/1824494/Info"
 	},
 	"㈜신흥정밀": {
 		"state": "마감",

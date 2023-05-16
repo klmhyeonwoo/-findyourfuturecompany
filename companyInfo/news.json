@@ -427,10 +427,10 @@
 		"link": "/Company/16151902/Info"
 	},
 	"㈜원봉": {
-		"state": "마감",
+		"state": "시작",
 		"content": "2023년 상반기 정규 채용공고",
 		"position": "신입·경력",
-		"plan": "05/02~05/14",
+		"plan": "05/16~06/11",
 		"link": "/Company/1806762/Info"
 	},
 	"㈜피죤": {
@@ -3303,6 +3303,13 @@
 		"plan": "05/16~05/29",
 		"link": "/Recruit/Co_Read/C/infomax1"
 	},
+	"㈜GS엔텍": {
+		"state": "마감",
+		"content": "(주)GS엔텍 법무팀 신입 채용",
+		"position": "신입",
+		"plan": "05/16~05/31",
+		"link": "/Company/1356060/Info"
+	},
 	"하나머티리얼즈㈜": {
 		"state": "마감",
 		"content": "하나머티리얼즈 각 부문 신입/경력 모집",
@@ -3323,6 +3330,13 @@
 		"position": "신입·경력",
 		"plan": "05/16~05/31",
 		"link": "/Company/16153894/Info"
+	},
+	"KCC정보통신": {
+		"state": "마감",
+		"content": "[KCC정보통신] 신입 및 경력사원 수시 채용",
+		"position": "신입·경력",
+		"plan": "05/16~05/28",
+		"link": "/Company/1833639/Info"
 	},
 	"비에이치아이㈜": {
 		"state": "마감",

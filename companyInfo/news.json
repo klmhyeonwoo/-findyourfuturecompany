@@ -45,7 +45,7 @@
 		"state": "마감",
 		"content": "2023년 도미노피자 직영매장직 공개채용",
 		"position": "경력무관",
-		"plan": "05/01~05/24",
+		"plan": "05/01~06/01",
 		"link": "/Company/1617458/Info"
 	},
 	"에쓰씨케이": {
@@ -602,10 +602,10 @@
 		"link": "/Company/1676260/Info"
 	},
 	"Naver I&S㈜": {
-		"state": "발표",
+		"state": "마감",
 		"content": "Naver I&S㈜ 및 자회사 각 부문 신입/경력 수시 채용",
 		"position": "신입·경력",
-		"plan": "04/24~04/30",
+		"plan": "05/22~05/28",
 		"link": "/Company/1549387/Info"
 	},
 	"금호석유화학㈜": {
@@ -1056,13 +1056,6 @@
 		"plan": "05/04~07/31",
 		"link": "/Company/44100529/Info"
 	},
-	"㈜모트렉스": {
-		"state": "마감",
-		"content": "㈜모트렉스 2023년 대규모 경력 채용",
-		"position": "신입·경력",
-		"plan": "05/04~05/21",
-		"link": "/Recruit/Co_Read/C/motrex"
-	},
 	"㈜삼천리이에스": {
 		"state": "마감",
 		"content": "[삼천리ES] 부문별 수시 채용",
@@ -1148,10 +1141,10 @@
 		"link": "/Company/1836443/Info"
 	},
 	"교원그룹": {
-		"state": "마감",
-		"content": "[교원라이프] 라이프서비스운영팀 인사신입(대졸) 채용",
-		"position": "신입",
-		"plan": "04/26~05/07",
+		"state": "시작",
+		"content": "5월 신입/경력 그룹 수시채용",
+		"position": "신입·경력",
+		"plan": "05/22~06/04",
 		"link": "/Company/1329474/Info"
 	},
 	"㈜휴스틸": {
@@ -1429,9 +1422,9 @@
 	},
 	"㈜대웅제약": {
 		"state": "마감",
-		"content": "2023 대웅제약 영업부문 전역장교 채용",
+		"content": "대웅제약 2023 하반기 약대심화실습",
 		"position": "인턴·신입",
-		"plan": "04/24~05/07",
+		"plan": "05/22~05/28",
 		"link": "/Company/1571753/Info"
 	},
 	"팜한농": {
@@ -1527,9 +1520,9 @@
 	},
 	"알씨아이파이낸셜서비스코리아㈜": {
 		"state": "마감",
-		"content": "르노 파이낸셜 서비스 코리아 보험대리점 Sales & Marketing 인턴 채용",
+		"content": "르노 파이낸셜 서비스 코리아 IT 인턴 모집 공고",
 		"position": "인턴·신입",
-		"plan": "04/17~05/07",
+		"plan": "05/08~05/31",
 		"link": "/Company/1905940/Info"
 	},
 	"영풍정밀㈜": {
@@ -1550,7 +1543,7 @@
 		"state": "마감",
 		"content": "경보제약 각 부서 신입/경력 수시 채용",
 		"position": "신입·경력",
-		"plan": "04/21~05/07",
+		"plan": "05/22~05/30",
 		"link": "/Company/1942890/Info"
 	},
 	"㈜쁘띠엘린": {
@@ -1564,7 +1557,7 @@
 		"state": "마감",
 		"content": "㈜삼원특수지 채용",
 		"position": "신입·경력",
-		"plan": "04/27~05/07",
+		"plan": "05/22~05/31",
 		"link": "/Company/1833370/Info"
 	},
 	"㈜아이엠비씨": {
@@ -1653,9 +1646,9 @@
 	},
 	"㈜호텔신라": {
 		"state": "마감",
-		"content": "호텔신라 2023년 호텔&레저부문 4급 신입사원 채용",
-		"position": "신입",
-		"plan": "05/15~05/19",
+		"content": "서울 신라호텔 직원 모집",
+		"position": "신입·경력",
+		"plan": "05/19~05/28",
 		"link": "/Company/1836663/Info"
 	},
 	"애경케미칼㈜": {
@@ -1680,10 +1673,10 @@
 		"link": "/Company/1802066/Info"
 	},
 	"㈜문화방송": {
-		"state": "발표",
+		"state": "시작",
 		"content": "MBC IT인프라 기획관리 담당 모집",
 		"position": "경력무관",
-		"plan": "05/08~05/14",
+		"plan": "05/22~06/04",
 		"link": "/Company/1335234/Info"
 	},
 	"㈜케이티엔지니어링": {
@@ -1755,13 +1748,6 @@
 		"position": "신입·경력",
 		"plan": "05/08~06/30",
 		"link": "/Company/1605674/Info"
-	},
-	"인카금융서비스㈜": {
-		"state": "발표",
-		"content": "2023 인카금융서비스 공채 24기 신입사원 모집",
-		"position": "인턴·신입",
-		"plan": "05/08~05/21",
-		"link": "/Recruit/Co_Read/C/incarinsu"
 	},
 	"㈜리노커뮤니케이션즈": {
 		"state": "마감",
@@ -2098,13 +2084,6 @@
 		"position": "신입",
 		"plan": "05/09~05/22",
 		"link": "/Recruit/Co_Read/C/ethanalice"
-	},
-	"㈜제뉴원사이언스": {
-		"state": "마감",
-		"content": "2023년 상반기 제뉴원사이언스·제뉴파마 공채 신입사원 모집(대졸/전문대졸)",
-		"position": "신입",
-		"plan": "05/09~05/21",
-		"link": "/Recruit/Co_Read/C/genuone"
 	},
 	"㈜케이엑스이노베이션": {
 		"state": "마감",
@@ -2646,10 +2625,10 @@
 		"link": "/Company/1806217/Info"
 	},
 	"㈜에스원": {
-		"state": "예상",
-		"content": "2023년 상반기 ㈜에스원 경력무관  채용",
+		"state": "마감",
+		"content": "4급 정보보안 신입사원 채용",
 		"position": "신입",
-		"plan": "05/23~05/26",
+		"plan": "05/12~05/19",
 		"link": "/Company/1892636/Info"
 	},
 	"비테스코테크놀로지스코리아(유)": {
@@ -2883,13 +2862,6 @@
 		"plan": "04/14~05/14",
 		"link": "/Company/16152072/Info"
 	},
-	"마스타자동차관리㈜": {
-		"state": "마감",
-		"content": "마스타자동차관리㈜ 신입 및 경력 직원 채용",
-		"position": "신입·경력",
-		"plan": "04/28~05/21",
-		"link": "/Recruit/Co_Read/C/masterinsa"
-	},
 	"모본㈜": {
 		"state": "마감",
 		"content": "개발부문(SW / RADAR 펌웨어) 신입/경력 채용",
@@ -3057,13 +3029,6 @@
 		"position": "인턴·신입",
 		"plan": "05/15~06/06",
 		"link": "/Company/1652012/Info"
-	},
-	"알파사이츠 연락사무소": {
-		"state": "마감",
-		"content": "알파사이츠 2023년도 대규모 신입 채용 (Korean/English speaker)",
-		"position": "신입",
-		"plan": "05/15~05/21",
-		"link": "/Recruit/Co_Read/C/alphasightshk11"
 	},
 	"엔테크서비스 주식회사": {
 		"state": "시작",
@@ -3678,7 +3643,7 @@
 		"state": "마감",
 		"content": "(주)원익큐브 신입사원 채용",
 		"position": "신입",
-		"plan": "04/25~05/25",
+		"plan": "04/25~07/24",
 		"link": "/Company/1783599/Info"
 	},
 	"성국민건강보험공단": {
@@ -3688,12 +3653,26 @@
 		"plan": "04/04~04/13",
 		"link": "/Company/16153757/Info"
 	},
+	"LS일렉트릭": {
+		"state": "시작",
+		"content": "2023년 2분기 신입/경력 수시 채용",
+		"position": "신입·경력",
+		"plan": "05/19~06/06",
+		"link": "/Company/1957920/Info"
+	},
 	"남해화학㈜": {
 		"state": "마감",
 		"content": "대졸신입ㆍ고졸신입ㆍ석박사 신입연구원 신입사원 모집",
 		"position": "신입",
 		"plan": "05/19~05/25",
 		"link": "/Company/1976336/Info"
+	},
+	"엘티삼보": {
+		"state": "시작",
+		"content": "2023년 경영지원 신입 및 경력사원 모집",
+		"position": "신입·경력",
+		"plan": "05/19~06/02",
+		"link": "/Company/1752005/Info"
 	},
 	"동양이엔피㈜": {
 		"state": "시작",
@@ -3722,6 +3701,13 @@
 		"position": "인턴·신입·경력",
 		"plan": "05/19~05/31",
 		"link": "/Company/1851055/Info"
+	},
+	"바이탈에어코리아㈜": {
+		"state": "시작",
+		"content": "바이탈에어코리아㈜ 2023년도 신입 / 경력직 추가 모집",
+		"position": "신입·경력",
+		"plan": "05/19~06/01",
+		"link": "/Recruit/Co_Read/C/mdhc4109"
 	},
 	"서울도시철도엔지니어링㈜": {
 		"state": "마감",
@@ -3758,6 +3744,13 @@
 		"plan": "05/19~06/11",
 		"link": "/Recruit/Co_Read/C/wees"
 	},
+	"㈜탑코": {
+		"state": "시작",
+		"content": "[Toptoon] 2023 부문별 경력/신입 대규모 채용",
+		"position": "신입·경력",
+		"plan": "05/19~06/04",
+		"link": "/Company/45721879/Info"
+	},
 	"코스알엑스": {
 		"state": "시작",
 		"content": "㈜코스알엑스 '23년 5월 경력 및 인턴사원 수시채용",
@@ -3786,13 +3779,6 @@
 		"plan": "04/13~04/27",
 		"link": "/Company/1373955/Info"
 	},
-	"㈜그리드위즈": {
-		"state": "마감",
-		"content": "[그리드위즈] E-Mobility 사업본부 각 부문 신입/경력 채용",
-		"position": "신입·경력",
-		"plan": "04/21~05/21",
-		"link": "/Recruit/Co_Read/C/gridwiz"
-	},
 	"㈜대우에스티": {
 		"state": "마감",
 		"content": "[대우건설 자회사]안전전담자 경력/ 신입 채용",
@@ -3807,12 +3793,124 @@
 		"plan": "04/20~05/21",
 		"link": "/Company/16154339/Info"
 	},
-	"㈜푸드플래닛": {
+	"포스코인터내셔널": {
+		"state": "시작",
+		"content": "[신입] 2023년 상반기 에너지부문 수시채용",
+		"position": "신입",
+		"plan": "05/22~06/05",
+		"link": "/Company/1544138/Info"
+	},
+	"두산에너빌리티㈜": {
+		"state": "시작",
+		"content": "2023 채용연계형 인턴십",
+		"position": "인턴·신입",
+		"plan": "05/22~06/07",
+		"link": "/Company/1659359/Info"
+	},
+	"한온시스템": {
+		"state": "시작",
+		"content": "2023 하반기 채용연계형 인턴십",
+		"position": "인턴·신입",
+		"plan": "05/22~06/02",
+		"link": "/Company/1800020/Info"
+	},
+	"㈜코리아세븐": {
 		"state": "마감",
+		"content": "2023년 5월 롯데그룹 코리아세븐 신입ㆍ경력사원 모집",
+		"position": "신입·경력",
+		"plan": "05/22~05/31",
+		"link": "/Company/1595884/Info"
+	},
+	"㈜한샘": {
+		"state": "시작",
+		"content": "한샘 홈 인테리어 디자인 영업전문직 (RD&KD) 공개채용",
+		"position": "신입·경력",
+		"plan": "05/22~06/01",
+		"link": "/Company/1493315/Info"
+	},
+	"강남제비스코㈜": {
+		"state": "시작",
+		"content": "강남제비스코(주) 기술 신입사원 채용",
+		"position": "신입",
+		"plan": "05/22~06/06",
+		"link": "/Company/1747401/Info"
+	},
+	"경향신문": {
+		"state": "시작",
+		"content": "경향신문 수습기자 모집(취재기자,사진기자)",
+		"position": "신입",
+		"plan": "05/22~06/05",
+		"link": "/Company/1843846/Info"
+	},
+	"스태츠칩팩코리아": {
+		"state": "마감",
+		"content": "2023년 상반기 신입 및 경력사원 모집",
+		"position": "신입·경력",
+		"plan": "05/22~05/28",
+		"link": "/Company/1406522/Info"
+	},
+	"인천글로벌캠퍼스운영 재단법인": {
+		"state": "시작",
+		"content": "2023년도 직원채용 재공고",
+		"position": "신입·경력",
+		"plan": "05/22~06/01",
+		"link": "/Recruit/Co_Read/C/incheonglobalcam"
+	},
+	"㈜농협케미컬": {
+		"state": "마감",
+		"content": "2023년도 상반기 신규직원 채용",
+		"position": "신입",
+		"plan": "05/22~05/31",
+		"link": "/Company/1818983/Info"
+	},
+	"㈜비바리퍼블리카": {
+		"state": "시작",
+		"content": "[토스증권] 2023 토스증권 공개채용",
+		"position": "신입·경력",
+		"plan": "05/22~06/11",
+		"link": "/Company/16154461/Info"
+	},
+	"㈜세안이엔지": {
+		"state": "시작",
+		"content": "각 부문 채용 [설계부/현장관리/CS/경리/기술영업/해외영업]",
+		"position": "신입·경력",
+		"plan": "05/22~06/22",
+		"link": "/Company/1839681/Info"
+	},
+	"㈜아이센스": {
+		"state": "시작",
+		"content": "2023 아이센스 신입/경력 대규모 채용",
+		"position": "신입·경력",
+		"plan": "05/22~06/21",
+		"link": "/Company/1766917/Info"
+	},
+	"㈜푸드플래닛": {
+		"state": "시작",
 		"content": "[㈜푸드플래닛] 2023년 상반기 각 부문 신입 ·경력 사원 모집",
 		"position": "신입·경력",
-		"plan": "04/17~05/21",
+		"plan": "05/22~05/27",
 		"link": "/Recruit/Co_Read/C/dbfb8443"
+	},
+	"㈜한솥": {
+		"state": "시작",
+		"content": "(주)한솥 총무 담당자 신입사원 채용",
+		"position": "신입",
+		"plan": "05/22~06/04",
+		"link": "/Recruit/Co_Read/C/hansot0108"
+	},
+	"참좋은여행㈜": {
+		"state": "시작",
+		"content": "2023년 신입/경력직 채용",
+		"position": "신입·경력",
+		"plan": "05/22~06/06",
+		"link": "/Recruit/Co_Read/C/vgtour"
+	},
+	"KANTAR KOREA": {
+		"state": "시작",
+		"content": "[칸타코리아] 2023 하반기 마케팅조사 신입 연구원 채용",
+		"position": "신입",
+		"plan": "05/22~06/11",
+		"link": "/Company/1832112/Info"
 	},
 	"메가존클라우드㈜": {
 		"state": "마감",
@@ -3841,41 +3939,6 @@
 		"position": "인턴·경력무관",
 		"plan": "04/12~04/19",
 		"link": "/Company/16154578/Info"
-	},
-	"한국남동발전㈜": {
-		"state": "예상",
-		"content": "2023년 상반기 한국남동발전 인턴·신입  채용",
-		"position": "인턴·신입",
-		"plan": "05/23~05/30",
-		"link": "/Company/1868434/Info"
-	},
-	"㈜농협사료": {
-		"state": "예상",
-		"content": "2023년 상반기 ㈜농협사료 신입·경력  채용",
-		"position": "신입",
-		"plan": "05/23~05/27",
-		"link": "/Company/1581975/Info"
-	},
-	"세메스㈜": {
-		"state": "예상",
-		"content": "2023년 상반기 세메스㈜ 신입  채용",
-		"position": "신입",
-		"plan": "05/23~05/31",
-		"link": "/Company/1359381/Info"
-	},
-	"한국산업안전보건공단": {
-		"state": "예상",
-		"content": "2023년 상반기 한국산업안전보건공단 인턴·신입  채용",
-		"position": "인턴·신입",
-		"plan": "05/23~05/31",
-		"link": "/Company/1343601/Info"
-	},
-	"동아출판㈜": {
-		"state": "예상",
-		"content": "2023년 상반기 동아출판㈜ 인턴·신입·경력  채용",
-		"position": "인턴·신입",
-		"plan": "05/23~06/06",
-		"link": "/Company/1801737/Info"
 	},
 	"코나아이": {
 		"state": "시작",
@@ -4003,6 +4066,13 @@
 		"plan": "04/26~05/26",
 		"link": "/Company/1990136/Info"
 	},
+	"두성종이㈜": {
+		"state": "마감",
+		"content": "두성종이㈜ 2023년 상반기 수시 채용",
+		"position": "신입·경력",
+		"plan": "05/20~05/26",
+		"link": "/Company/45800453/Info"
+	},
 	"아고다": {
 		"state": "마감",
 		"content": "[대규모 확장] 아고다 CX Specialist 정규직 채용 (재택근무 병행)",
@@ -4051,6 +4121,13 @@
 		"position": "신입",
 		"plan": "05/28~06/06",
 		"link": "/Company/1378786/Info"
+	},
+	"힐티코리아㈜": {
+		"state": "마감",
+		"content": "2023 힐티코리아 Summer Internship",
+		"position": "인턴·신입·경력",
+		"plan": "05/20~05/28",
+		"link": "/Company/1789373/Info"
 	},
 	"한솔섬유㈜": {
 		"state": "마감",

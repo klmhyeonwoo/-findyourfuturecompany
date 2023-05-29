@@ -3030,13 +3030,6 @@
 		"plan": "05/15~05/31",
 		"link": "/Recruit/Co_Read/C/Tangun"
 	},
-	"㈜롯데월드": {
-		"state": "마감",
-		"content": "2023년 5월 영남권 시설직무 신입사원 채용 인턴전형(채용전제형)",
-		"position": "인턴·신입",
-		"plan": "05/15~05/28",
-		"link": "/Recruit/Co_Read/C/c-042343"
-	},
 	"㈜버킷플레이스": {
 		"state": "마감",
 		"content": "[오늘의집] 콘텐츠 매니저 (인턴) 채용",
@@ -3660,13 +3653,6 @@
 		"plan": "05/19~06/18",
 		"link": "/Company/16154513/Info"
 	},
-	"㈜엠에스홀딩스": {
-		"state": "마감",
-		"content": "[ms홀딩스/ms마트] 2023년 하반기 공개 채용",
-		"position": "신입·경력",
-		"plan": "05/19~05/28",
-		"link": "/Recruit/Co_Read/C/ms7071"
-	},
 	"㈜위즈그룹": {
 		"state": "시작",
 		"content": "JSP 개발자/온라인 광고 AE/온라인 쇼핑몰&리테일몰 AMD 채용",
@@ -3944,7 +3930,7 @@
 		"state": "시작",
 		"content": "각 부문 경력 및 신입 사원 모집",
 		"position": "신입·경력",
-		"plan": "05/23~06/01",
+		"plan": "05/23~08/21",
 		"link": "/Recruit/Co_Read/C/dongilcom"
 	},
 	"에이치디씨아이파크몰 주식회사": {

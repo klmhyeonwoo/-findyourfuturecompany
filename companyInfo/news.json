@@ -311,7 +311,7 @@
 		"state": "마감",
 		"content": "크나우프 석고보드㈜ 각 부문 담당자 채용",
 		"position": "신입·경력",
-		"plan": "05/19~06/01",
+		"plan": "06/02~06/15",
 		"link": "/Company/16153463/Info"
 	},
 	"현대커머셜": {
@@ -377,12 +377,26 @@
 		"plan": "06/02~06/11",
 		"link": "/Company/1552953/Info"
 	},
+	"영풍전자㈜": {
+		"state": "마감",
+		"content": "영풍전자(주) FPCB 부문별 생산직/생산지원직 채용",
+		"position": "경력무관",
+		"plan": "06/02~06/13",
+		"link": "/Company/1329020/Info"
+	},
 	"자화전자㈜": {
 		"state": "마감",
 		"content": "23년 6월 신입/경력 수시채용",
 		"position": "경력무관",
 		"plan": "06/02~06/11",
 		"link": "/Company/1643472/Info"
+	},
+	"㈜단석산업": {
+		"state": "마감",
+		"content": "상반기 부문별 사무직 인턴 및 경력직 / 연구원 채용",
+		"position": "인턴·신입·경력",
+		"plan": "06/02~06/30",
+		"link": "/Company/1615406/Info"
 	},
 	"㈜에이비씨마트코리아": {
 		"state": "마감",
@@ -432,6 +446,13 @@
 		"position": "신입·경력",
 		"plan": "06/02~06/14",
 		"link": "/Company/1648570/Info"
+	},
+	"샘표식품㈜": {
+		"state": "마감",
+		"content": "2023 샘표식품㈜ 각 부문 수시채용",
+		"position": "경력무관",
+		"plan": "06/02~06/12",
+		"link": "/Company/1487322/Info"
 	},
 	"스템코㈜": {
 		"state": "마감",
@@ -516,6 +537,13 @@
 		"position": "신입·경력",
 		"plan": "06/02~06/11",
 		"link": "/Company/1960538/Info"
+	},
+	"한국피자헛": {
+		"state": "마감",
+		"content": "[한국피자헛] 2023년 신입/경력 수시채용",
+		"position": "신입·경력",
+		"plan": "06/02~06/11",
+		"link": "/Company/1365246/Info"
 	},
 	"한온시스템": {
 		"state": "마감",
@@ -1511,13 +1539,6 @@
 		"plan": "06/09~06/19",
 		"link": "/Company/1939592/Info"
 	},
-	"샘표식품㈜": {
-		"state": "예상",
-		"content": "2023년 상반기 샘표식품㈜ 인턴  채용",
-		"position": "인턴",
-		"plan": "06/09~06/26",
-		"link": "/Company/1487322/Info"
-	},
 	"㈜놀부": {
 		"state": "마감",
 		"content": "경영지원팀(인사/총무) 신입/경력자 모집",
@@ -2294,6 +2315,13 @@
 		"position": "신입·경력",
 		"plan": "05/30~06/23",
 		"link": "/Company/43157094/Info"
+	},
+	"엔아이티서비스㈜": {
+		"state": "마감",
+		"content": "[네이버계열사][NIT Service] NAVER IDC Network Engineer",
+		"position": "경력무관",
+		"plan": "05/24~06/23",
+		"link": "/Company/1737097/Info"
 	},
 	"에스케이이엔에스㈜": {
 		"state": "발표",

@@ -48,6 +48,7 @@ jobs:
         pip install lxml
         pip install datetime
         pip install pytz
+        pip install webdriver_manager
     - name: Install ubuntu package # 우분투 관련 패키지도 설치
       run: |        
         sudo apt-get install fonts-unfonts-core

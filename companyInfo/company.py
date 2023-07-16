@@ -1,5 +1,8 @@
 from time import sleep
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from webdriver_manager.chrome import ChromeDriverManager
 from io import BytesIO
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.keys import Keys
@@ -8,14 +11,15 @@ import requests
 import json
 import os
 
-chrome_options = webdriver.ChromeOptions()
+chrome_options = ChromeOptions()
 chrome_options.add_argument('--headless')               # headless
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('--window-size=1920x1080')
 
-driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
+service = ChromeService(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service = service, options = chrome_options)
 driver.implicitly_wait(3)
 driver.get('https://www.jobkorea.co.kr/starter/calendar')
 

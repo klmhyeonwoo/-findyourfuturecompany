@@ -1403,7 +1403,7 @@
 		"state": "마감",
 		"content": "2023년도 지상조업직 신입사원 채용 모집공고",
 		"position": "신입",
-		"plan": "07/07~07/16",
+		"plan": "07/17~07/26",
 		"link": "/Company/1822689/Info"
 	},
 	"영진약품㈜": {
@@ -2603,6 +2603,13 @@
 		"plan": "07/14~07/30",
 		"link": "/Company/1845948/Info"
 	},
+	"지케이엘위드㈜": {
+		"state": "시작",
+		"content": "[공기업 자회사] 지케이엘위드(GKLWITH) 23년도 F&B부문 수시 채용(식음료, 조리)",
+		"position": "신입",
+		"plan": "07/14~08/13",
+		"link": "/Recruit/Co_Read/C/gklwith"
+	},
 	"테크로스": {
 		"state": "시작",
 		"content": "2023년 하반기 각 부문 공개채용",
@@ -2724,7 +2731,7 @@
 	},
 	"알씨아이파이낸셜서비스코리아㈜": {
 		"state": "시작",
-		"content": "모빌라이즈파이낸셜서비스코리아 심사팀 인턴 모집 공고",
+		"content": "모빌라이즈파이낸셜서비스코리아 Digital Solution 인턴 모집 공고",
 		"position": "인턴·신입",
 		"plan": "07/17~08/06",
 		"link": "/Company/1905940/Info"
@@ -2840,6 +2847,13 @@
 		"position": "신입·경력",
 		"plan": "07/17~07/30",
 		"link": "/Recruit/Co_Read/C/ty6811"
+	},
+	"㈜연합인포맥스": {
+		"state": "시작",
+		"content": "연합인포맥스 정보사업본부 신입/경력사원 모집",
+		"position": "신입·경력",
+		"plan": "07/17~07/30",
+		"link": "/Recruit/Co_Read/C/infomax1"
 	},
 	"㈜포스코": {
 		"state": "시작",

@@ -1442,10 +1442,10 @@
 		"link": "/Company/1851612/Info"
 	},
 	"KB캐피탈㈜": {
-		"state": "발표",
-		"content": "KB캐피탈 각 부문 채용(계약직)",
+		"state": "마감",
+		"content": "KB캐피탈 각 부문 채용(계약직 및 정규직)",
 		"position": "신입·경력",
-		"plan": "07/07~07/14",
+		"plan": "07/20~07/27",
 		"link": "/Company/1783853/Info"
 	},
 	"SG생활안전㈜": {
@@ -2918,6 +2918,13 @@
 		"plan": "07/18~08/13",
 		"link": "/Company/1338754/Info"
 	},
+	"삼성웰스토리㈜": {
+		"state": "마감",
+		"content": "2023년 하반기 4급 신입사원 채용",
+		"position": "신입",
+		"plan": "07/18~07/26",
+		"link": "/Company/1483495/Info"
+	},
 	"삼성카드㈜": {
 		"state": "마감",
 		"content": "[삼성카드] `23년 7월 계약직 채용",
@@ -3121,6 +3128,13 @@
 		"plan": "06/19~07/03",
 		"link": "/Company/1914265/Info"
 	},
+	"LG CNS": {
+		"state": "마감",
+		"content": "2023년 상반기 LG CNS Global Recruitng 해외 석/박사 채용 (Consulting)",
+		"position": "경력무관",
+		"plan": "06/21~07/21",
+		"link": "/Company/1984401/Info"
+	},
 	"더블유스코프코리아㈜": {
 		"state": "시작",
 		"content": "2023년 하반기 신입 및 경력사원 모집",
@@ -3190,13 +3204,6 @@
 		"position": "신입·경력",
 		"plan": "04/21~07/20",
 		"link": "/Company/16151902/Info"
-	},
-	"LG CNS": {
-		"state": "마감",
-		"content": "2023년 상반기 LG CNS Global Recruitng 해외 석/박사 채용 (Consulting)",
-		"position": "경력무관",
-		"plan": "06/21~07/21",
-		"link": "/Company/1984401/Info"
 	},
 	"제이티애드넷㈜": {
 		"state": "마감",
@@ -3302,6 +3309,13 @@
 		"position": "인턴·신입",
 		"plan": "06/02~06/15",
 		"link": "/Company/1465122/Info"
+	},
+	"한국교통안전공단": {
+		"state": "시작",
+		"content": "2023년 하반기 실무직 공개채용",
+		"position": "신입·경력",
+		"plan": "07/25~08/03",
+		"link": "/Company/1939764/Info"
 	},
 	"머크㈜": {
 		"state": "마감",

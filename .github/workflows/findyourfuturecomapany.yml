@@ -37,7 +37,7 @@ jobs:
           python-version: '3.x'
           architecture: 'x64'
     - name: Setup Chromedriver
-      uses: nanasess/setup-chromedriver@v1.0.1
+      uses: nanasess/setup-chromedriver@v2
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip

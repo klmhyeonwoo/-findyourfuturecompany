@@ -437,7 +437,7 @@
 		"state": "마감",
 		"content": "[외국계기업] 물류,경영운영 부분 신입/경력사원 채용",
 		"position": "신입·경력",
-		"plan": "08/02~09/03",
+		"plan": "09/08~09/30",
 		"link": "/Company/1785967/Info"
 	},
 	"한국피자헛": {
@@ -1189,6 +1189,13 @@
 		"plan": "09/07~09/13",
 		"link": "/Recruit/Co_Read/C/sias2004"
 	},
+	"㈜경수제철&건설": {
+		"state": "마감",
+		"content": "건설.철강구조물 신입및경력사원 모집",
+		"position": "신입·경력",
+		"plan": "09/07~09/20",
+		"link": "/Recruit/Co_Read/C/kyungsoo1"
+	},
 	"㈜유피케미칼": {
 		"state": "시작",
 		"content": "하반기 신입/경력사원 모집(품질분석/품질보증/고객품질/공정개발/제조)",
@@ -1364,26 +1371,19 @@
 		"plan": "08/24~09/24",
 		"link": "/Company/43271548/Info"
 	},
+	"㈜SPC GFS": {
+		"state": "마감",
+		"content": "[SPC GFS] 구매/영업/물류 경력직 모집 (식품구매/상품기획/물류운영/공무)",
+		"position": "신입·경력",
+		"plan": "09/08~09/21",
+		"link": "/Company/16152247/Info"
+	},
 	"중흥건설": {
 		"state": "마감",
 		"content": "[신입/경력] 정규직 채용",
 		"position": "신입·경력",
 		"plan": "08/14~09/08",
 		"link": "/Company/1470694/Info"
-	},
-	"(재)성남산업진흥원": {
-		"state": "마감",
-		"content": "2023년도 성남산업진흥원 직원 공개모집 공고",
-		"position": "경력무관",
-		"plan": "08/18~09/08",
-		"link": "/Recruit/Co_Read/C/kichil"
-	},
-	"만호제강㈜": {
-		"state": "마감",
-		"content": "만호제강㈜ 신입사원 모집",
-		"position": "신입",
-		"plan": "08/30~09/08",
-		"link": "/Recruit/Co_Read/C/manhorope"
 	},
 	"㈜듀어코리아": {
 		"state": "마감",
@@ -1410,7 +1410,7 @@
 		"state": "마감",
 		"content": "2023 하반기 부문별 채용",
 		"position": "신입·경력",
-		"plan": "08/29~09/08",
+		"plan": "08/29~09/28",
 		"link": "/Recruit/Co_Read/C/chang4216"
 	},
 	"IBK연금보험": {
@@ -2007,13 +2007,6 @@
 		"position": "신입",
 		"plan": "08/03~08/23",
 		"link": "/Company/1409138/Info"
-	},
-	"성(재)성남산업진흥원": {
-		"state": "인적성",
-		"content": "2023년도 성남산업진흥원 직원 공개모집 공고",
-		"position": "경력무관",
-		"plan": "08/18~09/08",
-		"link": "/Recruit/Co_Read/C/kichil"
 	},
 	"신흥에스이씨㈜": {
 		"state": "마감",

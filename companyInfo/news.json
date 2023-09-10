@@ -1427,55 +1427,6 @@
 		"plan": "08/11~08/28",
 		"link": "/Company/1880678/Info"
 	},
-	"㈜네오플": {
-		"state": "마감",
-		"content": "[네오플] [인프라개발실] DBA 모집",
-		"position": "경력무관",
-		"plan": "08/10~09/09",
-		"link": "/Company/1713050/Info"
-	},
-	"롯데관광개발㈜": {
-		"state": "마감",
-		"content": "2023년 하반기 신입 및 경력 수시채용 (여행사업본부)",
-		"position": "신입·경력",
-		"plan": "07/11~09/09",
-		"link": "/Recruit/Co_Read/C/lotic"
-	},
-	"바이탈에어코리아㈜": {
-		"state": "마감",
-		"content": "바이탈에어코리아㈜ 각 부문별 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "08/10~09/09",
-		"link": "/Recruit/Co_Read/C/mdhc4109"
-	},
-	"㈜모나미": {
-		"state": "발표",
-		"content": "각 부문별 경력 사원 채용",
-		"position": "신입·경력",
-		"plan": "08/17~08/26",
-		"link": "/Company/1423432/Info"
-	},
-	"㈜펄어비스": {
-		"state": "마감",
-		"content": "[펄어비스] 신입/경력 AI 엔지니어 모집",
-		"position": "경력무관",
-		"plan": "08/10~09/09",
-		"link": "/Recruit/Co_Read/C/pearlabyss"
-	},
-	"㈜한샘디지텍": {
-		"state": "마감",
-		"content": "[신입/경력] 각 부문 (규격검토/영업/시설관리/주문관리) 정규직 모집",
-		"position": "신입·경력",
-		"plan": "08/19~09/09",
-		"link": "/Recruit/Co_Read/C/su09567906"
-	},
-	"LG에너지솔루션": {
-		"state": "마감",
-		"content": "2023년 하반기(9월) 생산기술 신입사원 수시채용",
-		"position": "신입",
-		"plan": "08/25~09/09",
-		"link": "/Company/48053322/Info"
-	},
 	"대상㈜": {
 		"state": "마감",
 		"content": "8/9월 신입/경력사원 모집",
@@ -1797,6 +1748,13 @@
 		"position": "신입",
 		"plan": "08/09~08/24",
 		"link": "/Company/1898500/Info"
+	},
+	"㈜모나미": {
+		"state": "발표",
+		"content": "각 부문별 경력 사원 채용",
+		"position": "신입·경력",
+		"plan": "08/17~08/26",
+		"link": "/Company/1423432/Info"
 	},
 	"LG화학": {
 		"state": "마감",

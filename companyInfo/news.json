@@ -2100,10 +2100,10 @@
 		"link": "/Company/16151131/Info"
 	},
 	"㈜티비에이치글로벌": {
-		"state": "마감",
+		"state": "시작",
 		"content": "2023년 ㈜티비에이치글로벌 부문별 신입 및 경력사원 모집",
 		"position": "신입·경력",
-		"plan": "08/31~09/13",
+		"plan": "09/19~10/05",
 		"link": "/Company/1541720/Info"
 	},
 	"NICE페이먼츠㈜": {
@@ -2463,6 +2463,13 @@
 		"plan": "09/18~11/17",
 		"link": "/Recruit/Co_Read/C/lotic"
 	},
+	"신한투자증권": {
+		"state": "시작",
+		"content": "2023년 하반기 신입사원 채용",
+		"position": "신입",
+		"plan": "09/18~10/04",
+		"link": "/Company/1659942/Info"
+	},
 	"에스티팜": {
 		"state": "마감",
 		"content": "각 부문별 채용",
@@ -2554,12 +2561,40 @@
 		"plan": "09/19~09/24",
 		"link": "/Company/1692332/Info"
 	},
+	"교육지대㈜": {
+		"state": "시작",
+		"content": "[교육지대] 각 부문별 경력 및 신입 채용",
+		"position": "신입·경력",
+		"plan": "09/19~10/31",
+		"link": "/Company/1638114/Info"
+	},
+	"보나캠프㈜": {
+		"state": "시작",
+		"content": "[전략영업팀] 각 파트별 신규/경력 정규직 모집",
+		"position": "경력무관",
+		"plan": "09/19~10/19",
+		"link": "/Company/44080743/Info"
+	},
 	"㈜단군소프트": {
 		"state": "시작",
 		"content": "2023년 신입, 경력사원 9월 수시 채용",
 		"position": "신입·경력",
 		"plan": "09/19~10/02",
 		"link": "/Recruit/Co_Read/C/Tangun"
+	},
+	"㈜비즈테크아이": {
+		"state": "마감",
+		"content": "[LG그룹] IT 네트워크(신입) 및 인프라/클라우드 각 부문 경력 채용",
+		"position": "인턴·신입·경력",
+		"plan": "09/19~09/25",
+		"link": "/Company/1979146/Info"
+	},
+	"㈜화인": {
+		"state": "마감",
+		"content": "[㈜화인] 각 부문별 신입/경력직 채용",
+		"position": "신입·경력",
+		"plan": "09/19~09/26",
+		"link": "/Company/1595993/Info"
 	},
 	"휘닉스평창": {
 		"state": "시작",

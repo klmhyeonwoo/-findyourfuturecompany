@@ -1336,6 +1336,13 @@
 		"plan": "09/04~09/21",
 		"link": "/Company/1443426/Info"
 	},
+	"지에스글로벌": {
+		"state": "시작",
+		"content": "2023년 하반기 GS글로벌 신입사원 채용",
+		"position": "신입",
+		"plan": "10/11~10/24",
+		"link": "/Recruit/Co_Read/C/hrgsglobal"
+	},
 	"한국공항㈜": {
 		"state": "마감",
 		"content": "한국공항㈜ 항공기 지상조업, 기내식 탑재관리 및 장비정비 부문 신입직원 모집",
@@ -1377,6 +1384,13 @@
 		"position": "신입·경력",
 		"plan": "10/11~10/17",
 		"link": "/Company/1374792/Info"
+	},
+	"㈜에스엠씨인터내셔널": {
+		"state": "시작",
+		"content": "[디저트39] 2023년도 각 부문 공개 채용",
+		"position": "신입·경력",
+		"plan": "10/11~10/31",
+		"link": "/Recruit/Co_Read/C/dessertmakers"
 	},
 	"㈜엘앤에프": {
 		"state": "마감",
@@ -1664,6 +1678,13 @@
 		"position": "신입",
 		"plan": "09/25~10/16",
 		"link": "/Company/1407046/Info"
+	},
+	"SFA반도체㈜": {
+		"state": "마감",
+		"content": "2023년도 부문별 신입/경력 채용",
+		"position": "신입·경력",
+		"plan": "09/27~10/16",
+		"link": "/Company/1920423/Info"
 	},
 	"교보생명": {
 		"state": "마감",

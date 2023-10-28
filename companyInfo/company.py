@@ -25,6 +25,7 @@ driver.get('https://www.jobkorea.co.kr/starter/calendar')
 
 parsing_data = {}
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(BASE_DIR)
 
 def processing(data):
     try:

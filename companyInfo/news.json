@@ -749,10 +749,10 @@
 		"link": "/Company/16154280/Info"
 	},
 	"㈜티비에이치글로벌": {
-		"state": "마감",
+		"state": "시작",
 		"content": "2023년 ㈜티비에이치글로벌 부문별 신입 및 경력사원 모집",
 		"position": "신입·경력",
-		"plan": "10/06~10/19",
+		"plan": "10/27~11/09",
 		"link": "/Company/1541720/Info"
 	},
 	"㈜파고다아카데미": {
@@ -1518,13 +1518,6 @@
 		"plan": "10/13~10/23",
 		"link": "/Company/1601550/Info"
 	},
-	"루이비통코리아㈜": {
-		"state": "마감",
-		"content": "2023 LOUIS VUITTON 신입 및 경력 채용",
-		"position": "신입·경력",
-		"plan": "10/13~10/27",
-		"link": "/Recruit/Co_Read/C/lvuitton"
-	},
 	"삼아제약㈜": {
 		"state": "마감",
 		"content": "삼아제약(주) 부문별 경력 및 신입 사원 채용",
@@ -1769,13 +1762,6 @@
 		"position": "경력무관",
 		"plan": "10/16~11/12",
 		"link": "/Company/16153968/Info"
-	},
-	"구찌코리아(유)": {
-		"state": "마감",
-		"content": "[GUCCI KOREA] 여주 신세계 프리미엄 아울렛 신입/경력 공개 채용",
-		"position": "신입·경력",
-		"plan": "10/16~10/27",
-		"link": "/Recruit/Co_Read/C/guccihr"
 	},
 	"국토안전관리원": {
 		"state": "마감",
@@ -3086,12 +3072,26 @@
 		"plan": "10/27~11/25",
 		"link": "/Company/42247570/Info"
 	},
+	"어드밴텍케이알㈜": {
+		"state": "시작",
+		"content": "2023년 하반기 어드밴텍케이알㈜ 신입/경력 인재 채용",
+		"position": "신입·경력",
+		"plan": "10/27~11/12",
+		"link": "/Company/16152441/Info"
+	},
 	"㈜디엔솔루션즈": {
 		"state": "마감",
 		"content": "DN솔루션즈 2023 채용연계형 인턴 공개채용",
 		"position": "인턴·경력무관",
 		"plan": "10/27~10/30",
 		"link": "/Company/16153117/Info"
+	},
+	"㈜애니플러스": {
+		"state": "시작",
+		"content": "2023년 하반기 경력 및 신입 인재 영입",
+		"position": "신입·경력",
+		"plan": "10/27~11/05",
+		"link": "/Recruit/Co_Read/C/aniplusinc"
 	},
 	"㈜이도": {
 		"state": "시작",

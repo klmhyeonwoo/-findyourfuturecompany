@@ -2099,13 +2099,6 @@
 		"plan": "10/17~10/31",
 		"link": "/Company/48915037/Info"
 	},
-	"테슬라코리아(유)": {
-		"state": "마감",
-		"content": "[Tesla] 전국 서비스 센터 부문별 채용",
-		"position": "신입·경력",
-		"plan": "10/17~10/31",
-		"link": "/Recruit/Co_Read/C/teslakorea1"
-	},
 	"한국개발연구원": {
 		"state": "마감",
 		"content": "2023년 4분기 KDI 한국개발연구원 직원 채용 공고",
@@ -2815,9 +2808,9 @@
 	},
 	"(주)삼양홀딩스": {
 		"state": "시작",
-		"content": "2023년 10월 삼양그룹 신입사원 수시채용 (환경기사)",
-		"position": "신입",
-		"plan": "10/25~11/06",
+		"content": "2023년 10월 삼양그룹 신입사원 수시채용",
+		"position": "신입·경력",
+		"plan": "10/30~11/13",
 		"link": "/Company/1696423/Info"
 	},
 	"더블유씨피㈜": {
@@ -3107,6 +3100,20 @@
 		"plan": "10/30~11/08",
 		"link": "/Company/1386698/Info"
 	},
+	"㈜영원무역": {
+		"state": "시작",
+		"content": "경력/신입 상시 채용",
+		"position": "신입·경력",
+		"plan": "10/30~11/30",
+		"link": "/Company/1873547/Info"
+	},
+	"대원강업(주)": {
+		"state": "시작",
+		"content": "2024년도 상반기 대졸 신입사원 모집",
+		"position": "신입",
+		"plan": "10/30~11/12",
+		"link": "/Company/1661999/Info"
+	},
 	"범우화학공업㈜": {
 		"state": "시작",
 		"content": "범우연합 23년 하반기 공채",
@@ -3120,6 +3127,13 @@
 		"position": "신입·경력",
 		"plan": "10/30~11/16",
 		"link": "/Company/1778709/Info"
+	},
+	"세종텔레콤㈜": {
+		"state": "시작",
+		"content": "2023년 세종텔레콤 사원모집",
+		"position": "신입·경력",
+		"plan": "10/30~11/10",
+		"link": "/Company/1568463/Info"
 	},
 	"인천글로벌캠퍼스운영 재단법인": {
 		"state": "시작",
@@ -3141,6 +3155,13 @@
 		"position": "신입·경력",
 		"plan": "10/30~11/30",
 		"link": "/Recruit/Co_Read/C/synap"
+	},
+	"주식회사 채널A": {
+		"state": "시작",
+		"content": "하반기 신입/경력사원 모집",
+		"position": "신입·경력",
+		"plan": "10/30~11/12",
+		"link": "/Recruit/Co_Read/C/channela"
 	},
 	"㈜쏘카": {
 		"state": "시작",

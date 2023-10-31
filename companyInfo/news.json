@@ -1547,10 +1547,10 @@
 		"link": "/Company/1534840/Info"
 	},
 	"㈜경보제약": {
-		"state": "마감",
-		"content": "영업&마케팅&약사 채용",
+		"state": "시작",
+		"content": "경보제약 ETC MR 채용",
 		"position": "신입·경력",
-		"plan": "10/13~10/22",
+		"plan": "10/27~11/05",
 		"link": "/Company/1942890/Info"
 	},
 	"㈜네오팜": {
@@ -3232,6 +3232,20 @@
 		"position": "신입·경력",
 		"plan": "10/31~11/10",
 		"link": "/Recruit/Co_Read/C/wooiksmt"
+	},
+	"㈜원익QnC": {
+		"state": "시작",
+		"content": "[원익큐엔씨] 신입/경력사원 모집",
+		"position": "경력무관",
+		"plan": "10/31~11/08",
+		"link": "/Company/1375826/Info"
+	},
+	"㈜포탈하이웨이": {
+		"state": "시작",
+		"content": "각 부문별 신입/경력 인재 채용",
+		"position": "신입·경력",
+		"plan": "10/31~11/07",
+		"link": "/Recruit/Co_Read/C/pt06122"
 	},
 	"교육지대㈜": {
 		"state": "마감",

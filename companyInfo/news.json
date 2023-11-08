@@ -1329,6 +1329,13 @@
 		"plan": "10/18~11/06",
 		"link": "/Company/49101582/Info"
 	},
+	"SGC이테크건설㈜": {
+		"state": "마감",
+		"content": "SGC이테크건설 회계, 플랜트 기획 경력사원 채용",
+		"position": "신입·경력",
+		"plan": "11/07~11/16",
+		"link": "/Company/1884318/Info"
+	},
 	"능원금속공업㈜": {
 		"state": "시작",
 		"content": "능원금속공업(주) 각 부문 신입/경력사원 모집",
@@ -1426,6 +1433,13 @@
 		"position": "신입·경력",
 		"plan": "11/07~12/07",
 		"link": "/Recruit/Co_Read/C/100779"
+	},
+	"킨코스코리아㈜": {
+		"state": "마감",
+		"content": "킨코스코리아 B2B영업직(경력) / 영업관리(신입/경력) / CX(Customer Experience) Analyst(경력) 채용",
+		"position": "신입·경력",
+		"plan": "11/07~11/14",
+		"link": "/Company/1409236/Info"
 	},
 	"한국미쓰이물산㈜": {
 		"state": "마감",

@@ -2061,7 +2061,7 @@
 		"state": "마감",
 		"content": "Cloud 보안 분야 신입/경력직 채용",
 		"position": "인턴·신입·경력",
-		"plan": "11/11~11/20",
+		"plan": "11/11~11/26",
 		"link": "/Company/1406776/Info"
 	},
 	"한국전력기술": {
@@ -2330,6 +2330,13 @@
 		"plan": "11/14~11/23",
 		"link": "/Company/1349872/Info"
 	},
+	"루이비통코리아㈜": {
+		"state": "시작",
+		"content": "2023 LOUIS VUITTON 신입 및 경력 채용",
+		"position": "신입·경력",
+		"plan": "11/14~11/28",
+		"link": "/Recruit/Co_Read/C/210641"
+	},
 	"㈜그린웹서비스": {
 		"state": "발표",
 		"content": "네이버 검색서비스 / 모니터링 부문 채용",
@@ -2343,6 +2350,13 @@
 		"position": "신입·경력",
 		"plan": "11/14~11/24",
 		"link": "/Company/44839377/Info"
+	},
+	"티지에스": {
+		"state": "마감",
+		"content": "㈜TGS 신입 및 경력 각 부문 채용",
+		"position": "신입·경력",
+		"plan": "11/14~11/21",
+		"link": "/Company/44351825/Info"
 	},
 	"한국유미코아 유한책임회사": {
 		"state": "마감",

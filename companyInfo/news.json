@@ -192,7 +192,7 @@
 		"state": "마감",
 		"content": "㈜펩트론  2024년 신입/경력 사원모집",
 		"position": "신입·경력",
-		"plan": "02/19~03/03",
+		"plan": "02/16~03/18",
 		"link": "/Company/1659346/Info"
 	},
 	"㈜호텔롯데 롯데리조트": {
@@ -454,6 +454,13 @@
 		"plan": "03/05~03/12",
 		"link": "/Company/1885844/Info"
 	},
+	"HK inno.N㈜": {
+		"state": "마감",
+		"content": "[inno.N] 24년 생산직 신입사원 모집",
+		"position": "신입",
+		"plan": "03/05~03/17",
+		"link": "/Company/1979623/Info"
+	},
 	"서울대학교": {
 		"state": "마감",
 		"content": "서울대학교 직원 채용시험 시행계획 공고",
@@ -538,6 +545,13 @@
 		"plan": "03/06~03/07",
 		"link": "/Company/1740328/Info"
 	},
+	"안국약품㈜": {
+		"state": "마감",
+		"content": "안국약품㈜ 신입 및 경력직 채용",
+		"position": "신입·경력",
+		"plan": "03/06~03/17",
+		"link": "/Company/1751150/Info"
+	},
 	"㈜옵투스제약": {
 		"state": "시작",
 		"content": "각 부문 신입/경력 채용",
@@ -565,6 +579,13 @@
 		"position": "신입·경력",
 		"plan": "03/06~03/25",
 		"link": "/Company/1923979/Info"
+	},
+	"KB캐피탈㈜": {
+		"state": "발표",
+		"content": "KB캐피탈 각 부문 채용(계약직)",
+		"position": "신입·경력",
+		"plan": "03/06~03/13",
+		"link": "/Company/1783853/Info"
 	},
 	"현대위아㈜": {
 		"state": "마감",
@@ -1076,6 +1097,27 @@
 		"position": "신입·경력",
 		"plan": "02/22~03/17",
 		"link": "/Company/1904870/Info"
+	},
+	"BAT 로스만스": {
+		"state": "마감",
+		"content": "[BAT Korea 제조] 2024년 1분기 대규모 생산직 모집",
+		"position": "경력무관",
+		"plan": "01/18~03/18",
+		"link": "/Company/43143211/Info"
+	},
+	"관세청": {
+		"state": "발표",
+		"content": "2024년도 청년인턴 채용",
+		"position": "인턴·신입",
+		"plan": "02/13~02/15",
+		"link": "/Company/16154066/Info"
+	},
+	"한국해양조사협회": {
+		"state": "발표",
+		"content": "2024년 제1차 직원 공개 채용",
+		"position": "인턴·신입",
+		"plan": "01/23~02/06",
+		"link": "/Company/16151183/Info"
 	},
 	"㈜티웨이항공": {
 		"state": "발표",

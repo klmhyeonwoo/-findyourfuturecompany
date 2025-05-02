@@ -1,100 +1,72 @@
 {
-	"현대글로비스㈜": {
-		"state": "마감",
-		"content": "2025년 상반기 Start GLOVIS 인턴십 (채용연계형)",
-		"position": "인턴·신입",
-		"plan": "04/29~05/06",
-		"link": "/Company/1806454/Info"
-	},
-	"엘에스엠앤엠㈜": {
-		"state": "마감",
-		"content": "신입/경력사원 수시채용 [영업, 생산엔지니어, 안전관리, 환경관리]",
+	"국가정보원": {
+		"state": "시작",
+		"content": "2025년도 정기공채 대외 공고문",
 		"position": "신입·경력",
-		"plan": "04/24~05/06",
-		"link": "/Company/1831545/Info"
+		"plan": "05/01~06/03",
+		"link": "/Company/16153550/Info"
 	},
-	"한국서부발전㈜": {
-		"state": "마감",
-		"content": "2025년도 직무전문가[변호사, 회계사, AI전문가] 모집 공고",
-		"position": "경력무관",
-		"plan": "04/23~05/06",
-		"link": "/Company/1852160/Info"
-	},
-	"현대로템㈜": {
-		"state": "마감",
-		"content": "2025년 현대로템 상반기 채용",
+	"제주신화월드㈜": {
+		"state": "시작",
+		"content": "제주신화월드 상반기 사원 모집",
 		"position": "신입·경력",
-		"plan": "04/21~05/06",
-		"link": "/Company/1623930/Info"
+		"plan": "05/01~05/31",
+		"link": "/Company/42960697/Info"
 	},
-	"롯데지알에스": {
-		"state": "마감",
-		"content": "2025년 4월 롯데GRS AM 신입 채용",
-		"position": "신입",
-		"plan": "04/29~05/06",
-		"link": "/Company/1545527/Info"
-	},
-	"SFA반도체㈜": {
-		"state": "마감",
-		"content": "2025년도 부문별 신입/경력 채용",
+	"㈜디알텍": {
+		"state": "시작",
+		"content": "2025년 신입 및 경력 채용",
 		"position": "신입·경력",
-		"plan": "04/25~05/06",
-		"link": "/Company/1920423/Info"
+		"plan": "05/01~05/31",
+		"link": "/Company/16153064/Info"
 	},
-	"엔에이치엔서비스㈜ (NHN Service Corporation)": {
-		"state": "마감",
-		"content": "2025 NHN SERVICE TEST Engineer 인턴 채용",
-		"position": "인턴·신입",
-		"plan": "04/30~05/06",
-		"link": "/Company/16151597/Info"
+	"㈜프레인글로벌": {
+		"state": "시작",
+		"content": "[프레인글로벌] 2025 채용연계형 인턴 채용",
+		"position": "인턴·경력무관",
+		"plan": "05/01~05/25",
+		"link": "/Company/1371062/Info"
 	},
-	"원앤원㈜": {
-		"state": "마감",
-		"content": "[원할머니본사] 2025년 원앤원 채용연계형 인턴 모집",
-		"position": "인턴·신입",
-		"plan": "04/10~05/06",
-		"link": "/Company/1579963/Info"
-	},
-	"㈜가비아": {
-		"state": "마감",
-		"content": "2025년 가비아 상반기 신입/경력 공채",
+	"㈜한글과컴퓨터": {
+		"state": "시작",
+		"content": "한글과컴퓨터 2025년 2분기 신입/경력 채용",
 		"position": "신입·경력",
-		"plan": "04/14~05/06",
-		"link": "/Company/1773753/Info"
+		"plan": "05/01~05/10",
+		"link": "/Company/1679857/Info"
 	},
-	"㈜네오팜": {
-		"state": "마감",
-		"content": "[네오팜] BM, 퍼포먼스마케터, 브랜드마케터, 해외사업, 구매관리, 충포장, 공무, 생산직 인재채용",
+	"㈜휴비츠": {
+		"state": "시작",
+		"content": "(주)휴비츠 부문별 모집[신입/경력]",
 		"position": "신입·경력",
-		"plan": "04/21~05/06",
-		"link": "/Company/1838337/Info"
+		"plan": "05/01~05/30",
+		"link": "/Company/1450465/Info"
 	},
-	"㈜유비케어": {
-		"state": "마감",
-		"content": "GC그룹 헬스케어 가족사 인턴 통합채용",
-		"position": "인턴·신입",
-		"plan": "04/23~05/06",
-		"link": "/Company/1979781/Info"
-	},
-	"㈜휴온스글로벌": {
-		"state": "마감",
-		"content": "휴온스그룹 2025년 4월 각 부문 신입/경력직 모집",
+	"지니언스(주)": {
+		"state": "시작",
+		"content": "2025 지니언스 인재 채용",
 		"position": "신입·경력",
-		"plan": "04/21~05/06",
-		"link": "/Company/1496973/Info"
+		"plan": "05/01~05/31",
+		"link": "/Company/1618724/Info"
 	},
-	"㈜MBC아트": {
-		"state": "마감",
-		"content": "2025년 MBC ART 사원 공개채용",
+	"환인제약㈜": {
+		"state": "시작",
+		"content": "환인제약㈜ 5월 수시채용 (5/1(목)-5/14(수) 13:30까지)",
 		"position": "신입·경력",
-		"plan": "04/11~05/06",
-		"link": "/Company/43293518/Info"
+		"plan": "05/01~05/14",
+		"link": "/Company/1808058/Info"
 	},
-	"JW홀딩스㈜": {
+	"람정엔터테인먼트코리아": {
 		"state": "마감",
-		"content": "JW 2025년 2차 수시채용(임상, 공장약사)",
+		"content": "제주신화월드 랜딩카지노 신입 및 경력 사원 모집",
 		"position": "신입·경력",
-		"plan": "04/23~05/06",
-		"link": "/Company/1349319/Info"
+		"plan": "04/01~05/06",
+		"link": "/Company/43266361/Info"
+	},
+	"㈜영신피앤엘": {
+		"state": "마감",
+		"content": "㈜영신피앤엘 2025 상반기 각 부문 채용",
+		"position": "신입·경력",
+		"plan": "04/01~05/01",
+		"link": "/Company/47266574/Info"
 	}
 }
